@@ -4,6 +4,7 @@ import android.util.Log;
 import android.widget.Button;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Created by Daniele on 11/02/2017.
@@ -23,18 +24,22 @@ public class GuessTheWord {
 
     public void generateLetters() {
         int missingLetters = maxNumberOfLetters - wordToGuess.length();
-        String lettersToRandomize = "abcdefghijklmnopqrstuvwxyz";
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
         letters = wordToGuess;
         for (int i=0; i<missingLetters; i++) {
-            int rand = (int) (Math.random() * lettersToRandomize.length());
-            letters += lettersToRandomize.charAt(rand);
+            int rand = (int) (Math.random() * alphabet.length());
+            letters += alphabet.charAt(rand);
         }
-
         ArrayList<Character> tempArLis = new ArrayList<Character>();
         for (int i=0; i<letters.length(); i++) {
             tempArLis.add(letters.charAt(i));
         }
-        Log.i("Game", String.valueOf(tempArLis));
+        Collections.shuffle(tempArLis);
+        letters = "";
+        for (int i=0; i<tempArLis.size(); i++) {
+            letters += tempArLis.get(i);
+        }
+        Log.i("Game", "Lettere: "+letters);
     }
 
     public boolean isGameEnded(String wordTyped) {
