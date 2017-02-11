@@ -9,17 +9,17 @@ import android.widget.Toast;
 import com.domenico.wordle.UI.HDTMButton;
 import com.domenico.wordle.UI.HDTMTextView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
-    private String wordToGuess;
-    private String meaning;
-    private HDTMTextView txtWordToGuess;
-    private HDTMTextView txtMeaning;
+    private GuessTheWord game;
+    private WordList wordList;
     private String words_table;
     private int dictionaryLength;
-    private WordList wordList;
     private int rowToGuess;
-    private String letters;
+    private HDTMTextView txtWordToGuess;
+    private HDTMTextView txtMeaning;
     private HDTMButton btn11;
     private HDTMButton btn12;
     private HDTMButton btn13;
@@ -63,15 +63,31 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void initGame() {
-        wordToGuess = wordList.getWord(rowToGuess, words_table);
+        game = new GuessTheWord();
+        game.setMaxNumberOfLetters(12);
+        game.setWordToGuess(wordList.getWord(rowToGuess, words_table));
+        while (game.getWordToGuess().length() >= game.getMaxNumberOfLetters()) {
+            rowToGuess = (int) (Math.random() * dictionaryLength) + 1;
+            game.setWordToGuess(wordList.getWord(rowToGuess, words_table));
+        }
+        game.setMeaning(wordList.getMeaning(rowToGuess, words_table));
+        txtMeaning.setText(game.getMeaning());
+        Log.i("Main", "Parola da indovinare: "+game.getWordToGuess()+"\nDefinizione: "+game.getMeaning());
+        game.generateLetters();
+        setKeyboardUI();
+        /*wordToGuess = wordList.getWord(rowToGuess, words_table);
+        while (wordToGuess.length() >= 12) {
+            rowToGuess++;
+            wordToGuess = wordList.getWord(rowToGuess, words_table);
+        }
         meaning = wordList.getMeaning(rowToGuess, words_table);
         txtMeaning.setText(meaning);
         Log.i("Main", "Parola da indovinare: "+wordToGuess+"\nDefinizione: "+meaning);
         generateLetters();
-        setKeyboardUI();
+        setKeyboardUI();*/
     }
 
-    public void generateLetters() {
+    /*public void generateLetters() {
         int missingLetters = 12 - wordToGuess.length();
         String lettersToRandomize = "abcdefghijklmnopqrstuvwxyz";
         letters = wordToGuess;
@@ -80,21 +96,27 @@ public class MainActivity extends AppCompatActivity {
             letters += lettersToRandomize.charAt(rand);
         }
         Log.i("Main", letters+ "\tLunghezza: "+letters.length());
-    }
+
+        ArrayList<Character> tempArLis = new ArrayList<Character>();
+        for (int i=0; i<letters.length(); i++) {
+            tempArLis.add(letters.charAt(i));
+        }
+        Log.i("Main", String.valueOf(tempArLis));
+    }*/
 
     public void setKeyboardUI(){
-        btn11.setText(""+letters.charAt(6));
-        btn12.setText(""+letters.charAt(7));
-        btn13.setText(""+letters.charAt(11));
-        btn14.setText(""+letters.charAt(10));
-        btn15.setText(""+letters.charAt(2));
-        btn16.setText(""+letters.charAt(5));
-        btn21.setText(""+letters.charAt(0));
-        btn22.setText(""+letters.charAt(3));
-        btn23.setText(""+letters.charAt(8));
-        btn24.setText(""+letters.charAt(9));
-        btn25.setText(""+letters.charAt(1));
-        btn26.setText(""+letters.charAt(4));
+        btn11.setText(""+game.getLetters().charAt(0));
+        btn12.setText(""+game.getLetters().charAt(1));
+        btn13.setText(""+game.getLetters().charAt(2));
+        btn14.setText(""+game.getLetters().charAt(3));
+        btn15.setText(""+game.getLetters().charAt(4));
+        btn16.setText(""+game.getLetters().charAt(5));
+        btn21.setText(""+game.getLetters().charAt(6));
+        btn22.setText(""+game.getLetters().charAt(7));
+        btn23.setText(""+game.getLetters().charAt(8));
+        btn24.setText(""+game.getLetters().charAt(9));
+        btn25.setText(""+game.getLetters().charAt(10));
+        btn26.setText(""+game.getLetters().charAt(11));
     }
 
     public void keyBoardOnCick(View view) {
@@ -102,8 +124,8 @@ public class MainActivity extends AppCompatActivity {
         String buttonText = (String) button.getText();
         txtWordToGuess.setText(txtWordToGuess.getText()+buttonText.toUpperCase());
         button.setVisibility(View.INVISIBLE);
-        if (wordToGuess.equalsIgnoreCase((String) txtWordToGuess.getText())) {
-            Toast.makeText(this, "HAI VINTOOOO!", Toast.LENGTH_SHORT).show();
+        if (game.isGameEnded((String)txtWordToGuess.getText())) {
+            Toast.makeText(this, "Hai indovinato!", Toast.LENGTH_SHORT).show();
             next();
         }
     }
