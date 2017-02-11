@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.domenico.wordle.UI.HDTMButton;
@@ -75,34 +76,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Main", "Parola da indovinare: "+game.getWordToGuess()+"\nDefinizione: "+game.getMeaning());
         game.generateLetters();
         setKeyboardUI();
-        /*wordToGuess = wordList.getWord(rowToGuess, words_table);
-        while (wordToGuess.length() >= 12) {
-            rowToGuess++;
-            wordToGuess = wordList.getWord(rowToGuess, words_table);
-        }
-        meaning = wordList.getMeaning(rowToGuess, words_table);
-        txtMeaning.setText(meaning);
-        Log.i("Main", "Parola da indovinare: "+wordToGuess+"\nDefinizione: "+meaning);
-        generateLetters();
-        setKeyboardUI();*/
     }
-
-    /*public void generateLetters() {
-        int missingLetters = 12 - wordToGuess.length();
-        String lettersToRandomize = "abcdefghijklmnopqrstuvwxyz";
-        letters = wordToGuess;
-        for (int i=0; i<missingLetters; i++) {
-            int rand = (int) (Math.random() * lettersToRandomize.length());
-            letters += lettersToRandomize.charAt(rand);
-        }
-        Log.i("Main", letters+ "\tLunghezza: "+letters.length());
-
-        ArrayList<Character> tempArLis = new ArrayList<Character>();
-        for (int i=0; i<letters.length(); i++) {
-            tempArLis.add(letters.charAt(i));
-        }
-        Log.i("Main", String.valueOf(tempArLis));
-    }*/
 
     public void setKeyboardUI(){
         btn11.setText(""+game.getLetters().charAt(0));
@@ -164,9 +138,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void back() {
-        String temp = "";
-        for (int i=0; i<txtWordToGuess.getText().length()-1; i++)
-            temp += txtWordToGuess.getText().charAt(i);
-        txtWordToGuess.setText(temp);
+        if (txtWordToGuess.getText().length() >= 1) {
+            Log.i("Main", "Cancello");
+            String temp = "";
+            setButtonsOnBack();
+            for (int i = 0; i < txtWordToGuess.getText().length() - 1; i++)
+                temp += txtWordToGuess.getText().charAt(i);
+            txtWordToGuess.setText(temp);
+        }
+    }
+
+    public void setButtonsOnBack() {
+        char lastLetterTyped = txtWordToGuess.getText().charAt(txtWordToGuess.getText().length()-1);
+        LinearLayout row = (LinearLayout) findViewById(R.id.firstRow);
+        boolean done = false;
+        for (int i=0; i<2; i++) {
+            for (int j = 0; j < game.getMaxNumberOfLetters() / 2; j++) {
+                HDTMButton button = (HDTMButton) row.getChildAt(j);
+                if (button.getText().charAt(0) == lastLetterTyped && button.getVisibility() == View.INVISIBLE) {
+                    button.setVisibility(View.VISIBLE);
+                    done = true;
+                    break;
+                }
+            }
+            if (done)
+                break;
+            row = (LinearLayout) findViewById(R.id.secondRow);
+        }
     }
 }

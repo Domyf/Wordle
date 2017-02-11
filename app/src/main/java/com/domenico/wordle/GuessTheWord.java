@@ -24,8 +24,8 @@ public class GuessTheWord {
 
     public void generateLetters() {
         int missingLetters = maxNumberOfLetters - wordToGuess.length();
-        String alphabet = "abcdefghijklmnopqrstuvwxyz";
-        letters = wordToGuess;
+        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        letters = wordToGuess.toUpperCase();
         for (int i=0; i<missingLetters; i++) {
             int rand = (int) (Math.random() * alphabet.length());
             letters += alphabet.charAt(rand);
