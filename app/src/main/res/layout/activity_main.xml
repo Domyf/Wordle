@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.domenico.wordle.MainActivity">
+
+        <ImageView
+            app:srcCompat="@drawable/coin"
+            android:id="@+id/coinImg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:text="25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCoins"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/coinImg"
+            android:layout_alignBottom="@+id/coinImg"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_toLeftOf="@+id/coinImg"
+            android:layout_marginRight="5dp"
+            android:textColor="#eabb16"
+            android:textSize="16sp" />
+
+        <com.domenico.wordle.UI.HDTMTextView
+            android:text="La parte orientale di un continente, di un paese, di una regione"
+            android:layout_width="wrap_content"
+            android:id="@+id/description"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:shadowRadius="1"
+            android:shadowDy="10"
+            android:textSize="26sp"
+            android:layout_below="@+id/coinImg"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/btnHelp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/buttons"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="120dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:id="@+id/firstRow"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_above="@+id/secondRow">
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="V"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn11"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="A"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn12"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="T"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn13"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="F"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn14"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="N"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn15"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="O"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn16"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin"
+                            android:onClick="keyBoardOnCick" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:id="@+id/secondRow"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="G"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn21"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="E"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn22"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="I"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn23"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="B"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn24"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="S"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn25"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:onClick="keyBoardOnCick" />
+
+                        <com.domenico.wordle.UI.HDTMButton
+                            android:text="L"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn26"
+                            android:layout_weight="1"
+                            android:layout_width="55dp"
+                            android:background="@drawable/button3"
+                            android:textSize="28sp"
+                            android:textColor="@android:color/white"
+                            android:shadowRadius="1"
+                            android:shadowDy="10"
+                            android:shadowColor="#106194"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin"
+                            android:onClick="keyBoardOnCick" />
+
+                </LinearLayout>
+        </RelativeLayout>
+
+        <com.domenico.wordle.UI.HDTMTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtWordToGuess"
+            android:gravity="fill_vertical|center_horizontal"
+            android:textSize="23sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/items_bg"
+            android:shadowColor="#106194"
+            android:shadowRadius="1"
+            android:shadowDy="10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/btnHelp"
+            android:layout_toStartOf="@+id/btnHelp"
+            android:layout_alignBottom="@+id/btnHelp"
+            android:layout_alignTop="@+id/btnHelp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:onClick="txtWordToGuessOnClick" />
+
+        <com.domenico.wordle.UI.HDTMButton
+            android:text="-"
+            android:id="@+id/btnHelp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button3"
+            android:textSize="28sp"
+            android:textColor="@android:color/white"
+            android:shadowRadius="1"
+            android:shadowDy="10"
+            android:shadowColor="#106194"
+            android:layout_above="@+id/buttons"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_width="50dp"
+            android:onClick="backOnClick" />
+
+</RelativeLayout>

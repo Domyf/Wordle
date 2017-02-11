@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.domenico.wordle.QuizActivity">
+
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentTop="true">
+
+    <TextView
+        android:text="25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCoins"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/coinImg"
+        android:layout_alignBottom="@+id/coinImg"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_toLeftOf="@+id/coinImg"
+        android:layout_marginRight="5dp"
+        android:textColor="#eabb16"
+        android:textSize="16sp" />
+
+    <ImageView
+        app:srcCompat="@drawable/coin"
+        android:id="@+id/coinImg"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.domenico.wordle.UI.HDTMTextView
+        android:text="La parte settentrionale di un continente, di un paese, di una regione"
+        android:layout_width="wrap_content"
+        android:id="@+id/description"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtCoins"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowRadius="1"
+        android:shadowDy="10"
+        android:textSize="26sp" />
+
+    <com.domenico.wordle.UI.HDTMButton
+        android:text="B"
+        android:id="@+id/HDTMButton"
+        android:background="@drawable/button2"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.domenico.wordle.UI.HDTMButton
+        android:text="\?"
+        android:id="@+id/btnHelp"
+        android:background="@drawable/button2"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_alignBaseline="@+id/HDTMButton"
+        android:layout_alignBottom="@+id/HDTMButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.domenico.wordle.UI.HDTMTextView
+        android:text="SUD"
+        android:layout_height="wrap_content"
+        android:id="@+id/HDTMTextView"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/items_bg"
+        android:layout_below="@+id/description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp" />
+
+    <com.domenico.wordle.UI.HDTMTextView
+        android:text="EST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/items_bg"
+        android:layout_below="@+id/HDTMTextView"
+        android:layout_alignLeft="@+id/HDTMTextView"
+        android:layout_alignStart="@+id/HDTMTextView"
+        android:layout_marginBottom="10dp"
+        android:layout_alignRight="@+id/HDTMTextView"
+        android:layout_alignEnd="@+id/HDTMTextView" />
+
+    <com.domenico.wordle.UI.HDTMTextView
+        android:text="NORD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWordToGuess"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/items_bg"
+        android:layout_below="@+id/textView"
+        android:layout_marginBottom="10dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <com.domenico.wordle.UI.HDTMTextView
+        android:text="OVEST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HDTMTextView3"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/items_bg"
+        android:layout_below="@+id/txtWordToGuess"
+        android:layout_alignLeft="@+id/txtWordToGuess"
+        android:layout_alignStart="@+id/txtWordToGuess"
+        android:layout_alignRight="@+id/txtWordToGuess"
+        android:layout_alignEnd="@+id/txtWordToGuess" />
+
+</RelativeLayout>
+
