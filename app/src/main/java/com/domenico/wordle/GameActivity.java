@@ -1,5 +1,6 @@
 package com.domenico.wordle;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -77,7 +78,7 @@ public class GameActivity extends AppCompatActivity {
         }
         game.setMeaning(wordList.getMeaning(rowToGuess, words_table));
         txtMeaning.setText(game.getMeaning());
-        Log.i("Main", "Parola da indovinare: "+game.getWordToGuess()+"\nDefinizione: "+game.getMeaning());
+        Log.i("Game", "Parola da indovinare: "+game.getWordToGuess()+"\nDefinizione: "+game.getMeaning());
         game.generateLetters();
         setKeyboardUI();
     }
@@ -155,7 +156,6 @@ public class GameActivity extends AppCompatActivity {
 
     public void back() {
         if (txtWordToGuess.getText().length() >= 1) {
-            Log.i("Main", "Cancello");
             String temp = "";
             setButtonsOnBack();
             for (int i = 0; i < txtWordToGuess.getText().length() - 1; i++)
@@ -181,6 +181,13 @@ public class GameActivity extends AppCompatActivity {
                 break;
             row = (LinearLayout) findViewById(R.id.secondRow);
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        this.finish();
     }
 }
 

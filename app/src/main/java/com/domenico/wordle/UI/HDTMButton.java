@@ -25,7 +25,7 @@ public class HDTMButton extends Button {
         this.setTypeface(Typeface.createFromAsset(context.getAssets(), "Jellee-Roman.ttf"));
         paddingBottom = getPaddingBottom();
     }
-/*
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         if (!isPressed())
@@ -35,6 +35,6 @@ public class HDTMButton extends Button {
         if (event.getAction() == MotionEvent.ACTION_UP)
             setPadding(0, 0, 0, paddingBottom);
         return super.onTouchEvent(event);
-    }*/
+    }
 
 }
