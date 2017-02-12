@@ -311,7 +311,7 @@
         android:onClick="txtWordToGuessOnClick" />
 
     <com.domenico.wordle.UI.HDTMButton
-        android:text="-"
+        android:text="@string/del"
         android:id="@+id/btnHelp"
         android:layout_height="wrap_content"
         android:background="@drawable/button3"

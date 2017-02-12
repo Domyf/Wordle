@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Wordle</string>
+    <string name="app_name">Wordlet</string>
+    <string name="del">&#60;</string>
 </resources>
