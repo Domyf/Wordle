@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.domenico.wordle.UI.HDTMButton
+        android:text="1"
+        android:layout_height="55dp"
+        android:id="@+id/gridBtn"
+        android:layout_width="55dp"
+        android:background="@drawable/button3"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:shadowRadius="1"
+        android:shadowDy="10"
+        android:shadowColor="#106194"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin" />
+
+</LinearLayout>

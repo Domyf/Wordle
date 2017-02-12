@@ -14,6 +14,12 @@ public class HDTMButton extends Button {
 
     private int paddingBottom;
 
+    public HDTMButton(Context context) {
+        super(context);
+        this.setTypeface(Typeface.createFromAsset(context.getAssets(), "Jellee-Roman.ttf"));
+        paddingBottom = getPaddingBottom();
+    }
+
     public HDTMButton(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.setTypeface(Typeface.createFromAsset(context.getAssets(), "Jellee-Roman.ttf"));
