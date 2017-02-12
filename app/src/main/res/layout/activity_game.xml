@@ -12,26 +12,25 @@
     <ImageView
         app:srcCompat="@drawable/coin"
         android:id="@+id/coinImg"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="@dimen/activity_horizontal_margin" />
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_height="24dp"
+        android:layout_width="20dp"
+        android:layout_marginLeft="5dp" />
 
     <TextView
-        android:text="25"
+        android:text="0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txtCoins"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/coinImg"
-        android:layout_alignBottom="@+id/coinImg"
         android:gravity="center_vertical|center_horizontal"
-        android:layout_toLeftOf="@+id/coinImg"
-        android:layout_marginRight="5dp"
         android:textColor="#eabb16"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/coinImg"
+        android:layout_above="@+id/description" />
 
     <com.domenico.wordle.UI.HDTMTextView
         android:text="La parte orientale di un continente, di un paese, di una regione"

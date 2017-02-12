@@ -44,6 +44,7 @@ public class HDTMButtonAdapter extends BaseAdapter {
             button = new HDTMButton(mContext);
             button.setLayoutParams(new GridView.LayoutParams(130, 160));
             button.setTextColor(Color.WHITE);
+            button.setShadowLayer(1, 0, 10, Color.rgb(10, 97, 194));
             //imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
         } else {
             button = (HDTMButton) convertView;

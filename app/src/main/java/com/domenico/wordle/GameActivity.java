@@ -1,10 +1,12 @@
 package com.domenico.wordle;
 
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.domenico.wordle.UI.HDTMButton;
@@ -17,6 +19,7 @@ public class GameActivity extends AppCompatActivity {
     private String words_table;
     private int dictionaryLength;
     private int rowToGuess;
+    private TextView txtCoins;
     private HDTMTextView txtWordToGuess;
     private HDTMTextView txtMeaning;
     private HDTMButton btn11;
@@ -31,12 +34,14 @@ public class GameActivity extends AppCompatActivity {
     private HDTMButton btn24;
     private HDTMButton btn25;
     private HDTMButton btn26;
+    private int coins;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         initLayout();
+        coins = 0;
         wordList = new WordList(this);
         words_table = WordList.MEDIUM_WORDS_TABLE;
         dictionaryLength = wordList.getEasyWords();
@@ -45,6 +50,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     public void initLayout() {
+        txtCoins = (TextView) findViewById(R.id.txtCoins);
         txtWordToGuess = (HDTMTextView) findViewById(R.id.txtWordToGuess);
         txtMeaning = (HDTMTextView) findViewById(R.id.description);
         btn11 = (HDTMButton) findViewById(R.id.btn11);
@@ -97,8 +103,20 @@ public class GameActivity extends AppCompatActivity {
         txtWordToGuess.setText(txtWordToGuess.getText()+buttonText.toUpperCase());
         button.setVisibility(View.INVISIBLE);
         if (game.isGameEnded((String)txtWordToGuess.getText())) {
+            setCoinsUI();
             Toast.makeText(this, "Hai indovinato!", Toast.LENGTH_SHORT).show();
             next();
+        }
+    }
+
+    /** Imposta le monete sullo schermo con effetto incremento */
+    private void setCoinsUI() {
+        for (int i=0; i<10; i++) {
+            new Handler().postDelayed(new Runnable() {
+                public void run() {
+                    txtCoins.setText(""+(++coins));
+                }
+            }, i*30);
         }
     }
 
