@@ -20,6 +20,7 @@ public class GameActivity extends AppCompatActivity {
     private String words_table;
     private int dictionaryLength;
     private int rowToGuess;
+    private int lastItemClicked;
     private TextView txtCoins;
     private HDTMTextView txtWordToGuess;
     private HDTMTextView txtMeaning;
@@ -46,14 +47,15 @@ public class GameActivity extends AppCompatActivity {
         wordList = new WordList(this);
         words_table = WordList.MEDIUM_WORDS_TABLE;
         dictionaryLength = wordList.getEasyWords();
-        rowToGuess = (int) (Math.random() * dictionaryLength) + 1;
+        rowToGuess = getIntent().getExtras().getInt("rowToGuess");
+        lastItemClicked = rowToGuess;
         initGame();
     }
 
     public void initLayout() {
         txtCoins = (TextView) findViewById(R.id.txtCoins);
         txtWordToGuess = (HDTMTextView) findViewById(R.id.txtWordToGuess);
-        txtMeaning = (HDTMTextView) findViewById(R.id.description);
+        txtMeaning = (HDTMTextView) findViewById(R.id.title);
         btn11 = (HDTMButton) findViewById(R.id.btn11);
         btn12 = (HDTMButton) findViewById(R.id.btn12);
         btn13 = (HDTMButton) findViewById(R.id.btn13);
@@ -73,7 +75,7 @@ public class GameActivity extends AppCompatActivity {
         game.setMaxNumberOfLetters(12);
         game.setWordToGuess(wordList.getWord(rowToGuess, words_table));
         while (game.getWordToGuess().length() >= game.getMaxNumberOfLetters()) {
-            rowToGuess = (int) (Math.random() * dictionaryLength) + 1;
+            rowToGuess++;
             game.setWordToGuess(wordList.getWord(rowToGuess, words_table));
         }
         game.setMeaning(wordList.getMeaning(rowToGuess, words_table));
@@ -105,6 +107,7 @@ public class GameActivity extends AppCompatActivity {
         button.setVisibility(View.INVISIBLE);
         if (game.isGameEnded((String)txtWordToGuess.getText())) {
             setCoinsUI();
+            lastItemClicked++;
             Toast.makeText(this, "Hai indovinato!", Toast.LENGTH_SHORT).show();
             next();
         }
@@ -186,6 +189,9 @@ public class GameActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(this, MainActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("lastItemClickable", lastItemClicked);
+        intent.putExtras(bundle);
         startActivity(intent);
         this.finish();
     }

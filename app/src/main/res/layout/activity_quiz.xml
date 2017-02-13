@@ -44,7 +44,7 @@
     <com.domenico.wordle.UI.HDTMTextView
         android:text="La parte settentrionale di un continente, di un paese, di una regione"
         android:layout_width="wrap_content"
-        android:id="@+id/description"
+        android:id="@+id/title"
         android:gravity="center_vertical|center_horizontal"
         android:textColor="@android:color/white"
         android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
         android:textSize="28sp"
         android:textColor="@android:color/white"
         android:background="@drawable/items_bg"
-        android:layout_below="@+id/description"
+        android:layout_below="@+id/title"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
         android:layout_width="250dp" />

@@ -20,20 +20,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         adapter = new HDTMButtonAdapter(this);
-        adapter.setElements(148);
+        adapter.setElements(new WordList(this).getMediumWords());
+        if (getIntent().hasExtra("lastItemClickable"))
+            adapter.setLastItemClickable(getIntent().getExtras().getInt("lastItemClickable"));
         gridView = (GridView) findViewById(R.id.gridview);
         gridView.setAdapter(adapter);
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
                 Log.i("Main", "Bottone "+(position+1));
-                play();
+                play(position+1);
             }
         });
     }
 
-    public void play() {
+    public void play(int position) {
         Intent intent = new Intent(this, GameActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("rowToGuess", position);
+        intent.putExtras(bundle);
         startActivity(intent);
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         this.finish();

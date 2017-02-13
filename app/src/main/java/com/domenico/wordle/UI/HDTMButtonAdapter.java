@@ -1,16 +1,11 @@
 package com.domenico.wordle.UI;
 
 import android.content.Context;
-import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
-
-import com.domenico.wordle.GameActivity;
-import com.domenico.wordle.MainActivity;
 import com.domenico.wordle.R;
 
 /**
@@ -21,10 +16,12 @@ public class HDTMButtonAdapter extends BaseAdapter {
 
     private Context mContext;
     private int numElements;
+    private int lastItemClickable;
 
     public HDTMButtonAdapter(Context c) {
         mContext = c;
         numElements = 0;
+        lastItemClickable = 1;
     }
 
     public int getCount() {
@@ -67,14 +64,28 @@ public class HDTMButtonAdapter extends BaseAdapter {
         } else {
             view = convertView;
         }
-        button = (HDTMButton) view.findViewById(R.id.gridBtn);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((GridView) parent).performItemClick(v, position, 0);
-            }
-        });
+
+        if (position >= lastItemClickable) {
+            button = (HDTMButton) view.findViewById(R.id.gridBtn);
+            button.setVisibility(View.GONE);
+            button = (HDTMButton) view.findViewById(R.id.gridBtnUnable);
+            button.setVisibility(View.VISIBLE);
+        } else {
+            button = (HDTMButton) view.findViewById(R.id.gridBtnUnable);
+            button.setVisibility(View.GONE);
+            button = (HDTMButton) view.findViewById(R.id.gridBtn);
+            button.setVisibility(View.VISIBLE);
+        }
         button.setText(""+(position+1));
+        if (Integer.parseInt(""+button.getText()) <= lastItemClickable) {
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    ((GridView) parent).performItemClick(v, position, 0);
+                }
+            });
+        }
+
         return view;
     }
 
@@ -82,6 +93,13 @@ public class HDTMButtonAdapter extends BaseAdapter {
         numElements = num;
     }
 
+    public void setLastItemClickable(int lastItemClickable) {
+        this.lastItemClickable = lastItemClickable;
+    }
+
+    public int getLastItemClickable() {
+        return lastItemClickable;
+    }
 }
 
 

@@ -30,12 +30,12 @@
         android:textSize="16sp"
         android:layout_alignParentTop="true"
         android:layout_toLeftOf="@+id/coinImg"
-        android:layout_above="@+id/description" />
+        android:layout_above="@+id/title" />
 
     <com.domenico.wordle.UI.HDTMTextView
         android:text="La parte orientale di un continente, di un paese, di una regione"
         android:layout_width="wrap_content"
-        android:id="@+id/description"
+        android:id="@+id/title"
         android:gravity="center_vertical|center_horizontal"
         android:textColor="@android:color/white"
         android:layout_height="wrap_content"
