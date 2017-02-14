@@ -1,785 +1,781 @@
-INSERT INTO easywords(ID, Word, Meaning, Category) VALUES
-(1,'abilitare','Autorizzare, rendere abile qualcuno ad una professione.',''),
-(2,'dovere','Essere obbligati, tenuti a fare qualcosa.',''),
-(3,'piazza','Spazio urbano di forma variabile.',''),
-(4,'visore','Apparecchio per esaminare in trasparenza lastre fotografiche.',''),
-(5,'gioia',"Sentimento di piena e viva soddisfazione dell'animo",''),
-(6,'banda','Gruppo di musicisti.',''),
-(7,'potere','Essere in grado di fare qualcosa, avendone la capacità.',''),
-(8,'sottile','Di spessore o diametro ridotto e comunque inferiore alla media.',''),
-(9,'affermare','Dire qualcosa con sicurezza.',''),
-(10,'carta','Materiale igroscopico.',''),
-(11,'cultura','Insieme di conoscenze.',''),
-(12,'esame','Attenta considerazione di qualcosa.',''),
-(13,'ombra','La figura che un corpo opaco proietta su una superficie e che ne riproduce la forma.',''),
-(14,'giocare','Attività fatta da una o più persone per divertimento.',''),
-(15,'bambina',"L'essere umano nell'età che va dalla nascita all'inizio della fanciullezza.",''),
-(16,'percentuale',"Descrive la grandezza di una quantità rispetto ad un'altra.",''),
-(17,'pantalone','Indumento unisex che copre dalla vita in giù',''),
-(18,'sostituto',"Persona che ne sostituisce un'altra in una determinata funzione.",''),
-(19,'cadere','Finire a terra.',''),
-(20,'dolce','Che è gradevole al gusto, che non è né amaro né amaro.',''),
-(21,'pezzo','Porzione di dimensioni variabili di un materiale solido.',''),
-(22,'paradiso','Luogo raggiunto dalle anime dei giusti dopo la morte.',''),
-(23,'scegliere','Prendere una decisione da uno o più cose.',''),
-(24,'migliore','La persona più capace, più abile.',''),
-(25,'portare','Trasportare qualcosa o qualcuno reggendolo su di sé.',''),
-(26,'verde',"Del colore che sta tra il giallo e l'azzurro ed è caratteristico dell'erba.",''),
-(27,'ovunque','In qualsiasi posto, dappertutto.',''),
-(28,'faccia',"Parte anteriore della testa dell'uomo.",''),
-(29,'costringere','Indurre, obbligare, spingere qualcuno a fare qualcosa.',''),
-(30,'abbiate','',''),
-(31,'abbronzare','Far diventare qualcosa del colore del bronzo.',''),
-(32,'chiudere','Mettere a contatto le parti disgiunte o aperte di un oggetto.',''),
-(33,'abilitare','Autorizzare, rendere abile qualcuno a una professione.',''),
-(34,'battere','Percuotere ripetutamente qualcosa.',''),
-(35,'aiutare','Soccorrere qualcuno in difficoltà.',''),
-(36,'aspettare',"Essere o restare in attesa dell'arrivo di qualcuno o del verificarsi di qualcosa.",''),
-(37,'rimanere','Restare da qualche parte.',''),
-(38,'lavandino','Vaschetta di ceramica collocata in genere nella stanza da bagno.',''),
-(39,'ospitare','Accogliere qualcuno come ospite.',''),
-(40,'esempio','Qualunque cosa o persona che possa essere presa come modello.',''),
-(41,'tastiera',"Periferica di input destinata all'inserimento manuale di dati.",''),
-(42,'nascere','Venire alla luce.',''),
-(43,'congelatore','Dispositivo dei frigoriferi per produrre e mantenere una bassa temperatura.',''),
-(44,'giallo',"Il giallo è uno dei colori dello spettro che l'uomo riesce a vedere.",''),
-(45,'legno','Insieme di tessuti che costituiscono il tronco, i rami e le radici di alberi.',''),
-(46,'crociera','Navigazione di una o più navi, circoscritta a un dato tratto di mare.',''),
-(47,'lavanda','Olio che viene estratto da una pianta usata in terapia.',''),
-(48,'potere','Essere in grado di fare qualcosa, avendone la capacità.',''),
-(49,'autore','Chi crea, causa, determina qualcosa.',''),
-(50,'carattere','Complesso di qualità psicologiche che costituiscono la personalità.',''),
-(51,'pedana','Elemento rialzato, perlopiù in legno, che isola o innalza dal pavimento.',''),
-(52,'ritrovare','Trovare qualcosa o qualcuno che si era smarrito.',''),
-(53,'lavare','Rendere pulito qualcosa usando acqua.',''),
-(54,'accarezzare','Fare carezze, lisciare con la mano qualcuno o qualcosa.',''),
-(55,'sicuro','Che non comporta o non corre pericoli.',''),
-(56,'poltrona','Sedile ampio e comodo, bene imbottito e munito di braccioli.',''),
-(57,'genere','Insieme delle caratteristiche fondamentali che contraddistinguono una categoria.',''),
-(58,'campo','Porzione di terreno coltivato o adibito a pascolo.',''),
-(59,'figlio','Creatura umana rispetto a coloro che lo hanno generato.',''),
-(60,'detersivo','Prodotto di uso domestico per il lavaggio di tessuti.',''),
-(61,'estero','Che è fuori dai confini di uno stato o che da lì proviene.',''),
-(62,'odore',"Sensazione trasmessa dall'olfatto.",''),
-(63,'padella','Utensile da cucina in metallo, tondo e basso, provvisto di un lungo manico.',''),
-(64,'batteria',"Gruppo di fuoco dell'artiglieria costituito da quattro o sei pezzi di uguale calibro. ",''),
-(65,'margine','Parte estrema di una cosa.',''),
-(66,'pompa','Allestimento solenne e fastoso approntato in occasione di cerimonie o feste.',''),
-(67,'gruccia','Accessorio usato per reggere abiti.',''),
-(68,'panchina',"Sedile per più persone posto all'aperto e fissato al terreno.",''),
-(69,'carta','Materiale igroscopico, costituito da materie prime prevalentemente vegetali.',''),
-(70,'voglia','Impulso a soddisfare un desiderio o un bisogno.',''),
-(71,'abboccare',"Detto dei pesci, afferrare l'esca.",''),
-(72,'accentrare','Riunire nello stesso luogo persone o servizi.',''),
-(73,'conoscere','Possedere le nozioni e le esperienze necessarie.',''),
-(74,'caffettiera','Recipiente per la preparazione del caffè.',''),
-(75,'ricetta','Insieme di istruzioni per compiere un procedimento di trasformazione in generale.',''),
-(76,'parola','Unità linguistica costituita da un insieme di suoni rappresentabili graficamente.',''),
-(77,'orticante','Provoca al contatto una sensazione di irritazione o di forte bruciore sulla cute.',''),
-(78,'usare','Fare uso, servirsi di qualcosa.',''),
-(79,'volere','Essere intenzionato a ottenere qualcosa.',''),
-(80,'diamante','Materiale simbolo della limpidezza.',''),
-(81,'errore','Allontanamento dai principi logici.',''),
-(82,'donna','Persona adulta di sesso femminile.',''),
-(83,'latte','Liquido bianco opaco prodotto per secrezione dalle ghiandole mammarie delle femmine dei mammiferi.',''),
-(84,'animale','Sono un regno del dominio degli eucarioti.',''),
-(85,'avere','Essere in possesso di beni materiali.',''),
-(86,'sorriso','Riso appena accennato, con un lieve movimento delle labbra.',''),
-(87,'pranzo','Il pasto che viene consumato intorno a mezzogiorno.',''),
-(88,'aderenza','Coesione perfetta tra due superfici combacianti.',''),
-(89,'scoprire','Togliere ciò che copre una cosa.',''),
-(90,'piano','Che è privo di rilievi, sporgenze.',''),
-(91,'mobile','Che può essere mosso, spostato.',''),
-(92,'stato','Condizione, modo di essere o di trovarsi.',''),
-(93,'superiore','Che sta più in alto, che sta sopra.',''),
-(94,'basso','Di altezza non elevata o inferiore alla media.',''),
-(95,'consigliare',' Suggerire qqualcosa a qualcuno',''),
-(96,'presenza','Fatto che una persona si trovi in un luogo.',''),
-(97,'fortuna','Sorte buona o cattiva.',''),
-(98,'piscina',"Vasca piena d'acqua adibita a vari usi.",''),
-(99,'accettato','Ricevuto qualcosa con pieno consenso.',''),
-(100,'lotta','Scontro violento fra due parti.',''),
-(101,'abitabile','Che si può abitare.',''),
-(102,'tornare','Presentarsi, manifestarsi di nuovo.',''),
-(103,'tenere','Trattenere, afferrare qualcuno o qualcosa.',''),
-(104,'piantare','Mettere nella terra semi o piantine perché attecchiscano.',''),
-(105,'pieno','Che è stato riempito in modo da non poter più contenere nulla.',''),
-(106,'arrivare','Manifestarsi, presentarsi.',''),
-(107,'legare','Avvolgere strettamente qualcuno o qualcosa.',''),
-(108,'secolo','Periodo di tempo di cento anni.',''),
-(109,'pacchetto','Confezione, involucro di piccole dimensioni.',''),
-(110,'scuola','Istituzione educativa che ha il compito di insegnare.',''),
-(111,'musica','Arte e tecnica della combinazione dei suoni.',''),
-(112,'accordare',"Mettere d'accordo due o più cose o persone",''),
-(113,'perfetto','Completo, compiuto in tutte le sue parti.',''),
-(114,'olfattivo','Senso che permette di percepire e distinguere gli odori.',''),
-(115,'pilota','Chi guida un mezzo per il quale occorre una preparazione speciale.',''),
-(116,'parare','Addobbare, ornare qualcosa con i paramenti.',''),
-(117,'politica',"Arte, scienza del governo e dell'amministrazione dello Stato.",''),
-(118,'armare','Fornire qualcuno di armi.',''),
-(119,'teatro','Costruzione adibita alla rappresentazione di opere drammatiche.',''),
-(120,'parrucca','Capigliatura posticcia, di capelli veri o finti.',''),
-(121,'piumino','Piuma degli uccelli.',''),
-(122,'acquistare','Ottenere la proprietà di qualcosa mediante pagamento ',''),
-(123,'dirigere','Rivolgere qualcosa in una direzione.',''),
-(124,'pericolo','Probabilità di danno, possibilità di evento rischioso.',''),
-(125,'ricco','Che dispone di beni e mezzi economici in abbondanza.',''),
-(126,'ostentare','Esporre qualcosa con insistenza e vanto.',''),
-(127,'secondo','Numero cardinale due.',''),
-(128,'servizio','Prestazione di lavoro domestico in case private.',''),
-(129,'tovaglia','Capo di tessuto o di plastica che si stende sulla tavola.',''),
-(130,'ambiente','Spazio e complesso delle condizioni che consentono la vita.',''),
-(131,'paracadute',"Dispositivo per frenare la caduta di un corpo nell'aria.",''),
-(132,'partecipare','Prendere parte a qualcosa.',''),
-(133,'panettone','Dolce natalizio.',''),
-(134,'scoppiare','Spaccarsi improvvisamente in più pezzi.',''),
-(135,'nastro','Striscia di tessuto, solitamente usata per guarnizioni e orlature.',''),
-(136,'lampadario', "Apparecchio per l'illuminazione artificiale.",''),
-(137,'borsa','Mercato dove vengono scambiati valori mobiliari.',''),
-(138,'stanza','Ambienti interni di un edificio.',''),
-(139,'pedata','Impronta, orma lasciata dal piede.',''),
-(140,'contenere','Tenere dentro di sé, racchiudere qualcosa.',''),
-(141,'purgatorio','Lo stato temporaneo di espiazione cui sono assoggettate le anime',''),
-(142,'ricerca','Attività finalizzata a trovare o scoprire qualcuno o qualcosa.',''),
-(143,'fresco','Di un freddo moderato e piacevole.',''),
-(144,'adorazione','Venerare una divinità.',''),
-(145,'togliere','Levare via qualcuno o qualcosa da un posto.',''),
-(146,'testa',"Parte del corpo, superiore nell'uomo.",''),
-(147,'vestire','Coprire qualcosa con abiti.',''),
-(148,'correre','Andare velocemente.',''),
-(149,'scendere','Fermarsi in un posto durante o dopo un viaggio.',''),
-(150,'palato','Privo di peli o di capelli.',''),
-(151,'parlare','Articolare suoni, manifestare con la voce la facoltà del linguaggio.',''),
-(152,'foresta','Vasta zona non antropizzata dove la vegetazione naturale.',''),
-(153,'cartello','Accordo tra più produttori indipendenti di un bene.',''),
-(154,'camera','Ambiente abitativo in una casa.',''),
-(155,'parere','Sembrare a qualcuno in maniera non certa.',''),
-(156,'pietra','Massa di roccia compatta.',''),
-(157,'avvenire','Detto di un evento, avere luogo.',''),
-(158,'parallelo','Rette complanari che non hanno punti in comune.',''),
-(159,'detergente','Miscela di sostanze chimiche per rimuovere lo sporco.',''),
-(160,'commercio','Attività consistente nel comperare e vendere prodotti.',''),
-(161,'scappare','Fuggire da un certo posto.',''),
-(162,'contrario','Che è in opposizione a qualcosa o a qualcuno.',''),
-(163,'rendere',"Restituire, riconsegnare qualcosa a qualcuno che l'ha perso ",''),
-(164,'pentirsi','Provare rimorso per qualcosa di male che si è compiuto.',''),
-(165,'osteggiare','Ostacolare, contrastare qualcuno o qualcosa.',''),
-(166,'bilancia','Strumento usato per misurare il peso di un corpo.',''),
-(167,'baratto','Scambiare un oggetto con un altro.',''),
-(168,'normale','Riferibile alla norma, alla consuetudine.',''),
-(169,'fabbrica','Luogo di produzione di manufatti industriali.',''),
-(170,'sigaretta','Cilindretto di carta sottile contenente tabacco trinciato.',''),
-(171,'attenzione','Concentrazione dei sensi e della mente su un oggetto.',''),
-(172,'cassetto','Elemento formato da un piano di fondo e da quattro bordi.',''),
-(173,'rappresentare','Riprodurre, raffigurare la realtà con figure disegnate.',''),
-(174,'omaggiare',"L'insieme delle operazioni di nautica.",''),
-(175,'abbonato','Contrarre un abbonamento a un servizio.',''),
-(176,'abbinare','Riunire a coppie più persone o cose affini.',''),
-(177,'onorare','Trattare qualcuno con onore e stima.',''),
-(178,'pubblico','Che riguarda, interessa tutti i cittadini.',''),
-(179,'carte','Fogli di carta o plastificato usate per giocare.',''),
-(180,'fretta','Necessità di fare presto.',''),
-(181,'ordinare','Disporre qualcosa o qualcuno in ordine.',''),
-(182,'addormentare','Far prendere sonno a qualcuno.',''),
-(183,'imparare',"Acquisire conoscenze o capacità con lo studio o l'esercizio.",''),
-(184,'ostile','Che ha o denota avversione.',''),
-(185,'vendere','Cedere ad altri la proprietà di un bene.',''),
-(186,'presente','Che prende parte a qualcosa.',''),
-(187,'peggio','In modo qualitativamente più scadente.',''),
-(188,'assicurare','Rendere sicuro qualcosa.',''),
-(189,'pancia','Addome, ventre umano o animale.',''),
-(190,'finire',"Terminare, concludere un'attività.",''),
-(191,'pensare','Volgere il pensiero a qualcuno o a qualcosa.',''),
-(192,'parete',' Struttura verticale che delimita spazi contigui.',''),
-(193,'girare','Circondare qualcosa, correre intorno a qualcosa.',''),
-(194,'accessori','Che si accompagna a una cosa principale.',''),
-(195,'colla','Qualunque sostanza tenace e viscosa usata per attaccare.',''),
-(196,'passante','Che passa, oltrepassa, cammina.',''),
-(197,'amico','Che dimostra o denota solidarietà.',''),
-(198,'forte','Dotato di energia muscolare.',''),
-(199,'tempo','Dimensione nella quale si concepisce e si misura il trascorrere degli eventi.',''),
-(200,'abilitato','Autorizzare, rendere abile qualcuno a una professione.',''),
-(201,'medico','Chi esercita la professione medica.',''),
-(202,'acconto','Parte di un pagamento che viene anticipata prima della conclusione di un lavoro.',''),
-(203,'divenire','Assumere una qualità, una condizione o un ruolo diversi dai precedenti.',''),
-(204,'fiducia','Sensazione di sicurezza basata sulla speranza o sulla stima riposta in qualcuno o qualcosa.',''),
-(205,'ospizio','Luogo in cui sono ricoverate persone anziane bisognose di assistenza.',''),
-(206,'ripieno','Completamente pieno, ricolmo.',''),
-(207,'merito','Diritto alla stima, alla riconoscenza.',''),
-(208,'sorprendere',"Cogliere qualcuno all'improvviso",''),
-(209,'articolo','Particella grammaticale che si aggiunge al nome.',''),
-(210,'abbandonare','Lasciare definitivamente luoghi o persone.',''),
-(211,'morale',"L'insieme dei principi generali che guidano il nostro comportamento.",''),
-(212,'grave','Dotato di peso.',''),
-(213,'abbondante','Che è in grande quantità.',''),
-(214,'intenzione',"Proposito di attuare un'azione",''),
-(215,'costruire','Ideare ed eseguire, fabbricare un manufatto.',''),
-(216,'percorso','Spostamento lungo un itinerario a piedi.',''),
-(217,'bravo','Contrario del selvaggio e del malvagio.',''),
-(218,'cielo',"Spazio siderale percepibile, di colore variabile a causa dell'atmosfera terrestre.",''),
-(219,'compagno','Chi fa qualcosa insieme con altri.',''),
-(220,'trascinare','Tirare qualcosa facendolo strisciare per terra.',''),
-(221,'produzione','Operazione, processo grazie ai quali qualcosa prende forma.',''),
-(222,'vasto','Che è molto ampio, esteso.',''),
-(223,'durare','Protrarsi da, per o fino a un certo tempo',''),
-(224,'marito','Uomo sposato.',''),
-(225,'comodino','Piccolo cassettone, munito di sportello e di cassetto.',''),
-(226,'comprendere','Contenere in sé, racchiudere, includere qualcosa.',''),
-(227,'leggero','Che pesa poco.',''),
-(228,'silenzio','Assenza di ogni forma di rumore.',''),
-(229,'strano','Di persona, che pensa e agisce in maniera fuori del comune, anomala.',''),
-(230,'furioso','Che si abbandona ad atti violenti.',''),
-(231,'agente',"Chi svolge un'attività per conto di altri.",''),
-(232,'occasione','Caso che consente o favorisce qualcosa.',''),
-(233,'gatto','Piccolo felino, dal corpo agile e flessuoso.',''),
-(234,'rispondere','Replicare a qualcosa o a qualcuno.',''),
-(235,'bicchiere','Piccolo recipiente di varie fogge usato per bere.',''),
-(236,'accadere','Succedere, capitare casualmente a qualcuno.',''),
-(237,'sapere','Essere o venire a conoscenza di qualcosa.',''),
-(238,'spina','Escrescenza rigida e acuminata.',''),
-(239,'pentola','Recipiente da cucina, perlopiù in metallo.',''),
-(240,'immaginare','Rappresentare, raffigurare immagini nella mente.',''),
-(241,'piacere','Sensazione di appagamento fisico.',''),
-(242,'natura',"L'insieme di tutte le cose esistenti considerato nella sua forma complessiva.",''),
-(243,'prendere','Afferrare, stringere qualcuno o qualcosa.',''),
-(244,'spettacolo','Rappresentazione scenica o cinematografica.',''),
-(245,'attrezzo',"Qualsiasi cosa preparata ad arte che serve per compiere convenientemente un'attività.",''),
-(246,'materasso','Ampio contenitore squadrato di forma rettangolare.',''),
-(247,'imbuto','Arnese di forma conica terminante con un cannello.',''),
-(248,'accendere','Fare ardere qualcosa.',''),
-(249,'orrendo','Che fa orrore, che suscita raccapriccio per le sue caratteristiche crudeli.',''),
-(250,'chiedere','Domandare qualcosa o qualcuno per ottenerlo.',''),
-(251,'soffrire','Detto di persona, provare dolore fisico o morale.',''),
-(252,'muovere',"Iniziare un'azione contro qualcuno.",''),
-(253,'accogliere','Ricevere qualcuno.',''),
-(254,'abilitata','Autorizzare, rendere abile qualcuno.',''),
-(255,'ortaggio','Persona che forze militari nemiche o gruppi criminali.',''),
-(256,'bestia',"L'animale in genere, con esclusione dell'uomo.",''),
-(257,'svegliare','Destare qualcuno, interromperne il sonno.',''),
-(258,'piano',"Giovane che ostenta un'eleganza ricercata ma di cattivo gusto",''),
-(259,'immagine',"Forma con la quale una cosa appare a chi la guarda.",''),
-(260,'torta','Vivanda dolce caratterizzata dalla forma schiacciata e generalmente tonda.',''),
-(261,'figlia','Prole di sesso femminile.',''),
-(262,'coprire',"Mettere una cosa sopra un'altra per chiuderla.",''),
-(263,'provare','Sottoporre qualcosa a prova.',''),
-(264,'stanco','Privo di forze, di energia, a causa di un affaticamento fisico o mentale.',''),
-(265,'nazionale','Della nazione, proprio di una nazione.',''),
-(266,'cornetto','Amuleto a forma di piccolo corno.',''),
-(267,'dolore','Sensazione fisica che dà pena, che provoca malessere.',''),
-(268,'partenza','Fase iniziale dello spostamento da un luogo per un altro.',''),
-(269,'inutile','Che non serve perché superfluo, inefficace o inutilizzabile.',''),
-(270,'ritornare','Ricominciare a fare qualcosa.',''),
-(271,'nebbia','Fenomeno meteorologico per il quale una nube si forma a contatto con il suolo.',''),
-(272,'netto','Completamente mondo da ogni sporcizia.',''),
-(273,'neutro','Che tra due cose opposte o contrastanti.',''),
-(274,'vento',"Movimento di una massa d'aria.",''),
-(275,'ferro','Elemento chimico.',''),
-(276,'denaro','Nome collettivo per designare soldi, quattrini.',''),
-(277,'pubblico','Che riguarda, interessa tutti i cittadini.',''),
-(278,'candela','Cilindro di cera.',''),
-(279,'accademia','Associazione pubblica o privata regolata da statuti per sviluppare gli studi.',''),
-(280,'oscuro','Senza luce o scarsamente illuminato',''),
-(281,'noleggio','Contratto con cui si cede in uso provvisorio un mezzo di trasporto.',''),
-(282,'intero','A cui nulla è stato sottratto.',''),
-(283,'orario','Il tempo, computato in ore.',''),
-(284,'maggiore','Più grande, superiore.',''),
-(285,'sogno','Fenomeno psichico legato al sonno.',''),
-(286,'tagliacarte','Arnese da scrivania a forma di coltello usato per tagliare fogli di carta.',''),
-(287,'amore','Affetto intenso, assiduo, fortemente radicato per qualcuno.',''),
-(288,'esercito','Insieme di uomini istruiti ed equipaggiati per la guerra.',''),
-(289,'ricordare','Avere presente nella memoria, rammentare qualcosa o qualcuno.',''),
-(290,'abito','Indumento che si porta sopra la biancheria.',''),
-(291,'rosso',"Primo colore dell'arcobaleno.",''),
-(292,'ragazzo',"Uomo giovane di età compresa fra l'adolescenza e la giovinezza ",''),
-(293,'guanti','Accessorio che copre la mano aderendovi perfettamente.',''),
-(294,'paura','Sensazione di forte preoccupazione.',''),
-(295,'confronto','Esame comparato di due o più entità.',''),
-(296,'mangiare','Ingerire, masticando e deglutendo, una sostanza solida.',''),
-(297,'strada','Fascia di terreno spianato, perlopiù pavimentato o asfaltato.',''),
-(298,'stare','Trovarsi o restare in un dato luogo.',''),
-(299,'penisola','Territorio che sporge da un continente protendendosi nel mare .',''),
-(300,'monte','Rilievo geomorfologico più alto della collina.',''),
-(301,'sistema','Connessione di elementi.',''),
-(302,'abitazione',"Luogo o costruzione dove l'uomo risiede.",''),
-(303,'lampadina','Lampada elettrica di potenza relativamente limitata.',''),
-(304,'medio','Normale, che si trova a metà tra due estremi.',''),
-(305,'palpare','Toccare insistentemente con la mano aperta.',''),
-(306,'bambino',"L'individuo umano nell'età compresa tra la nascita e l'inizio della fanciullezza.",''),
-(307,'ghiaccio',"Stato solido dell'acqua.",''),
-(308,'nazionale',"
-Pertinente all'ambito della nazione.",''),
-(309,'riuscire','Di un fatto, concludersi in modo conforme.',''),
-(310,'condizione','Costituisce il presupposto necessario perché qualcosa debba aver luogo.',''),
-(311,'ottagono','Poligono piano avente otto lati.',''),
-(312,'venire','Arrivare da un luogo, provenire.',''),
-(313,'accesso','
-La possibilità o il diritto di accedere a un luogo o a una professione.',''),
-(314,'abbassato','Spostato verso il basso.',''),
-(315,'cestino','Recipiente per rifiuti.',''),
-(316,'ridurre','Rendere inferiore di numero, diminuire.',''),
-(317,'avvicinare','Mettere più vicino, accostare.',''),
-(318,'poesia',"L'espressione metaforica di contenuti umani",''),
-(319,'guardare','Soffermare, volgere lo sguardo su qualcosa o su qualcuno.',''),
-(320,'restare',"Fermarsi in un luogo, anche per svolgere un'attività
- ",''),
-(321,'materia','Entità provvista di una propria consistenza fisica, dotata di peso.',''),
-(322,'amaro',"Uno dei quattro sapori fondamentali.",''),
-(323,'pericoloso','Che comporta rischi e pericoli.',''),
-(324,'ostaggio','Persona che si offre alla parte nemica o è da questa catturata.',''),
-(325,'sembrare',"Avere l'aspetto di qualcos'altro, assomigliare.",''),
-(326,'ventola','Arnese per ravvivare il fuoco.',''),
-(327,'lettera','Comunicazione scritta da inviare a qualcuno.',''),
-(328,'aprire','Rendere accessibile.',''),
-(329,'energia','Capacità che un corpo ha di compiere lavoro.',''),
-(330,'pantofola','Calzatura morbida e leggera, che copre interamente il piede.',''),
-(331,'cittadino','Proprio della città e della vita che vi si svolge.',''),
-(332,'buttare','Spingere, far cadere.',''),
-(333,'speranza','Attesa fiduciosa, più o meno giustificata.',''),
-(334,'contento','Visibilmente lieto, allegro.',''),
-(335,'presentare','Mostrare qualcosa ad altri in modo che venga esaminato.',''),
-(336,'accendino','Accendisigari tascabile.',''),
-(337,'foglia','Organo ad accrescimento limitato delle piante.',''),
-(338,'filetto','Sottile ornamento filiforme.',''),
-(339,'massimo','Il punto più alto, la quantità più grande possibile.',''),
-(340,'piccante','Di sapore acuto e pungente.',''),
-(341,'evitare','Fare a meno di una cosa ritenuta dannosa o fastidiosa.',''),
-(342,'cucina','Ambiente riservato e attrezzato per la preparazione e la cottura dei cibi.',''),
-(343,'occupare','Prendere possesso di un luogo imponendovi la propria presenza legittimamente o meno.',''),
-(344,'uguale','Che si trova in condizioni di parità rispetto a un criterio comparativo.',''),
-(345,'telefono','Dispositivo che permette la trasmissione a distanza di voci e suoni.',''),
-(346,'palestra','Locale attrezzato per lo svolgimento di esercizi atletici o ginnici.',''),
-(347,'nemico','Chi si atteggia o si comporta in modo da provocare il danno e la sconfitta altrui.',''),
-(348,'orologio','Strumento atto a misurare intervalli di tempo, in ore, minuti e secondi.',''),
-(349,'moglie','Il coniuge di sesso femminile.',''),
-(350,'futuro','Relativo al corso del tempo successivo al presente.',''),
-(351,'adesione','Contatto stabile ottenuto naturalmente o artificialmente; aderenza.',''),
-(352,'unire','Mettere insieme più elementi in modo che costituiscano o appaiano un tutto unico.',''),
-(353,'colpo','Percossa, urto tra due o più corpi.',''),
-(354,'famoso',"Universalmente noto per l'eccezionalità degli aspetti positivi o negativi che presenta.",''),
-(355,'domanda',"L'insieme delle parole con cui si esprime la richiesta di qualcosa.",''),
-(356,'parente','La persona in quanto termine di un rapporto di parentela.',''),
-(357,'porta','Facchino, portatore.',''),
-(358,'scorrere','Avanzare, spostarsi lungo un condotto, una sede o una guida.',''),
-(359,'riempire',"Rendere pieno ciò che è vuoto o libero, colmare.",''),
-(360,'sperare','Confidare nella possibilità che si realizzi qualcosa ritenuto positivo.',''),
-(361,'otturare','Chiudere completamente, ostruire, tappare.',''),
-(362,'inverno',"La quarta stagione dell'anno.",''),
-(363,'brutto','Che riesce sgradevole o suscita contrarietà o repulsione.',''),
-(364,'particella','Frazione o entità concreta, minuta o minima.',''),
-(365,'pacifico','Amante della tranquillità o anche della placidità.',''),
-(366,'grosso','Difficile o faticoso ad affrontarsi o a sopportarsi.',''),
-(367,'giorno','Tempo impiegato dalla Terra per compiere una rotazione completa attorno al proprio asse.',''),
-(368,'nodulo','Piccola formazione tondeggiante cutanea o dei tessuti più profondi.',''),
-(369,'lasagna','Pasta alimentare tagliata a larghe strisce.',''),
-(370,'cuscino','Involucro di tessuto, riempito di lana.',''),
-(371,'partire','Allontanarsi da un luogo per arrivare a un altro.',''),
-(372,'palco','Ripiano costituito da una serie di assi e travi fra loro connesse.',''),
-(373,'desiderare','Avvertire la mancanza, sentire il bisogno di qualcosa.',''),
-(374,'dimenticare','Cancellare dalla memoria, non ricordare più, scordare.',''),
-(375,'fermare','Bloccare, arrestare un oggetto, un animale o un veicolo in movimento.',''),
-(376,'trattare','Prendere in esame un argomento per scritto o a voce, affrontare.',''),
-(377,'madre','La donna che ha concepito e partorito.',''),
-(378,'neutrale','Estraneo a un conflitto internazionale.',''),
-(379,'dottore','Chi ha compiuto gli studi universitari e discussa una tesi.',''),
-(380,'lavapiatti','Addetto a lavare le stoviglie in alberghi.',''),
-(381,'pendolo','Sistema fisico costituito da un filo inestensibile e da una massa.',''),
-(382,'crescere','Aumentare progressivamente di proporzioni.',''),
-(383,'poeta','Autore di componimenti poetici.',''),
-(384,'carne','La parte muscolare e dei tessuti molli del corpo umano.',''),
-(385,'sognare','Vedere, immaginare in sogno.',''),
-(386,'agitato','Inquieto, turbato, eccitato.',''),
-(387,'gioco','Qualsiasi esercizio, singolo o collettivo, cui si dedichino bambini o adulti per passatempo.',''),
-(388,'discorso','Manifestazione del proprio pensiero.',''),
-(389,'tazza',"Piccolo recipiente per l'assunzione di liquidi.",''),
-(390,'differenza','Condizione per cui una o più cose si trovano in totale o parziale diversità.',''),
-(391,'giardino','Porzione di terreno coltivata a piante ornamentali.',''),
-(392,'piangere','Lacrimare per il dolore, per la commozione.',''),
-(393,'abate','Il superiore di un monastero autonomo eletto dagli stessi monaci.',''),
-(394,'bagno',"Immersione prolungata nell'acqua o in altro liquido.",''),
-(395,'circuito','Tracciato, percorso.',''),
-(396,'notizia',"Oggetto di comunicazione o diffusione, ritenuto importante per l'interpretazione di fatti.",''),
-(397,'penitenziario','Stabilimento carcerario.',''),
-(398,'piede',"Parte terminale degli arti inferiori dell'uomo.",''),
-(399,'saltare','Staccarsi da terra in una successione di movimenti comprendente lo slancio.',''),
-(400,'abitare','Risiedere in un luogo.',''),
-(401,'sedia','',''),
-(402,'fuoco','',''),
-(403,'elica','',''),
-(404,'pensiero','',''),
-(405,'popolo','',''),
-(406,'acqua','',''),
-(407,'determinare','',''),
-(408,'fiume','',''),
-(409,'vicino','',''),
-(410,'interessare','',''),
-(411,'escludere','',''),
-(412,'conto','',''),
-(413,'povero','',''),
-(414,'stella','',''),
-(415,'epoca','',''),
-(416,'volto','',''),
-(417,'dimostrare','',''),
-(418,'giornale','',''),
-(419,'veloce','',''),
-(420,'ospite','',''),
-(421,'papera','',''),
-(422,'figura','',''),
-(423,'resistere','',''),
-(424,'prodotto','',''),
-(425,'bianco','',''),
-(426,'pesante','',''),
-(427,'scambiare','',''),
-(428,'rapido','',''),
-(429,'nevicare','',''),
-(430,'acquario','',''),
-(431,'credere','',''),
-(432,'acquedotti','',''),
-(433,'cerca','',''),
-(434,'reale','',''),
-(435,'legge','',''),
-(436,'diverso','',''),
-(437,'fiore','',''),
-(438,'semplice','',''),
-(439,'papiro','',''),
-(440,'frutto','',''),
-(441,'libreria','',''),
-(442,'abbastanza','',''),
-(443,'accanto','',''),
-(444,'storia','',''),
-(445,'bisogno','',''),
-(446,'resto','',''),
-(447,'orchestra','',''),
-(448,'folla','',''),
-(449,'pazzo','',''),
-(450,'adesivo','',''),
-(451,'studio','',''),
-(452,'mandare','',''),
-(453,'lungo','',''),
-(454,'festa','',''),
-(455,'cercare','',''),
-(456,'accumulare','',''),
-(457,'ninfa','',''),
-(458,'addizione','',''),
-(459,'abitudine','',''),
-(460,'bruciare','',''),
-(461,'pedale','',''),
-(462,'andare','',''),
-(463,'suonare','',''),
-(464,'pomeriggio','',''),
-(465,'pregare','',''),
-(466,'letto','',''),
-(467,'scopo','',''),
-(468,'abbiamo','',''),
-(469,'onesto','',''),
-(470,'dente','',''),
-(471,'discutere','',''),
-(472,'acciaio','',''),
-(473,'forbici','',''),
-(474,'imbuto','',''),
-(475,'abbreviare','',''),
-(476,'fiammifero','',''),
-(477,'studiare','',''),
-(478,'accessorio','',''),
-(479,'partita','',''),
-(480,'vivace','',''),
-(481,'volare','',''),
-(482,'prevedere','',''),
-(483,'grado','',''),
-(484,'mattarello','',''),
-(485,'vista','',''),
-(486,'sapone','',''),
-(487,'segnare','',''),
-(488,'paese','',''),
-(489,'paletto','',''),
-(490,'economico','',''),
-(491,'signora','',''),
-(492,'padrino','',''),
-(493,'scomparire','',''),
-(494,'godere','',''),
-(495,'iniziare','',''),
-(496,'risoluto','',''),
-(497,'accumulo','',''),
-(498,'abbinata','',''),
-(499,'fornire','',''),
-(500,'superare','',''),
-(501,'fornello','',''),
-(502,'pareggiare','',''),
-(503,'accedere','',''),
-(504,'abbandono','',''),
-(505,'ordine','',''),
-(506,'viaggio','',''),
-(507,'nomignolo','',''),
-(508,'capire','',''),
-(509,'passo','',''),
-(510,'amare','',''),
-(511,'parolaccia','',''),
-(512,'risoluzione','',''),
-(513,'dolce','',''),
-(514,'cavallo','',''),
-(515,'accettabile','',''),
-(516,'spugna','',''),
-(517,'mettere','',''),
-(518,'inferno','',''),
-(519,'acquisto','',''),
-(520,'possedere','',''),
-(521,'numero','',''),
-(522,'giudizio','',''),
-(523,'piombo','',''),
-(524,'chiaro','',''),
-(525,'treno','',''),
-(526,'paraluce','',''),
-(527,'consiglio','',''),
-(528,'largo','',''),
-(529,'insalata','',''),
-(530,'braccio','',''),
-(531,'confessione','',''),
-(532,'lavatrice','',''),
-(533,'ponte','',''),
-(534,'acceso','',''),
-(535,'lavoro','',''),
-(536,'dormire','',''),
-(537,'cominciare','',''),
-(538,'abbattere','',''),
-(539,'richiedere','',''),
-(540,'professore','',''),
-(541,'fronte','',''),
-(542,'sbagliare','',''),
-(543,'mondo','',''),
-(544,'polvere','',''),
-(545,'crisi','',''),
-(546,'calcio','',''),
-(547,'accensione','',''),
-(548,'pantera','',''),
-(549,'fermata','',''),
-(550,'bello','',''),
-(551,'celebrare','',''),
-(552,'peloso','',''),
-(553,'cucina','',''),
-(554,'eccellere','',''),
-(555,'ridere','',''),
-(556,'bosco','',''),
-(557,'rapporto','',''),
-(558,'proposta','',''),
-(559,'albergo','',''),
-(560,'parata','',''),
-(561,'strumento','',''),
-(562,'piccolo','',''),
-(563,'partorire','',''),
-(564,'meritare','',''),
-(565,'limite','',''),
-(566,'canzone','',''),
-(567,'assoluto','',''),
-(568,'abbonare','',''),
-(569,'accompagnare','',''),
-(570,'tavolo','',''),
-(571,'pedone','',''),
-(572,'giornata','',''),
-(573,'accodare','',''),
-(574,'automobile','',''),
-(575,'linea','',''),
-(576,'lingua','',''),
-(577,'lampadario','',''),
-(578,'aspetto','',''),
-(579,'vestito','',''),
-(580,'sorridere','',''),
-(581,'scarso','',''),
-(582,'spiegare','',''),
-(583,'accusare','',''),
-(584,'sedere','',''),
-(585,'lanciare','',''),
-(586,'valigia','',''),
-(587,'accettare','',''),
-(588,'trovare','',''),
-(589,'paragrafo','',''),
-(590,'centrale','',''),
-(591,'olimpiade','',''),
-(592,'politico','',''),
-(593,'collina','',''),
-(594,'parodia','',''),
-(595,'animo','',''),
-(596,'allontanare','',''),
-(597,'raccontare','',''),
-(598,'famiglia','',''),
-(599,'patatine','',''),
-(600,'corsa','',''),
-(601,'distinguere','',''),
-(602,'motivo','',''),
-(603,'breve','',''),
-(604,'adorare','',''),
-(605,'impossibile','',''),
-(606,'guida','',''),
-(607,'gente','',''),
-(608,'linguaggio','',''),
-(609,'navigare','',''),
-(610,'pronto','',''),
-(611,'chiave','',''),
-(612,'ostacolare','',''),
-(613,'marcia','',''),
-(614,'gridare','',''),
-(615,'percorrere','',''),
-(616,'spazio','',''),
-(617,'spegnere','',''),
-(618,'sentire','',''),
-(619,'opera','',''),
-(620,'ottenere','',''),
-(621,'pacchia','',''),
-(622,'addossare','',''),
-(623,'accecata','',''),
-(624,'azione','',''),
-(625,'cameriere','',''),
-(626,'significare','',''),
-(627,'morte','',''),
-(628,'particolare','',''),
-(629,'guerra','',''),
-(630,'abituare','',''),
-(631,'attimo','',''),
-(632,'partecipare','',''),
-(633,'orecchietta','',''),
-(634,'mostrare','',''),
-(635,'preferire','',''),
-(636,'pagare','',''),
-(637,'parcheggiare','',''),
-(638,'accoppiare','',''),
-(639,'cuore','',''),
-(640,'appartenere','',''),
-(641,'pagina','',''),
-(642,'entrare','',''),
-(643,'concedere','',''),
-(644,'signore','',''),
-(645,'abbassare','',''),
-(646,'diritto','',''),
-(647,'pianura','',''),
-(648,'orecchio','',''),
-(649,'vivere','',''),
-(650,'territorio','',''),
-(651,'criticare','',''),
-(652,'divertire','',''),
-(653,'potenza','',''),
-(654,'opzione','',''),
-(655,'moderato','',''),
-(656,'tostapane','',''),
-(657,'scatola','',''),
-(658,'diretto','',''),
-(659,'risposta','',''),
-(660,'addestrare','',''),
-(661,'tirare','',''),
-(662,'parrucchiere','',''),
-(663,'paesano','',''),
-(664,'offerta','',''),
-(665,'foglio','',''),
-(666,'incontrare','',''),
-(667,'abbraccio','',''),
-(668,'offrire','',''),
-(669,'bellezza','',''),
-(670,'pensione','',''),
-(671,'fazzoletto','',''),
-(672,'concerto','',''),
-(673,'paragonare','',''),
-(674,'accomodare','',''),
-(675,'nessuno','',''),
-(676,'freddo','',''),
-(677,'specie','',''),
-(678,'scrivere','',''),
-(679,'umano','',''),
-(680,'paziente','',''),
-(681,'progetto','',''),
-(682,'ossigeno','',''),
-(683,'tenda','',''),
-(684,'popolazione','',''),
-(685,'ammazzare','',''),
-(686,'rispetto','',''),
-(687,'destro','',''),
-(688,'importanza','',''),
-(689,'accorciare','',''),
-(690,'campana','',''),
-(691,'bastare','',''),
-(692,'cantare','',''),
-(693,'terreno','',''),
-(694,'barattolo','',''),
-(695,'creare','',''),
-(696,'ostrica','',''),
-(697,'lettera','',''),
-(698,'accettare','',''),
-(699,'parroco','',''),
-(700,'levare','',''),
-(701,'succedere','',''),
-(702,'pianta','',''),
-(703,'capitare','',''),
-(704,'portachiave','',''),
-(705,'attore','',''),
-(706,'leggere','',''),
-(707,'spesa','',''),
-(708,'sforzo','',''),
-(709,'sposare','',''),
-(710,'comprare','',''),
-(711,'bravura','',''),
-(712,'alzare','',''),
-(713,'descrivere','',''),
-(714,'confessare','',''),
-(715,'seguire','',''),
-(716,'divano','',''),
-(717,'procedere','',''),
-(718,'coraggio','',''),
-(719,'adorabile','',''),
-(720,'originale','',''),
-(721,'esistere','',''),
-(722,'peggiorare','',''),
-(723,'facile','',''),
-(724,'penna','',''),
-(725,'grazioso','',''),
-(726,'fuggire','',''),
-(727,'ultimo','',''),
-(728,'zuppa','',''),
-(729,'morire','',''),
-(730,'oroscopo','',''),
-(731,'segnale','',''),
-(732,'salire','',''),
-(733,'albero','',''),
-(734,'negozio','',''),
-(735,'pancetta','',''),
-(736,'tentare','',''),
-(737,'cenare','',''),
-(738,'vecchio','',''),
-(739,'battaglia','',''),
-(740,'pecora','',''),
-(741,'dipendere','',''),
-(742,'accendere','',''),
-(743,'pensionato','',''),
-(744,'profondo','',''),
-(745,'svolgere','',''),
-(746,'baciare','',''),
-(747,'uscire','',''),
-(748,'neurone','',''),
-(749,'palio','',''),
-(750,'narrare','',''),
-(751,'italiano','',''),
-(752,'abbinato','',''),
-(753,'salvare','',''),
-(754,'aderente','',''),
-(755,'pesare','',''),
-(756,'acquedotto','',''),
-(757,'paralume','',''),
-(758,'nomade','',''),
-(759,'pareggio','',''),
-(760,'ragazza','',''),
-(761,'colore','',''),
-(762,'normativa','',''),
-(763,'caldo','',''),
-(764,'affettuoso','',''),
-(765,'accessibile','',''),
-(766,'ritorno','',''),
-(767,'libro','',''),
-(768,'cattivo','',''),
-(769,'triste','',''),
-(770,'periodo','',''),
-(771,'tagliare','',''),
-(772,'informazione','',''),
-(773,'liberare','',''),
-(774,'risolvere','',''),
-(775,'mappa','',''),
-(776,'corrente','',''),
-(777,'contatto','',''),
-(778,'formaggio','',''),
-(779,'insegnare','',''),
-(780,'parentela','',''),
-(781,'vedere','','');
+﻿INSERT INTO easywords VALUES (1,'abilitare','Autorizzare, rendere abile qualcuno ad una professione.','');
+INSERT INTO easywords VALUES (2,'dovere','Essere obbligati, tenuti a fare qualcosa.','');
+INSERT INTO easywords VALUES (3,'piazza','Spazio urbano di forma variabile.','');
+INSERT INTO easywords VALUES (4,'visore','Apparecchio per esaminare in trasparenza lastre fotografiche.','');
+INSERT INTO easywords VALUES (5,'gioia',"Sentimento di piena e viva soddisfazione dell'animo",'');
+INSERT INTO easywords VALUES (6,'banda','Gruppo di musicisti.','');
+INSERT INTO easywords VALUES (7,'potere','Essere in grado di fare qualcosa, avendone la capacità.','');
+INSERT INTO easywords VALUES (8,'sottile','Di spessore o diametro ridotto e comunque inferiore alla media.','');
+INSERT INTO easywords VALUES (9,'affermare','Dire qualcosa con sicurezza.','');
+INSERT INTO easywords VALUES (10,'carta','Materiale igroscopico.','');
+INSERT INTO easywords VALUES (11,'cultura','Insieme di conoscenze.','');
+INSERT INTO easywords VALUES (12,'esame','Attenta considerazione di qualcosa.','');
+INSERT INTO easywords VALUES (13,'ombra','La figura che un corpo opaco proietta su una superficie e che ne riproduce la forma.','');
+INSERT INTO easywords VALUES (14,'giocare','Attività fatta da una o più persone per divertimento.','');
+INSERT INTO easywords VALUES (15,'bambina',"L'essere umano nell'età che va dalla nascita all'inizio della fanciullezza.",'');
+INSERT INTO easywords VALUES (16,'percentuale',"Descrive la grandezza di una quantità rispetto ad un'altra.",'');
+INSERT INTO easywords VALUES (17,'pantalone','Indumento unisex che copre dalla vita in giù','');
+INSERT INTO easywords VALUES (18,'sostituto',"Persona che ne sostituisce un'altra in una determinata funzione.",'');
+INSERT INTO easywords VALUES (19,'cadere','Finire a terra.','');
+INSERT INTO easywords VALUES (20,'dolce','Che è gradevole al gusto, che non è né amaro né amaro.','');
+INSERT INTO easywords VALUES (21,'pezzo','Porzione di dimensioni variabili di un materiale solido.','');
+INSERT INTO easywords VALUES (22,'paradiso','Luogo raggiunto dalle anime dei giusti dopo la morte.','');
+INSERT INTO easywords VALUES (23,'scegliere','Prendere una decisione da uno o più cose.','');
+INSERT INTO easywords VALUES (24,'migliore','La persona più capace, più abile.','');
+INSERT INTO easywords VALUES (25,'portare','Trasportare qualcosa o qualcuno reggendolo su di sé.','');
+INSERT INTO easywords VALUES (26,'verde',"Del colore che sta tra il giallo e l'azzurro ed è caratteristico dell'erba.",'');
+INSERT INTO easywords VALUES (27,'ovunque','In qualsiasi posto, dappertutto.','');
+INSERT INTO easywords VALUES (28,'faccia',"Parte anteriore della testa dell'uomo.",'');
+INSERT INTO easywords VALUES (29,'costringere','Indurre, obbligare, spingere qualcuno a fare qualcosa.','');
+INSERT INTO easywords VALUES (30,'abbiate','','');
+INSERT INTO easywords VALUES (31,'abbronzare','Far diventare qualcosa del colore del bronzo.','');
+INSERT INTO easywords VALUES (32,'chiudere','Mettere a contatto le parti disgiunte o aperte di un oggetto.','');
+INSERT INTO easywords VALUES (33,'abilitare','Autorizzare, rendere abile qualcuno a una professione.','');
+INSERT INTO easywords VALUES (34,'battere','Percuotere ripetutamente qualcosa.','');
+INSERT INTO easywords VALUES (35,'aiutare','Soccorrere qualcuno in difficoltà.','');
+INSERT INTO easywords VALUES (36,'aspettare',"Essere o restare in attesa dell'arrivo di qualcuno o del verificarsi di qualcosa.",'');
+INSERT INTO easywords VALUES (37,'rimanere','Restare da qualche parte.','');
+INSERT INTO easywords VALUES (38,'lavandino','Vaschetta di ceramica collocata in genere nella stanza da bagno.','');
+INSERT INTO easywords VALUES (39,'ospitare','Accogliere qualcuno come ospite.','');
+INSERT INTO easywords VALUES (40,'esempio','Qualunque cosa o persona che possa essere presa come modello.','');
+INSERT INTO easywords VALUES (41,'tastiera',"Periferica di input destinata all'inserimento manuale di dati.",'');
+INSERT INTO easywords VALUES (42,'nascere','Venire alla luce.','');
+INSERT INTO easywords VALUES (43,'congelatore','Dispositivo dei frigoriferi per produrre e mantenere una bassa temperatura.','');
+INSERT INTO easywords VALUES (44,'giallo',"Il giallo è uno dei colori dello spettro che l'uomo riesce a vedere.",'');
+INSERT INTO easywords VALUES (45,'legno','Insieme di tessuti che costituiscono il tronco, i rami e le radici di alberi.','');
+INSERT INTO easywords VALUES (46,'crociera','Navigazione di una o più navi, circoscritta a un dato tratto di mare.','');
+INSERT INTO easywords VALUES (47,'lavanda','Olio che viene estratto da una pianta usata in terapia.','');
+INSERT INTO easywords VALUES (48,'potere','Essere in grado di fare qualcosa, avendone la capacità.','');
+INSERT INTO easywords VALUES (49,'autore','Chi crea, causa, determina qualcosa.','');
+INSERT INTO easywords VALUES (50,'carattere','Complesso di qualità psicologiche che costituiscono la personalità.','');
+INSERT INTO easywords VALUES (51,'pedana','Elemento rialzato, perlopiù in legno, che isola o innalza dal pavimento.','');
+INSERT INTO easywords VALUES (52,'ritrovare','Trovare qualcosa o qualcuno che si era smarrito.','');
+INSERT INTO easywords VALUES (53,'lavare','Rendere pulito qualcosa usando acqua.','');
+INSERT INTO easywords VALUES (54,'accarezzare','Fare carezze, lisciare con la mano qualcuno o qualcosa.','');
+INSERT INTO easywords VALUES (55,'sicuro','Che non comporta o non corre pericoli.','');
+INSERT INTO easywords VALUES (56,'poltrona','Sedile ampio e comodo, bene imbottito e munito di braccioli.','');
+INSERT INTO easywords VALUES (57,'genere','Insieme delle caratteristiche fondamentali che contraddistinguono una categoria.','');
+INSERT INTO easywords VALUES (58,'campo','Porzione di terreno coltivato o adibito a pascolo.','');
+INSERT INTO easywords VALUES (59,'figlio','Creatura umana rispetto a coloro che lo hanno generato.','');
+INSERT INTO easywords VALUES (60,'detersivo','Prodotto di uso domestico per il lavaggio di tessuti.','');
+INSERT INTO easywords VALUES (61,'estero','Che è fuori dai confini di uno stato o che da lì proviene.','');
+INSERT INTO easywords VALUES (62,'odore',"Sensazione trasmessa dall'olfatto.",'');
+INSERT INTO easywords VALUES (63,'padella','Utensile da cucina in metallo, tondo e basso, provvisto di un lungo manico.','');
+INSERT INTO easywords VALUES (64,'batteria',"Gruppo di fuoco dell'artiglieria costituito da quattro o sei pezzi di uguale calibro. ",'');
+INSERT INTO easywords VALUES (65,'margine','Parte estrema di una cosa.','');
+INSERT INTO easywords VALUES (66,'pompa','Allestimento solenne e fastoso approntato in occasione di cerimonie o feste.','');
+INSERT INTO easywords VALUES (67,'gruccia','Accessorio usato per reggere abiti.','');
+INSERT INTO easywords VALUES (68,'panchina',"Sedile per più persone posto all'aperto e fissato al terreno.",'');
+INSERT INTO easywords VALUES (69,'carta','Materiale igroscopico, costituito da materie prime prevalentemente vegetali.','');
+INSERT INTO easywords VALUES (70,'voglia','Impulso a soddisfare un desiderio o un bisogno.','');
+INSERT INTO easywords VALUES (71,'abboccare',"Detto dei pesci, afferrare l'esca.",'');
+INSERT INTO easywords VALUES (72,'accentrare','Riunire nello stesso luogo persone o servizi.','');
+INSERT INTO easywords VALUES (73,'conoscere','Possedere le nozioni e le esperienze necessarie.','');
+INSERT INTO easywords VALUES (74,'caffettiera','Recipiente per la preparazione del caffè.','');
+INSERT INTO easywords VALUES (75,'ricetta','Insieme di istruzioni per compiere un procedimento di trasformazione in generale.','');
+INSERT INTO easywords VALUES (76,'parola','Unità linguistica costituita da un insieme di suoni rappresentabili graficamente.','');
+INSERT INTO easywords VALUES (77,'orticante','Provoca al contatto una sensazione di irritazione o di forte bruciore sulla cute.','');
+INSERT INTO easywords VALUES (78,'usare','Fare uso, servirsi di qualcosa.','');
+INSERT INTO easywords VALUES (79,'volere','Essere intenzionato a ottenere qualcosa.','');
+INSERT INTO easywords VALUES (80,'diamante','Materiale simbolo della limpidezza.','');
+INSERT INTO easywords VALUES (81,'errore','Allontanamento dai principi logici.','');
+INSERT INTO easywords VALUES (82,'donna','Persona adulta di sesso femminile.','');
+INSERT INTO easywords VALUES (83,'latte','Liquido bianco opaco prodotto per secrezione dalle ghiandole mammarie delle femmine dei mammiferi.','');
+INSERT INTO easywords VALUES (84,'animale','Sono un regno del dominio degli eucarioti.','');
+INSERT INTO easywords VALUES (85,'avere','Essere in possesso di beni materiali.','');
+INSERT INTO easywords VALUES (86,'sorriso','Riso appena accennato, con un lieve movimento delle labbra.','');
+INSERT INTO easywords VALUES (87,'pranzo','Il pasto che viene consumato intorno a mezzogiorno.','');
+INSERT INTO easywords VALUES (88,'aderenza','Coesione perfetta tra due superfici combacianti.','');
+INSERT INTO easywords VALUES (89,'scoprire','Togliere ciò che copre una cosa.','');
+INSERT INTO easywords VALUES (90,'piano','Che è privo di rilievi, sporgenze.','');
+INSERT INTO easywords VALUES (91,'mobile','Che può essere mosso, spostato.','');
+INSERT INTO easywords VALUES (92,'stato','Condizione, modo di essere o di trovarsi.','');
+INSERT INTO easywords VALUES (93,'superiore','Che sta più in alto, che sta sopra.','');
+INSERT INTO easywords VALUES (94,'basso','Di altezza non elevata o inferiore alla media.','');
+INSERT INTO easywords VALUES (95,'consigliare',' Suggerire qqualcosa a qualcuno','');
+INSERT INTO easywords VALUES (96,'presenza','Fatto che una persona si trovi in un luogo.','');
+INSERT INTO easywords VALUES (97,'fortuna','Sorte buona o cattiva.','');
+INSERT INTO easywords VALUES (98,'piscina',"Vasca piena d'acqua adibita a vari usi.",'');
+INSERT INTO easywords VALUES (99,'accettato','Ricevuto qualcosa con pieno consenso.','');
+INSERT INTO easywords VALUES (100,'lotta','Scontro violento fra due parti.','');
+INSERT INTO easywords VALUES (101,'abitabile','Che si può abitare.','');
+INSERT INTO easywords VALUES (102,'tornare','Presentarsi, manifestarsi di nuovo.','');
+INSERT INTO easywords VALUES (103,'tenere','Trattenere, afferrare qualcuno o qualcosa.','');
+INSERT INTO easywords VALUES (104,'piantare','Mettere nella terra semi o piantine perché attecchiscano.','');
+INSERT INTO easywords VALUES (105,'pieno','Che è stato riempito in modo da non poter più contenere nulla.','');
+INSERT INTO easywords VALUES (106,'arrivare','Manifestarsi, presentarsi.','');
+INSERT INTO easywords VALUES (107,'legare','Avvolgere strettamente qualcuno o qualcosa.','');
+INSERT INTO easywords VALUES (108,'secolo','Periodo di tempo di cento anni.','');
+INSERT INTO easywords VALUES (109,'pacchetto','Confezione, involucro di piccole dimensioni.','');
+INSERT INTO easywords VALUES (110,'scuola','Istituzione educativa che ha il compito di insegnare.','');
+INSERT INTO easywords VALUES (111,'musica','Arte e tecnica della combinazione dei suoni.','');
+INSERT INTO easywords VALUES (112,'accordare',"Mettere d'accordo due o più cose o persone",'');
+INSERT INTO easywords VALUES (113,'perfetto','Completo, compiuto in tutte le sue parti.','');
+INSERT INTO easywords VALUES (114,'olfattivo','Senso che permette di percepire e distinguere gli odori.','');
+INSERT INTO easywords VALUES (115,'pilota','Chi guida un mezzo per il quale occorre una preparazione speciale.','');
+INSERT INTO easywords VALUES (116,'parare','Addobbare, ornare qualcosa con i paramenti.','');
+INSERT INTO easywords VALUES (117,'politica',"Arte, scienza del governo e dell'amministrazione dello Stato.",'');
+INSERT INTO easywords VALUES (118,'armare','Fornire qualcuno di armi.','');
+INSERT INTO easywords VALUES (119,'teatro','Costruzione adibita alla rappresentazione di opere drammatiche.','');
+INSERT INTO easywords VALUES (120,'parrucca','Capigliatura posticcia, di capelli veri o finti.','');
+INSERT INTO easywords VALUES (121,'piumino','Piuma degli uccelli.','');
+INSERT INTO easywords VALUES (122,'acquistare','Ottenere la proprietà di qualcosa mediante pagamento ','');
+INSERT INTO easywords VALUES (123,'dirigere','Rivolgere qualcosa in una direzione.','');
+INSERT INTO easywords VALUES (124,'pericolo','Probabilità di danno, possibilità di evento rischioso.','');
+INSERT INTO easywords VALUES (125,'ricco','Che dispone di beni e mezzi economici in abbondanza.','');
+INSERT INTO easywords VALUES (126,'ostentare','Esporre qualcosa con insistenza e vanto.','');
+INSERT INTO easywords VALUES (127,'secondo','Numero cardinale due.','');
+INSERT INTO easywords VALUES (128,'servizio','Prestazione di lavoro domestico in case private.','');
+INSERT INTO easywords VALUES (129,'tovaglia','Capo di tessuto o di plastica che si stende sulla tavola.','');
+INSERT INTO easywords VALUES (130,'ambiente','Spazio e complesso delle condizioni che consentono la vita.','');
+INSERT INTO easywords VALUES (131,'paracadute',"Dispositivo per frenare la caduta di un corpo nell'aria.",'');
+INSERT INTO easywords VALUES (132,'partecipare','Prendere parte a qualcosa.','');
+INSERT INTO easywords VALUES (133,'panettone','Dolce natalizio.','');
+INSERT INTO easywords VALUES (134,'scoppiare','Spaccarsi improvvisamente in più pezzi.','');
+INSERT INTO easywords VALUES (135,'nastro','Striscia di tessuto, solitamente usata per guarnizioni e orlature.','');
+INSERT INTO easywords VALUES (136,'lampadario', "Apparecchio per l'illuminazione artificiale.",'');
+INSERT INTO easywords VALUES (137,'borsa','Mercato dove vengono scambiati valori mobiliari.','');
+INSERT INTO easywords VALUES (138,'stanza','Ambienti interni di un edificio.','');
+INSERT INTO easywords VALUES (139,'pedata','Impronta, orma lasciata dal piede.','');
+INSERT INTO easywords VALUES (140,'contenere','Tenere dentro di sé, racchiudere qualcosa.','');
+INSERT INTO easywords VALUES (141,'purgatorio','Lo stato temporaneo di espiazione cui sono assoggettate le anime','');
+INSERT INTO easywords VALUES (142,'ricerca','Attività finalizzata a trovare o scoprire qualcuno o qualcosa.','');
+INSERT INTO easywords VALUES (143,'fresco','Di un freddo moderato e piacevole.','');
+INSERT INTO easywords VALUES (144,'adorazione','Venerare una divinità.','');
+INSERT INTO easywords VALUES (145,'togliere','Levare via qualcuno o qualcosa da un posto.','');
+INSERT INTO easywords VALUES (146,'testa',"Parte del corpo, superiore nell'uomo.",'');
+INSERT INTO easywords VALUES (147,'vestire','Coprire qualcosa con abiti.','');
+INSERT INTO easywords VALUES (148,'correre','Andare velocemente.','');
+INSERT INTO easywords VALUES (149,'scendere','Fermarsi in un posto durante o dopo un viaggio.','');
+INSERT INTO easywords VALUES (150,'palato','Privo di peli o di capelli.','');
+INSERT INTO easywords VALUES (151,'parlare','Articolare suoni, manifestare con la voce la facoltà del linguaggio.','');
+INSERT INTO easywords VALUES (152,'foresta','Vasta zona non antropizzata dove la vegetazione naturale.','');
+INSERT INTO easywords VALUES (153,'cartello','Accordo tra più produttori indipendenti di un bene.','');
+INSERT INTO easywords VALUES (154,'camera','Ambiente abitativo in una casa.','');
+INSERT INTO easywords VALUES (155,'parere','Sembrare a qualcuno in maniera non certa.','');
+INSERT INTO easywords VALUES (156,'pietra','Massa di roccia compatta.','');
+INSERT INTO easywords VALUES (157,'avvenire','Detto di un evento, avere luogo.','');
+INSERT INTO easywords VALUES (158,'parallelo','Rette complanari che non hanno punti in comune.','');
+INSERT INTO easywords VALUES (159,'detergente','Miscela di sostanze chimiche per rimuovere lo sporco.','');
+INSERT INTO easywords VALUES (160,'commercio','Attività consistente nel comperare e vendere prodotti.','');
+INSERT INTO easywords VALUES (161,'scappare','Fuggire da un certo posto.','');
+INSERT INTO easywords VALUES (162,'contrario','Che è in opposizione a qualcosa o a qualcuno.','');
+INSERT INTO easywords VALUES (163,'rendere',"Restituire, riconsegnare qualcosa a qualcuno che l'ha perso ",'');
+INSERT INTO easywords VALUES (164,'pentirsi','Provare rimorso per qualcosa di male che si è compiuto.','');
+INSERT INTO easywords VALUES (165,'osteggiare','Ostacolare, contrastare qualcuno o qualcosa.','');
+INSERT INTO easywords VALUES (166,'bilancia','Strumento usato per misurare il peso di un corpo.','');
+INSERT INTO easywords VALUES (167,'baratto','Scambiare un oggetto con un altro.','');
+INSERT INTO easywords VALUES (168,'normale','Riferibile alla norma, alla consuetudine.','');
+INSERT INTO easywords VALUES (169,'fabbrica','Luogo di produzione di manufatti industriali.','');
+INSERT INTO easywords VALUES (170,'sigaretta','Cilindretto di carta sottile contenente tabacco trinciato.','');
+INSERT INTO easywords VALUES (171,'attenzione','Concentrazione dei sensi e della mente su un oggetto.','');
+INSERT INTO easywords VALUES (172,'cassetto','Elemento formato da un piano di fondo e da quattro bordi.','');
+INSERT INTO easywords VALUES (173,'rappresentare','Riprodurre, raffigurare la realtà con figure disegnate.','');
+INSERT INTO easywords VALUES (174,'omaggiare',"L'insieme delle operazioni di nautica.",'');
+INSERT INTO easywords VALUES (175,'abbonato','Contrarre un abbonamento a un servizio.','');
+INSERT INTO easywords VALUES (176,'abbinare','Riunire a coppie più persone o cose affini.','');
+INSERT INTO easywords VALUES (177,'onorare','Trattare qualcuno con onore e stima.','');
+INSERT INTO easywords VALUES (178,'pubblico','Che riguarda, interessa tutti i cittadini.','');
+INSERT INTO easywords VALUES (179,'carte','Fogli di carta o plastificato usate per giocare.','');
+INSERT INTO easywords VALUES (180,'fretta','Necessità di fare presto.','');
+INSERT INTO easywords VALUES (181,'ordinare','Disporre qualcosa o qualcuno in ordine.','');
+INSERT INTO easywords VALUES (182,'addormentare','Far prendere sonno a qualcuno.','');
+INSERT INTO easywords VALUES (183,'imparare',"Acquisire conoscenze o capacità con lo studio o l'esercizio.",'');
+INSERT INTO easywords VALUES (184,'ostile','Che ha o denota avversione.','');
+INSERT INTO easywords VALUES (185,'vendere','Cedere ad altri la proprietà di un bene.','');
+INSERT INTO easywords VALUES (186,'presente','Che prende parte a qualcosa.','');
+INSERT INTO easywords VALUES (187,'peggio','In modo qualitativamente più scadente.','');
+INSERT INTO easywords VALUES (188,'assicurare','Rendere sicuro qualcosa.','');
+INSERT INTO easywords VALUES (189,'pancia','Addome, ventre umano o animale.','');
+INSERT INTO easywords VALUES (190,'finire',"Terminare, concludere un'attività.",'');
+INSERT INTO easywords VALUES (191,'pensare','Volgere il pensiero a qualcuno o a qualcosa.','');
+INSERT INTO easywords VALUES (192,'parete',' Struttura verticale che delimita spazi contigui.','');
+INSERT INTO easywords VALUES (193,'girare','Circondare qualcosa, correre intorno a qualcosa.','');
+INSERT INTO easywords VALUES (194,'accessori','Che si accompagna a una cosa principale.','');
+INSERT INTO easywords VALUES (195,'colla','Qualunque sostanza tenace e viscosa usata per attaccare.','');
+INSERT INTO easywords VALUES (196,'passante','Che passa, oltrepassa, cammina.','');
+INSERT INTO easywords VALUES (197,'amico','Che dimostra o denota solidarietà.','');
+INSERT INTO easywords VALUES (198,'forte','Dotato di energia muscolare.','');
+INSERT INTO easywords VALUES (199,'tempo','Dimensione nella quale si concepisce e si misura il trascorrere degli eventi.','');
+INSERT INTO easywords VALUES (200,'abilitato','Autorizzare, rendere abile qualcuno a una professione.','');
+INSERT INTO easywords VALUES (201,'medico','Chi esercita la professione medica.','');
+INSERT INTO easywords VALUES (202,'acconto','Parte di un pagamento che viene anticipata prima della conclusione di un lavoro.','');
+INSERT INTO easywords VALUES (203,'divenire','Assumere una qualità, una condizione o un ruolo diversi dai precedenti.','');
+INSERT INTO easywords VALUES (204,'fiducia','Sensazione di sicurezza basata sulla speranza o sulla stima riposta in qualcuno o qualcosa.','');
+INSERT INTO easywords VALUES (205,'ospizio','Luogo in cui sono ricoverate persone anziane bisognose di assistenza.','');
+INSERT INTO easywords VALUES (206,'ripieno','Completamente pieno, ricolmo.','');
+INSERT INTO easywords VALUES (207,'merito','Diritto alla stima, alla riconoscenza.','');
+INSERT INTO easywords VALUES (208,'sorprendere',"Cogliere qualcuno all'improvviso",'');
+INSERT INTO easywords VALUES (209,'articolo','Particella grammaticale che si aggiunge al nome.','');
+INSERT INTO easywords VALUES (210,'abbandonare','Lasciare definitivamente luoghi o persone.','');
+INSERT INTO easywords VALUES (211,'morale',"L'insieme dei principi generali che guidano il nostro comportamento.",'');
+INSERT INTO easywords VALUES (212,'grave','Dotato di peso.','');
+INSERT INTO easywords VALUES (213,'abbondante','Che è in grande quantità.','');
+INSERT INTO easywords VALUES (214,'intenzione',"Proposito di attuare un'azione",'');
+INSERT INTO easywords VALUES (215,'costruire','Ideare ed eseguire, fabbricare un manufatto.','');
+INSERT INTO easywords VALUES (216,'percorso','Spostamento lungo un itinerario a piedi.','');
+INSERT INTO easywords VALUES (217,'bravo','Contrario del selvaggio e del malvagio.','');
+INSERT INTO easywords VALUES (218,'cielo',"Spazio siderale percepibile, di colore variabile a causa dell'atmosfera terrestre.",'');
+INSERT INTO easywords VALUES (219,'compagno','Chi fa qualcosa insieme con altri.','');
+INSERT INTO easywords VALUES (220,'trascinare','Tirare qualcosa facendolo strisciare per terra.','');
+INSERT INTO easywords VALUES (221,'produzione','Operazione, processo grazie ai quali qualcosa prende forma.','');
+INSERT INTO easywords VALUES (222,'vasto','Che è molto ampio, esteso.','');
+INSERT INTO easywords VALUES (223,'durare','Protrarsi da, per o fino a un certo tempo','');
+INSERT INTO easywords VALUES (224,'marito','Uomo sposato.','');
+INSERT INTO easywords VALUES (225,'comodino','Piccolo cassettone, munito di sportello e di cassetto.','');
+INSERT INTO easywords VALUES (226,'comprendere','Contenere in sé, racchiudere, includere qualcosa.','');
+INSERT INTO easywords VALUES (227,'leggero','Che pesa poco.','');
+INSERT INTO easywords VALUES (228,'silenzio','Assenza di ogni forma di rumore.','');
+INSERT INTO easywords VALUES (229,'strano','Di persona, che pensa e agisce in maniera fuori del comune, anomala.','');
+INSERT INTO easywords VALUES (230,'furioso','Che si abbandona ad atti violenti.','');
+INSERT INTO easywords VALUES (231,'agente',"Chi svolge un'attività per conto di altri.",'');
+INSERT INTO easywords VALUES (232,'occasione','Caso che consente o favorisce qualcosa.','');
+INSERT INTO easywords VALUES (233,'gatto','Piccolo felino, dal corpo agile e flessuoso.','');
+INSERT INTO easywords VALUES (234,'rispondere','Replicare a qualcosa o a qualcuno.','');
+INSERT INTO easywords VALUES (235,'bicchiere','Piccolo recipiente di varie fogge usato per bere.','');
+INSERT INTO easywords VALUES (236,'accadere','Succedere, capitare casualmente a qualcuno.','');
+INSERT INTO easywords VALUES (237,'sapere','Essere o venire a conoscenza di qualcosa.','');
+INSERT INTO easywords VALUES (238,'spina','Escrescenza rigida e acuminata.','');
+INSERT INTO easywords VALUES (239,'pentola','Recipiente da cucina, perlopiù in metallo.','');
+INSERT INTO easywords VALUES (240,'immaginare','Rappresentare, raffigurare immagini nella mente.','');
+INSERT INTO easywords VALUES (241,'piacere','Sensazione di appagamento fisico.','');
+INSERT INTO easywords VALUES (242,'natura',"L'insieme di tutte le cose esistenti considerato nella sua forma complessiva.",'');
+INSERT INTO easywords VALUES (243,'prendere','Afferrare, stringere qualcuno o qualcosa.','');
+INSERT INTO easywords VALUES (244,'spettacolo','Rappresentazione scenica o cinematografica.','');
+INSERT INTO easywords VALUES (245,'attrezzo',"Qualsiasi cosa preparata ad arte che serve per compiere convenientemente un'attività.",'');
+INSERT INTO easywords VALUES (246,'materasso','Ampio contenitore squadrato di forma rettangolare.','');
+INSERT INTO easywords VALUES (247,'imbuto','Arnese di forma conica terminante con un cannello.','');
+INSERT INTO easywords VALUES (248,'accendere','Fare ardere qualcosa.','');
+INSERT INTO easywords VALUES (249,'orrendo','Che fa orrore, che suscita raccapriccio per le sue caratteristiche crudeli.','');
+INSERT INTO easywords VALUES (250,'chiedere','Domandare qualcosa o qualcuno per ottenerlo.','');
+INSERT INTO easywords VALUES (251,'soffrire','Detto di persona, provare dolore fisico o morale.','');
+INSERT INTO easywords VALUES (252,'muovere',"Iniziare un'azione contro qualcuno.",'');
+INSERT INTO easywords VALUES (253,'accogliere','Ricevere qualcuno.','');
+INSERT INTO easywords VALUES (254,'abilitata','Autorizzare, rendere abile qualcuno.','');
+INSERT INTO easywords VALUES (255,'ortaggio','Persona che forze militari nemiche o gruppi criminali.','');
+INSERT INTO easywords VALUES (256,'bestia',"L'animale in genere, con esclusione dell'uomo.",'');
+INSERT INTO easywords VALUES (257,'svegliare','Destare qualcuno, interromperne il sonno.','');
+INSERT INTO easywords VALUES (258,'piano',"Giovane che ostenta un'eleganza ricercata ma di cattivo gusto",'');
+INSERT INTO easywords VALUES (259,'immagine',"Forma con la quale una cosa appare a chi la guarda.",'');
+INSERT INTO easywords VALUES (260,'torta','Vivanda dolce caratterizzata dalla forma schiacciata e generalmente tonda.','');
+INSERT INTO easywords VALUES (261,'figlia','Prole di sesso femminile.','');
+INSERT INTO easywords VALUES (262,'coprire',"Mettere una cosa sopra un'altra per chiuderla.",'');
+INSERT INTO easywords VALUES (263,'provare','Sottoporre qualcosa a prova.','');
+INSERT INTO easywords VALUES (264,'stanco','Privo di forze, di energia, a causa di un affaticamento fisico o mentale.','');
+INSERT INTO easywords VALUES (265,'nazionale','Della nazione, proprio di una nazione.','');
+INSERT INTO easywords VALUES (266,'cornetto','Amuleto a forma di piccolo corno.','');
+INSERT INTO easywords VALUES (267,'dolore','Sensazione fisica che dà pena, che provoca malessere.','');
+INSERT INTO easywords VALUES (268,'partenza','Fase iniziale dello spostamento da un luogo per un altro.','');
+INSERT INTO easywords VALUES (269,'inutile','Che non serve perché superfluo, inefficace o inutilizzabile.','');
+INSERT INTO easywords VALUES (270,'ritornare','Ricominciare a fare qualcosa.','');
+INSERT INTO easywords VALUES (271,'nebbia','Fenomeno meteorologico per il quale una nube si forma a contatto con il suolo.','');
+INSERT INTO easywords VALUES (272,'netto','Completamente mondo da ogni sporcizia.','');
+INSERT INTO easywords VALUES (273,'neutro','Che tra due cose opposte o contrastanti.','');
+INSERT INTO easywords VALUES (274,'vento',"Movimento di una massa d'aria.",'');
+INSERT INTO easywords VALUES (275,'ferro','Elemento chimico.','');
+INSERT INTO easywords VALUES (276,'denaro','Nome collettivo per designare soldi, quattrini.','');
+INSERT INTO easywords VALUES (277,'pubblico','Che riguarda, interessa tutti i cittadini.','');
+INSERT INTO easywords VALUES (278,'candela','Cilindro di cera.','');
+INSERT INTO easywords VALUES (279,'accademia','Associazione pubblica o privata regolata da statuti per sviluppare gli studi.','');
+INSERT INTO easywords VALUES (280,'oscuro','Senza luce o scarsamente illuminato','');
+INSERT INTO easywords VALUES (281,'noleggio','Contratto con cui si cede in uso provvisorio un mezzo di trasporto.','');
+INSERT INTO easywords VALUES (282,'intero','A cui nulla è stato sottratto.','');
+INSERT INTO easywords VALUES (283,'orario','Il tempo, computato in ore.','');
+INSERT INTO easywords VALUES (284,'maggiore','Più grande, superiore.','');
+INSERT INTO easywords VALUES (285,'sogno','Fenomeno psichico legato al sonno.','');
+INSERT INTO easywords VALUES (286,'tagliacarte','Arnese da scrivania a forma di coltello usato per tagliare fogli di carta.','');
+INSERT INTO easywords VALUES (287,'amore','Affetto intenso, assiduo, fortemente radicato per qualcuno.','');
+INSERT INTO easywords VALUES (288,'esercito','Insieme di uomini istruiti ed equipaggiati per la guerra.','');
+INSERT INTO easywords VALUES (289,'ricordare','Avere presente nella memoria, rammentare qualcosa o qualcuno.','');
+INSERT INTO easywords VALUES (290,'abito','Indumento che si porta sopra la biancheria.','');
+INSERT INTO easywords VALUES (291,'rosso',"Primo colore dell'arcobaleno.",'');
+INSERT INTO easywords VALUES (292,'ragazzo',"Uomo giovane di età compresa fra l'adolescenza e la giovinezza ",'');
+INSERT INTO easywords VALUES (293,'guanti','Accessorio che copre la mano aderendovi perfettamente.','');
+INSERT INTO easywords VALUES (294,'paura','Sensazione di forte preoccupazione.','');
+INSERT INTO easywords VALUES (295,'confronto','Esame comparato di due o più entità.','');
+INSERT INTO easywords VALUES (296,'mangiare','Ingerire, masticando e deglutendo, una sostanza solida.','');
+INSERT INTO easywords VALUES (297,'strada','Fascia di terreno spianato, perlopiù pavimentato o asfaltato.','');
+INSERT INTO easywords VALUES (298,'stare','Trovarsi o restare in un dato luogo.','');
+INSERT INTO easywords VALUES (299,'penisola','Territorio che sporge da un continente protendendosi nel mare .','');
+INSERT INTO easywords VALUES (300,'monte','Rilievo geomorfologico più alto della collina.','');
+INSERT INTO easywords VALUES (301,'sistema','Connessione di elementi.','');
+INSERT INTO easywords VALUES (302,'abitazione',"Luogo o costruzione dove l'uomo risiede.",'');
+INSERT INTO easywords VALUES (303,'lampadina','Lampada elettrica di potenza relativamente limitata.','');
+INSERT INTO easywords VALUES (304,'medio','Normale, che si trova a metà tra due estremi.','');
+INSERT INTO easywords VALUES (305,'palpare','Toccare insistentemente con la mano aperta.','');
+INSERT INTO easywords VALUES (306,'bambino',"L'individuo umano nell'età compresa tra la nascita e l'inizio della fanciullezza.",'');
+INSERT INTO easywords VALUES (307,'ghiaccio',"Stato solido dell'acqua.",'');
+INSERT INTO easywords VALUES (308,'nazionale',"Pertinente all'ambito della nazione.",'');
+INSERT INTO easywords VALUES (309,'riuscire','Di un fatto, concludersi in modo conforme.','');
+INSERT INTO easywords VALUES (310,'condizione','Costituisce il presupposto necessario perché qualcosa debba aver luogo.','');
+INSERT INTO easywords VALUES (311,'ottagono','Poligono piano avente otto lati.','');
+INSERT INTO easywords VALUES (312,'venire','Arrivare da un luogo, provenire.','');
+INSERT INTO easywords VALUES (313,'accesso','La possibilità o il diritto di accedere a un luogo o a una professione.','');
+INSERT INTO easywords VALUES (314,'abbassato','Spostato verso il basso.','');
+INSERT INTO easywords VALUES (315,'cestino','Recipiente per rifiuti.','');
+INSERT INTO easywords VALUES (316,'ridurre','Rendere inferiore di numero, diminuire.','');
+INSERT INTO easywords VALUES (317,'avvicinare','Mettere più vicino, accostare.','');
+INSERT INTO easywords VALUES (318,'poesia',"L'espressione metaforica di contenuti umani",'');
+INSERT INTO easywords VALUES (319,'guardare','Soffermare, volgere lo sguardo su qualcosa o su qualcuno.','');
+INSERT INTO easywords VALUES (320,'restare',"Fermarsi in un luogo, anche per svolgere un'attività.",'');
+INSERT INTO easywords VALUES (321,'materia','Entità provvista di una propria consistenza fisica, dotata di peso.','');
+INSERT INTO easywords VALUES (322,'amaro',"Uno dei quattro sapori fondamentali.",'');
+INSERT INTO easywords VALUES (323,'pericoloso','Che comporta rischi e pericoli.','');
+INSERT INTO easywords VALUES (324,'ostaggio','Persona che si offre alla parte nemica o è da questa catturata.','');
+INSERT INTO easywords VALUES (325,'sembrare',"Avere l'aspetto di qualcos'altro, assomigliare.",'');
+INSERT INTO easywords VALUES (326,'ventola','Arnese per ravvivare il fuoco.','');
+INSERT INTO easywords VALUES (327,'lettera','Comunicazione scritta da inviare a qualcuno.','');
+INSERT INTO easywords VALUES (328,'aprire','Rendere accessibile.','');
+INSERT INTO easywords VALUES (329,'energia','Capacità che un corpo ha di compiere lavoro.','');
+INSERT INTO easywords VALUES (330,'pantofola','Calzatura morbida e leggera, che copre interamente il piede.','');
+INSERT INTO easywords VALUES (331,'cittadino','Proprio della città e della vita che vi si svolge.','');
+INSERT INTO easywords VALUES (332,'buttare','Spingere, far cadere.','');
+INSERT INTO easywords VALUES (333,'speranza','Attesa fiduciosa, più o meno giustificata.','');
+INSERT INTO easywords VALUES (334,'contento','Visibilmente lieto, allegro.','');
+INSERT INTO easywords VALUES (335,'presentare','Mostrare qualcosa ad altri in modo che venga esaminato.','');
+INSERT INTO easywords VALUES (336,'accendino','Accendisigari tascabile.','');
+INSERT INTO easywords VALUES (337,'foglia','Organo ad accrescimento limitato delle piante.','');
+INSERT INTO easywords VALUES (338,'filetto','Sottile ornamento filiforme.','');
+INSERT INTO easywords VALUES (339,'massimo','Il punto più alto, la quantità più grande possibile.','');
+INSERT INTO easywords VALUES (340,'piccante','Di sapore acuto e pungente.','');
+INSERT INTO easywords VALUES (341,'evitare','Fare a meno di una cosa ritenuta dannosa o fastidiosa.','');
+INSERT INTO easywords VALUES (342,'cucina','Ambiente riservato e attrezzato per la preparazione e la cottura dei cibi.','');
+INSERT INTO easywords VALUES (343,'occupare','Prendere possesso di un luogo imponendovi la propria presenza legittimamente o meno.','');
+INSERT INTO easywords VALUES (344,'uguale','Che si trova in condizioni di parità rispetto a un criterio comparativo.','');
+INSERT INTO easywords VALUES (345,'telefono','Dispositivo che permette la trasmissione a distanza di voci e suoni.','');
+INSERT INTO easywords VALUES (346,'palestra','Locale attrezzato per lo svolgimento di esercizi atletici o ginnici.','');
+INSERT INTO easywords VALUES (347,'nemico','Chi si atteggia o si comporta in modo da provocare il danno e la sconfitta altrui.','');
+INSERT INTO easywords VALUES (348,'orologio','Strumento atto a misurare intervalli di tempo, in ore, minuti e secondi.','');
+INSERT INTO easywords VALUES (349,'moglie','Il coniuge di sesso femminile.','');
+INSERT INTO easywords VALUES (350,'futuro','Relativo al corso del tempo successivo al presente.','');
+INSERT INTO easywords VALUES (351,'adesione','Contatto stabile ottenuto naturalmente o artificialmente; aderenza.','');
+INSERT INTO easywords VALUES (352,'unire','Mettere insieme più elementi in modo che costituiscano o appaiano un tutto unico.','');
+INSERT INTO easywords VALUES (353,'colpo','Percossa, urto tra due o più corpi.','');
+INSERT INTO easywords VALUES (354,'famoso',"Universalmente noto per l'eccezionalità degli aspetti positivi o negativi che presenta.",'');
+INSERT INTO easywords VALUES (355,'domanda',"L'insieme delle parole con cui si esprime la richiesta di qualcosa.",'');
+INSERT INTO easywords VALUES (356,'parente','La persona in quanto termine di un rapporto di parentela.','');
+INSERT INTO easywords VALUES (357,'porta','Facchino, portatore.','');
+INSERT INTO easywords VALUES (358,'scorrere','Avanzare, spostarsi lungo un condotto, una sede o una guida.','');
+INSERT INTO easywords VALUES (359,'riempire',"Rendere pieno ciò che è vuoto o libero, colmare.",'');
+INSERT INTO easywords VALUES (360,'sperare','Confidare nella possibilità che si realizzi qualcosa ritenuto positivo.','');
+INSERT INTO easywords VALUES (361,'otturare','Chiudere completamente, ostruire, tappare.','');
+INSERT INTO easywords VALUES (362,'inverno',"La quarta stagione dell'anno.",'');
+INSERT INTO easywords VALUES (363,'brutto','Che riesce sgradevole o suscita contrarietà o repulsione.','');
+INSERT INTO easywords VALUES (364,'particella','Frazione o entità concreta, minuta o minima.','');
+INSERT INTO easywords VALUES (365,'pacifico','Amante della tranquillità o anche della placidità.','');
+INSERT INTO easywords VALUES (366,'grosso','Difficile o faticoso ad affrontarsi o a sopportarsi.','');
+INSERT INTO easywords VALUES (367,'giorno','Tempo impiegato dalla Terra per compiere una rotazione completa attorno al proprio asse.','');
+INSERT INTO easywords VALUES (368,'nodulo','Piccola formazione tondeggiante cutanea o dei tessuti più profondi.','');
+INSERT INTO easywords VALUES (369,'lasagna','Pasta alimentare tagliata a larghe strisce.','');
+INSERT INTO easywords VALUES (370,'cuscino','Involucro di tessuto, riempito di lana.','');
+INSERT INTO easywords VALUES (371,'partire','Allontanarsi da un luogo per arrivare a un altro.','');
+INSERT INTO easywords VALUES (372,'palco','Ripiano costituito da una serie di assi e travi fra loro connesse.','');
+INSERT INTO easywords VALUES (373,'desiderare','Avvertire la mancanza, sentire il bisogno di qualcosa.','');
+INSERT INTO easywords VALUES (374,'dimenticare','Cancellare dalla memoria, non ricordare più, scordare.','');
+INSERT INTO easywords VALUES (375,'fermare','Bloccare, arrestare un oggetto, un animale o un veicolo in movimento.','');
+INSERT INTO easywords VALUES (376,'trattare','Prendere in esame un argomento per scritto o a voce, affrontare.','');
+INSERT INTO easywords VALUES (377,'madre','La donna che ha concepito e partorito.','');
+INSERT INTO easywords VALUES (378,'neutrale','Estraneo a un conflitto internazionale.','');
+INSERT INTO easywords VALUES (379,'dottore','Chi ha compiuto gli studi universitari e discussa una tesi.','');
+INSERT INTO easywords VALUES (380,'lavapiatti','Addetto a lavare le stoviglie in alberghi.','');
+INSERT INTO easywords VALUES (381,'pendolo','Sistema fisico costituito da un filo inestensibile e da una massa.','');
+INSERT INTO easywords VALUES (382,'crescere','Aumentare progressivamente di proporzioni.','');
+INSERT INTO easywords VALUES (383,'poeta','Autore di componimenti poetici.','');
+INSERT INTO easywords VALUES (384,'carne','La parte muscolare e dei tessuti molli del corpo umano.','');
+INSERT INTO easywords VALUES (385,'sognare','Vedere, immaginare in sogno.','');
+INSERT INTO easywords VALUES (386,'agitato','Inquieto, turbato, eccitato.','');
+INSERT INTO easywords VALUES (387,'gioco','Qualsiasi esercizio, singolo o collettivo, cui si dedichino bambini o adulti per passatempo.','');
+INSERT INTO easywords VALUES (388,'discorso','Manifestazione del proprio pensiero.','');
+INSERT INTO easywords VALUES (389,'tazza',"Piccolo recipiente per l'assunzione di liquidi.",'');
+INSERT INTO easywords VALUES (390,'differenza','Condizione per cui una o più cose si trovano in totale o parziale diversità.','');
+INSERT INTO easywords VALUES (391,'giardino','Porzione di terreno coltivata a piante ornamentali.','');
+INSERT INTO easywords VALUES (392,'piangere','Lacrimare per il dolore, per la commozione.','');
+INSERT INTO easywords VALUES (393,'abate','Il superiore di un monastero autonomo eletto dagli stessi monaci.','');
+INSERT INTO easywords VALUES (394,'bagno',"Immersione prolungata nell'acqua o in altro liquido.",'');
+INSERT INTO easywords VALUES (395,'circuito','Tracciato, percorso.','');
+INSERT INTO easywords VALUES (396,'notizia',"Oggetto di comunicazione o diffusione, ritenuto importante per l'interpretazione di fatti.",'');
+INSERT INTO easywords VALUES (397,'penitenziario','Stabilimento carcerario.','');
+INSERT INTO easywords VALUES (398,'piede',"Parte terminale degli arti inferiori dell'uomo.",'');
+INSERT INTO easywords VALUES (399,'saltare','Staccarsi da terra in una successione di movimenti comprendente lo slancio.','');
+INSERT INTO easywords VALUES (400,'abitare','Risiedere in un luogo.','');
+INSERT INTO easywords VALUES (401,'sedia',"Elemento di arredo.",'');
+INSERT INTO easywords VALUES (402,'fuoco','Sviluppo di calore e di luce sotto forma di fiamma.','');
+INSERT INTO easywords VALUES (403,'elica','Organo propulsore di mezzi navali e aerei.','');
+INSERT INTO easywords VALUES (404,'pensiero',"Attività psichica e intellettuale attraverso cui l'uomo elabora concetti.",'');
+INSERT INTO easywords VALUES (405,'popolo','Collettività relativamente omogenea di uomini accomunati da lingua, cultura, origini, tradizioni.','');
+INSERT INTO easywords VALUES (406,'acqua','Composto chimico di due atomi di idrogeno e uno di ossigeno, incolore, inodore, insapore. ','');
+INSERT INTO easywords VALUES (407,'determinare','Stabilire esattamente i termini.','');
+INSERT INTO easywords VALUES (408,'fiume',"Corso d'acqua dolce a regime costante.",'');
+INSERT INTO easywords VALUES (409,'vicino','Situato a breve distanza.','');
+INSERT INTO easywords VALUES (410,'interessare',"Essere d'interesse per qualcuno.",'');
+INSERT INTO easywords VALUES (411,'escludere','Lasciare fuori','');
+INSERT INTO easywords VALUES (412,'conto','Operazione aritmetica.','');
+INSERT INTO easywords VALUES (413,'povero','Che ha scarsa disponibilità di beni materiali e di denaro.','');
+INSERT INTO easywords VALUES (414,'stella',' Che ha scarsa disponibilità di beni materiali e di denaro.','');
+INSERT INTO easywords VALUES (415,'epoca','Periodo storico di una certa lunghezza.','');
+INSERT INTO easywords VALUES (416,'volto','Faccia, aspetto.','');
+INSERT INTO easywords VALUES (417,'dimostrare','Provare una verità con un ragionamento logico o con prove di fatto.','');
+INSERT INTO easywords VALUES (418,'giornale','Pubblicazione giornaliera a stampa che informa sugli avvenimenti politici, culturali, sportivi, ecc.','');
+INSERT INTO easywords VALUES (419,'veloce','Che si sposta o è capace di muoversi e spostarsi con rapidità.','');
+INSERT INTO easywords VALUES (420,'ospite',"Chi accoglie in casa propria una persona; la persona accolta in casa d'altri.",'');
+INSERT INTO easywords VALUES (421,'papera','Femmina del papero, oca giovane.','');
+INSERT INTO easywords VALUES (422,'figura','Forma esterna di qualcosa, come appare alla vista.','');
+INSERT INTO easywords VALUES (423,'resistere',"Opporsi a un'azione o a una forza avversa.",'');
+INSERT INTO easywords VALUES (424,'prodotto',"Tutto ciò che si ottiene dalla terra o dall'attività umana.",'');
+INSERT INTO easywords VALUES (425,'bianco','Combinazione di tutti i colori dello spettro elettromagnetico.','');
+INSERT INTO easywords VALUES (426,'pesante','Che ha un peso notevole o superiore al normale.','');
+INSERT INTO easywords VALUES (427,'scambiare',"Dare o prendere una cosa in cambio di un'altra.",'');
+INSERT INTO easywords VALUES (428,'rapido','Che si sposta o si muove con grande velocità.','');
+INSERT INTO easywords VALUES (429,'nevicare','Caduta di neve.','');
+INSERT INTO easywords VALUES (430,'acquario','Vasca di vetro in cui si tengono in vita pesci o piante acquatiche.','');
+INSERT INTO easywords VALUES (431,'credere',"Essere sicuro dell'esistenza qualcuno o qualcosa.",'');
+INSERT INTO easywords VALUES (432,'acquedotti',"Complesso di opere e di condutture per la raccolta, la potabilizzazione e la distribuzione dell'acqua.",'');
+INSERT INTO easywords VALUES (433,'cerca','Darsi da fare per trovare qualcuno o qualcosa.','');
+INSERT INTO easywords VALUES (434,'reale','Che esiste o è esistito veramente.','');
+INSERT INTO easywords VALUES (435,'legge','Norma o insieme di norme che regolano il comportamento etico e sociale degli uomini.','');
+INSERT INTO easywords VALUES (436,'diverso',"Che si presenta con un'identità nettamente distinta rispetto ad altre persone o cose.",'');
+INSERT INTO easywords VALUES (437,'fiore','Parte delle piante che contiene gli organi della riproduzione.','');
+INSERT INTO easywords VALUES (438,'semplice','Costituito da un solo elemento.','');
+INSERT INTO easywords VALUES (439,'papiro',"Pianta erbacea tipica delle paludi egiziane e dell'Arabia.",'');
+INSERT INTO easywords VALUES (440,'frutto',"Parte della pianta, costituita dall'ovario fecondato, che contiene i semi.",'');
+INSERT INTO easywords VALUES (441,'libreria','Negozio in cui si vendono libri.','');
+INSERT INTO easywords VALUES (442,'abbastanza','Sufficienza, quanto basta.','');
+INSERT INTO easywords VALUES (443,'accanto','Vicino, a fianco.','');
+INSERT INTO easywords VALUES (444,'storia','Disciplina che si occupa dello studio del passato.','');
+INSERT INTO easywords VALUES (445,'bisogno','Mancanza di qualcosa che sia indispensabile.','');
+INSERT INTO easywords VALUES (446,'resto','Parte residua di un tutto.','');
+INSERT INTO easywords VALUES (447,'orchestra',"L'insieme di tutti gli strumenti musicali necessari all'esecuzione di un brano.",'');
+INSERT INTO easywords VALUES (448,'folla','Moltitudine anonima di persone.','');
+INSERT INTO easywords VALUES (449,'pazzo','Malato di mente.','');
+INSERT INTO easywords VALUES (450,'adesivo','Che determina o consente adesione.','');
+INSERT INTO easywords VALUES (451,'studio',"Applicazione volta all'apprendimento",'');
+INSERT INTO easywords VALUES (452,'mandare','Far andare qualcuno in un luogo.','');
+INSERT INTO easywords VALUES (453,'lungo','Che ha una certa estensione nel senso della lunghezza.','');
+INSERT INTO easywords VALUES (454,'festa','Giorno dedicato alla celebrazione di un avvenimento particolare.','');
+INSERT INTO easywords VALUES (455,'cercare','Tentare insistentemente di trovare o ritrovare qualcuno o qualcosa.','');
+INSERT INTO easywords VALUES (456,'accumulare','Ammassare o ammucchiare a poco a poco.','');
+INSERT INTO easywords VALUES (457,'ninfa','Ciascuna delle divinità minori femminili.','');
+INSERT INTO easywords VALUES (458,'addizione','Operazione aritmetica con la quale si calcola la somma.','');
+INSERT INTO easywords VALUES (459,'abitudine','Tendenza alla continuazione o ripetizione di un determinato comportamento.','');
+INSERT INTO easywords VALUES (460,'bruciare','Andare a fuoco, essere in fiamme.','');
+INSERT INTO easywords VALUES (461,'pedale','Dispositivo azionato coi piedi, applicato a diversi strumenti musicali.','');
+INSERT INTO easywords VALUES (462,'andare','Partire da un luogo, allontanarsi.','');
+INSERT INTO easywords VALUES (463,'suonare','Eseguire brani musicali.','');
+INSERT INTO easywords VALUES (464,'pomeriggio','La parte del giorno compresa tra il mezzodì e il tramonto del sole.','');
+INSERT INTO easywords VALUES (465,'pregare',"Invocare un'entità divina con la preghiera per adorarla.",'');
+INSERT INTO easywords VALUES (466,'letto','Mobile destinato al riposo e al sonno.','');
+INSERT INTO easywords VALUES (467,'scopo','Fine a cui si tende.','');
+INSERT INTO easywords VALUES (468,'abbiamo','Prima persona plurale del verbo avere.','');
+INSERT INTO easywords VALUES (469,'onesto',"Degno d'onore.",'');
+INSERT INTO easywords VALUES (470,'dente','Ciascuna delle formazioni ossee nella bocca.','');
+INSERT INTO easywords VALUES (471,'discutere','Conversare più o meno animatamente su un argomento.','');
+INSERT INTO easywords VALUES (472,'acciaio','Termine di paragone o simbolo di robustezza, resistenza.','');
+INSERT INTO easywords VALUES (473,'forbici','Strumento manuale da taglio formato da due lame.','');
+INSERT INTO easywords VALUES (474,'imbuto','Attrezzo a forma di cono usato per il travasamento dei liquidi.','');
+INSERT INTO easywords VALUES (475,'abbreviare','Rendere più breve.','');
+INSERT INTO easywords VALUES (476,'fiammifero','Bastoncino di legno con capocchia infiammabile.','');
+INSERT INTO easywords VALUES (477,'studiare',"Applicarsi all'apprendimento di una disciplina.",'');
+INSERT INTO easywords VALUES (478,'accessorio','Affianca in funzione secondaria ciò che è principale.','');
+INSERT INTO easywords VALUES (479,'partita',"Quantità notevole di merce trattata all'ingrosso.",'');
+INSERT INTO easywords VALUES (480,'vivace','Fornito di rigogliosa vitalità.','');
+INSERT INTO easywords VALUES (481,'volare',"Muoversi nell'aria sbattendo le ali.",'');
+INSERT INTO easywords VALUES (482,'prevedere','Conoscere in anticipo o annunciare quanto accadrà in futuro.','');
+INSERT INTO easywords VALUES (483,'grado','La posizione e le attribuzioni relative al posto occupato in un ordinamento gerarchico.','');
+INSERT INTO easywords VALUES (484,'mattarello','Sorta di cilindro di legno usato in cucina per rendere sottile la pasta.','');
+INSERT INTO easywords VALUES (485,'vista','Facoltà di vedere, di percepire stimoli visivi.','');
+INSERT INTO easywords VALUES (486,'sapone','Prodotto comunemente usato per detergere persone.','');
+INSERT INTO easywords VALUES (487,'segnare','Mettere un segno su qualcosa perché lo si possa riconoscere.','');
+INSERT INTO easywords VALUES (488,'paese','Piccolo centro abitato, perlopiù rurale.','');
+INSERT INTO easywords VALUES (489,'paletto','Palo di piccole dimensioni.','');
+INSERT INTO easywords VALUES (490,'economico',"Relativo all'economia come scienza.",'');
+INSERT INTO easywords VALUES (491,'signora','Epiteto di cortesia per donna sposata.','');
+INSERT INTO easywords VALUES (492,'padrino','Il fedele che assiste il battezzando o il cresimando.','');
+INSERT INTO easywords VALUES (493,'scomparire','Sottrarsi alla vista, sparire.','');
+INSERT INTO easywords VALUES (494,'godere','Provare un senso di profondo piacere.','');
+INSERT INTO easywords VALUES (495,'iniziare','Compiere i primi atti di una o più operazioni.','');
+INSERT INTO easywords VALUES (496,'risoluto','Sicuro della propria decisione.','');
+INSERT INTO easywords VALUES (497,'accumulo',"Ammassare cose una sull'altra.",'');
+INSERT INTO easywords VALUES (498,'abbinata','Riunire a coppie più persone o cose affini.','');
+INSERT INTO easywords VALUES (499,'fornire','Procurare, dare ciò che è necessario.','');
+INSERT INTO easywords VALUES (500,'superare','Andare oltre un luogo attraversandolo.','');
+INSERT INTO easywords VALUES (501,'fornello','Piccolo apparecchio domestico usato per cuocere.','');
+INSERT INTO easywords VALUES (502,'pareggiare','Rendere pari, portare a uno stesso livello.','');
+INSERT INTO easywords VALUES (503,'accedere','Avere accesso.','');
+INSERT INTO easywords VALUES (504,'abbandono','Allontanamento da qualcuno o da qualcosa.','');
+INSERT INTO easywords VALUES (505,'ordine','Disposizione secondo un criterio razionale.','');
+INSERT INTO easywords VALUES (506,'viaggio','Trasferimento da un luogo a un altro.','');
+INSERT INTO easywords VALUES (507,'nomignolo','Storpiatura di un nome proprio.','');
+INSERT INTO easywords VALUES (508,'capire','Comprendere sul piano intellettivo.','');
+INSERT INTO easywords VALUES (509,'passo','Ciascuno dei movimenti ritmici e alternati compiuti dagli arti inferiori per camminare.','');
+INSERT INTO easywords VALUES (510,'amare','Provare amore, affetto per qualcuno.','');
+INSERT INTO easywords VALUES (511,'parolaccia','Parola volgare, sconcia, offensiva.','');
+INSERT INTO easywords VALUES (512,'risoluzione','Ciò che scioglie un enigma.','');
+INSERT INTO easywords VALUES (513,'aspro','Che ha il sapore un po’ acre della frutta acerba.','');
+INSERT INTO easywords VALUES (514,'cavallo','Pezzo degli scacchi raffigurante la testa e il collo di un cavallo.','');
+INSERT INTO easywords VALUES (515,'accettabile','Ammissibile, passabile.','');
+INSERT INTO easywords VALUES (516,'spugna','Oggetti o animali che si presentano come solidi a elevata porosità.','');
+INSERT INTO easywords VALUES (517,'mettere','Collocare in un posto.','');
+INSERT INTO easywords VALUES (518,'inferno','Nel cristianesimo, luogo della pena eterna.','');
+INSERT INTO easywords VALUES (519,'acquisto','Ottenimento in possesso o in proprietà.','');
+INSERT INTO easywords VALUES (520,'possedere','Riferito a beni materiali, avere in possesso o in proprietà.','');
+INSERT INTO easywords VALUES (521,'numero','Oggetto usato per contare e misurare.','');
+INSERT INTO easywords VALUES (522,'giudizio','La capacità individuale di valutare.','');
+INSERT INTO easywords VALUES (523,'piombo',"Elemento chimico che posto a contatto con l'aria si ossida.",'');
+INSERT INTO easywords VALUES (524,'chiaro','Luminoso, illuminato.','');
+INSERT INTO easywords VALUES (525,'treno','Serie di vagoni trainati da una o più locomotive.','');
+INSERT INTO easywords VALUES (526,'paraluce',"Schermo che si applica all'obiettivo per proteggerlo dai riflessi o da una luce troppo violenta.",'');
+INSERT INTO easywords VALUES (527,'consiglio','Opinione, parere, suggerimento con cui si intende aiutare qualcuno.','');
+INSERT INTO easywords VALUES (528,'largo','Esteso nel senso della larghezza.','');
+INSERT INTO easywords VALUES (529,'insalata','Piatto di verdure crude, che si mangiano condite con olio.','');
+INSERT INTO easywords VALUES (530,'braccio',"Parte dell'arto superiore dell'uomo compresa tra la spalla e il gomito.",'');
+INSERT INTO easywords VALUES (531,'confessione','Ammissione di una colpa, di un reato.','');
+INSERT INTO easywords VALUES (532,'lavatrice','Macchina industriale che effettua operazioni di lavaggio.','');
+INSERT INTO easywords VALUES (533,'ponte',"Struttura che consente l'attraversamento di un corso d'acqua o il superamento di altri ostacoli.",'');
+INSERT INTO easywords VALUES (534,'acceso','Possibilità di entrata in un luogo.','');
+INSERT INTO easywords VALUES (535,'lavoro',"Impiego di un'energia per raggiungere uno scopo determinato.",'');
+INSERT INTO easywords VALUES (536,'dormire','Essere in stato di sonno, riposarsi col sonno.','');
+INSERT INTO easywords VALUES (537,'cominciare','Dare inizio a qualcosa.','');
+INSERT INTO easywords VALUES (538,'abbattere','Buttare giù, mandare a terra.','');
+INSERT INTO easywords VALUES (539,'richiedere','Tornare a chiedere qualcosa a qualcuno.','');
+INSERT INTO easywords VALUES (540,'professore','Insegnante di una scuola.','');
+INSERT INTO easywords VALUES (541,'fronte','Parte anteriore del capo.','');
+INSERT INTO easywords VALUES (542,'sbagliare','Agire commettendo errori.','');
+INSERT INTO easywords VALUES (543,'mondo',"L'universo e i corpi celesti.",'');
+INSERT INTO easywords VALUES (544,'polvere','Complesso di minutissime particelle di terra secca.','');
+INSERT INTO easywords VALUES (545,'crisi','Momento difficile, forte turbamento.','');
+INSERT INTO easywords VALUES (546,'calcio','Colpo dato col piede.','');
+INSERT INTO easywords VALUES (547,'accensione','Atto di accendere con fuoco.','');
+INSERT INTO easywords VALUES (548,'pantera','Denominazione comune di alcuni felini.','');
+INSERT INTO easywords VALUES (549,'fermata',"Interruzione di un movimento, di un'attività.",'');
+INSERT INTO easywords VALUES (550,'bello','Gradevole, capace di suscitare impressioni piacevoli.','');
+INSERT INTO easywords VALUES (551,'celebrare','Onorare con lodi, esaltare.','');
+INSERT INTO easywords VALUES (552,'peloso','Coperto di peli.','');
+INSERT INTO easywords VALUES (553,'cucina','Ambiente attrezzato per la preparazione e la cottura delle vivande.','');
+INSERT INTO easywords VALUES (554,'eccellere','Essere superiore, distinguersi in un certo ambito.','');
+INSERT INTO easywords VALUES (555,'ridere','Manifestare una spontanea reazione di ilarità.','');
+INSERT INTO easywords VALUES (556,'bosco',"Estensione notevole di terreno sulla quale cresce una associazione vegetale d'alberi.",'');
+INSERT INTO easywords VALUES (557,'rapporto','Resoconto o informazione essenziale a dati.','');
+INSERT INTO easywords VALUES (558,'proposta','Ciò che si propone, che si chiede venga accolto, approvato.','');
+INSERT INTO easywords VALUES (559,'albergo','Edificio predisposto per alloggiare persone a pagamento.','');
+INSERT INTO easywords VALUES (560,'parata','Rassegna, sfilata solenne in occasione di ricorrenze o celebrazioni.','');
+INSERT INTO easywords VALUES (561,'strumento',"Arnese indispensabile per lo svolgimento di un'attività.",'');
+INSERT INTO easywords VALUES (562,'piccolo','Inferiore per dimensione a quanto si ritiene normale.','');
+INSERT INTO easywords VALUES (563,'partorire','Generare un figlio.','');
+INSERT INTO easywords VALUES (564,'meritare','Essere degno di ottenere qualcosa.','');
+INSERT INTO easywords VALUES (565,'limite','Linea di demarcazione, confine.','');
+INSERT INTO easywords VALUES (566,'canzone','Componimento lirico accompagnato da musica.','');
+INSERT INTO easywords VALUES (567,'assoluto','Completo, totale.','');
+INSERT INTO easywords VALUES (568,'abbonare','Contrarre un abbonamento.','');
+INSERT INTO easywords VALUES (569,'accompagnare','Unirsi nel cammino.','');
+INSERT INTO easywords VALUES (570,'tavolo','Mobile formato da un piano di legno usato solitamente per mangiare.','');
+INSERT INTO easywords VALUES (571,'pedone','Persona che procede a piedi.','');
+INSERT INTO easywords VALUES (572,'giornata',"Tempo compreso tra l'alba e il tramonto.",'');
+INSERT INTO easywords VALUES (573,'accodare','Disporsi in fila dietro ad altri.','');
+INSERT INTO easywords VALUES (574,'automobile','Veicolo a motore a quattro ruote che si muove su strada.','');
+INSERT INTO easywords VALUES (575,'linea','Ente geometrico esteso solo nel senso della lunghezza.','');
+INSERT INTO easywords VALUES (576,'lingua',"Organo della cavità orale dell'uomo e dei vertebrati.",'');
+INSERT INTO easywords VALUES (577,'lampadario',"Apparecchio per l'illuminazione artificiale di ambienti interni.",'');
+INSERT INTO easywords VALUES (578,'aspetto','Modo di presentarsi di persona o cosa.','');
+INSERT INTO easywords VALUES (579,'vestito','Indumento che si indossa.','');
+INSERT INTO easywords VALUES (580,'sorridere','Ridere lievemente.','');
+INSERT INTO easywords VALUES (581,'scarso','Insufficiente, inferiore alle necessità o alle attese.','');
+INSERT INTO easywords VALUES (582,'spiegare','Esprimersi in modo chiaro e comprensibile.','');
+INSERT INTO easywords VALUES (583,'accusare',"Muovere un'accusa, incolpare.",'');
+INSERT INTO easywords VALUES (584,'sedere','Assumere la posizione seduta.','');
+INSERT INTO easywords VALUES (585,'lanciare','Gettare con forza e lontano, scagliare, scaraventare.','');
+INSERT INTO easywords VALUES (586,'valigia','Grossa borsa da viaggio per riporvi indumenti od oggetti personali.','');
+INSERT INTO easywords VALUES (587,'accettare','Ricevere qualcosa con pieno consenso.','');
+INSERT INTO easywords VALUES (588,'trovare','Individuare qualcuno o qualcosa che si cerca o si desidera.','');
+INSERT INTO easywords VALUES (589,'paragrafo','Unità di testo scritto di una certa ampiezza, ma di rango inferiore al capitolo.','');
+INSERT INTO easywords VALUES (590,'centrale','Del centro, posto nel centro.','');
+INSERT INTO easywords VALUES (591,'olimpiade',"Nell'antica Grecia, i giochi nazionali che si svolgevano presso Olimpia.",'');
+INSERT INTO easywords VALUES (592,'politico','Colui che si occupa della politica, sia sul piano teorico che pratico.','');
+INSERT INTO easywords VALUES (593,'collina','Rilievo del terreno poco elevato.','');
+INSERT INTO easywords VALUES (594,'parodia','Travestimento burlesco di un testo o di uno stile, o anche imitazione del modo di parlare.','');
+INSERT INTO easywords VALUES (595,'animo',"L'anima umana considerata come sede e principio delle facoltà intellettive.",'');
+INSERT INTO easywords VALUES (596,'allontanare','Mandare o porre lontano, scostare.','');
+INSERT INTO easywords VALUES (597,'raccontare','Parlare di qualcuno o di qualcosa.','');
+INSERT INTO easywords VALUES (598,'famiglia','Il complesso delle persone di una stessa discendenza.','');
+INSERT INTO easywords VALUES (599,'patatine','Fettine sottilissime di patate, fritte e croccanti, vendute in pacchetti sigillati.','');
+INSERT INTO easywords VALUES (600,'corsa','Andatura, movimento veloce.','');
+INSERT INTO easywords VALUES (601,'distinguere',"Cogliere ciò che differenzia una cosa o una persona da un'altra.",'');
+INSERT INTO easywords VALUES (602,'motivo',"Presupposto del determinarsi o dello svolgersi di un'azione.",'');
+INSERT INTO easywords VALUES (603,'breve','Limitato nel tempo e nello spazio.','');
+INSERT INTO easywords VALUES (604,'adorare','Avere grande passione per qualcosa o profonda ammirazione per qualcuno.','');
+INSERT INTO easywords VALUES (605,'impossibile','Inattuabile, irrealizzabile.','');
+INSERT INTO easywords VALUES (606,'guida','Attività di chi è preposto a guidare gli altri.','');
+INSERT INTO easywords VALUES (607,'gente','Insieme di persone comprese in una generica valutazione.','');
+INSERT INTO easywords VALUES (608,'linguaggio',"Facoltà dell'uomo di comunicare ed esprimersi per mezzo di suoni articolati.",'');
+INSERT INTO easywords VALUES (609,'navigare',"Arte e attività del navigare sull'acqua o nell'aria con aerei o nello spazio.",'');
+INSERT INTO easywords VALUES (610,'pronto','Ciò che è in condizione di essere usato o di funzionare subito.','');
+INSERT INTO easywords VALUES (611,'chiave','Strumento metallico per azionare serrature o dispositivi di bloccaggio.','');
+INSERT INTO easywords VALUES (612,'ostacolare','Impedire o rendere difficoltoso opponendo ostacoli.','');
+INSERT INTO easywords VALUES (613,'marcia',"Ciascuno dei rapporti di trasmissione che consentono il passaggio da una velocità a un'altra.",'');
+INSERT INTO easywords VALUES (614,'gridare','Emettere suoni o parole con voce altissima o alterata.','');
+INSERT INTO easywords VALUES (615,'percorrere','Passare per un certo territorio, attraversare.','');
+INSERT INTO easywords VALUES (616,'spazio','Il luogo disponibile per gli oggetti.','');
+INSERT INTO easywords VALUES (617,'spegnere','Interrompere il funzionamento di un apparecchio o di un dispositivo elettrico.','');
+INSERT INTO easywords VALUES (618,'sentire','Provare una sensazione fisica provocata da stimoli interni o esterni.','');
+INSERT INTO easywords VALUES (619,'opera',"Lo svolgimento o il risultato di un'attività.",'');
+INSERT INTO easywords VALUES (620,'ottenere','Riuscire ad avere ciò che si desidera, a raggiungere un certo risultato.','');
+INSERT INTO easywords VALUES (621,'pacchia','Condizione di vita piacevole, senza preoccupazioni o problemi.','');
+INSERT INTO easywords VALUES (622,'addossare','Mettere sul dorso o sulla parte posteriore.','');
+INSERT INTO easywords VALUES (623,'accecata','Privare qualcuno della vista o renderlo temporaneamente incapace di vedere.','');
+INSERT INTO easywords VALUES (624,'azione','La capacità umana di modificare il reale a fini economici, politici, etici.','');
+INSERT INTO easywords VALUES (625,'cameriere','Persona addetta al servizio di tavola o a lavori domestici in case private.','');
+INSERT INTO easywords VALUES (626,'significare','Esprimere un concetto con il linguaggio.','');
+INSERT INTO easywords VALUES (627,'morte','Cessazione delle funzioni vitali negli organismi viventi.','');
+INSERT INTO easywords VALUES (628,'particolare','Caratteristico, peculiare di qualcuno o di qualcosa.','');
+INSERT INTO easywords VALUES (629,'guerra','Lotta armata fra stati o coalizioni per la risoluzione di una controversia internazionale.','');
+INSERT INTO easywords VALUES (630,'abituare',"Far prendere un'abitudine.",'');
+INSERT INTO easywords VALUES (631,'attimo','Spazio brevissimo di tempo, istante, momento.','');
+INSERT INTO easywords VALUES (632,'partecipare',"Prendere parte a un fatto o a un'attività collettiva.",'');
+INSERT INTO easywords VALUES (633,'orecchietta','Tipo di pasta alimentare di grano duro a forma di piccolo orecchio.','');
+INSERT INTO easywords VALUES (634,'mostrare',"Far vedere, presentare alla vista o all'osservazione.",'');
+INSERT INTO easywords VALUES (635,'preferire','Prediligere qualcuno o qualcosa rispetto ad altro.','');
+INSERT INTO easywords VALUES (636,'pagare','Versare denaro come corrispettivo del valore di una merce, un servizio.','');
+INSERT INTO easywords VALUES (637,'parcheggiare','Lasciare in sosta un veicolo per un certo periodo di tempo.','');
+INSERT INTO easywords VALUES (638,'accoppiare','Unire due persone o cose formando delle coppie abbinate.','');
+INSERT INTO easywords VALUES (639,'cuore',"L'organo muscolare che costituisce il centro motore dell'apparato circolatorio dei Vertebrati.",'');
+INSERT INTO easywords VALUES (640,'appartenere','Essere di legittima proprietà di qualcosa.','');
+INSERT INTO easywords VALUES (641,'pagina','gnuna delle due facce di un foglio.','');
+INSERT INTO easywords VALUES (642,'entrare',"Passare dall'esterno all'interno di un luogo.",'');
+INSERT INTO easywords VALUES (643,'concedere','Accordare dando il proprio formale assenso.','');
+INSERT INTO easywords VALUES (644,'signore','Titolo di cortesia o di rispetto per uomini.','');
+INSERT INTO easywords VALUES (645,'abbassare','Spostare verso il basso.','');
+INSERT INTO easywords VALUES (646,'diritto','Insieme di principi codificati allo scopo di fornire ai membri di una comunità regole.','');
+INSERT INTO easywords VALUES (647,'pianura','Estensione di terreno caratterizzata da differenze di livello minime o praticamente nulle.','');
+INSERT INTO easywords VALUES (648,'orecchio',"Nei Vertebrati, complesso di strutture che costituiscono l'organo dell'udito.",'');
+INSERT INTO easywords VALUES (649,'vivere','Avere vita, essere in vita.','');
+INSERT INTO easywords VALUES (650,'territorio','Porzione di terra di estensione abbastanza considerevole.','');
+INSERT INTO easywords VALUES (651,'criticare','Esaminare e valutare.','');
+INSERT INTO easywords VALUES (652,'divertire','Rallegrare, distraendo da fatiche e preoccupazioni e donando il buon umore.','');
+INSERT INTO easywords VALUES (653,'potenza',"Lavoro compiuto da una forza o da un sistema di forze nell'unità di tempo.",'');
+INSERT INTO easywords VALUES (654,'opzione',"Libera scelta fra i due termini di un'alternativa.",'');
+INSERT INTO easywords VALUES (655,'moderato','Contenuto nei limiti prescritti dalla convenienza.','');
+INSERT INTO easywords VALUES (656,'tostapane','Apparecchio dotato di resistenza elettrica e impiegato per abbrustolire fette di pane.','');
+INSERT INTO easywords VALUES (657,'scatola','Involucro semirigido di materiale vario adibito alla conservazione o al trasporto.','');
+INSERT INTO easywords VALUES (658,'diretto','Procedente nel modo più lineare o spedito.','');
+INSERT INTO easywords VALUES (659,'risposta','Soddisfazione della domanda, della richiesta, della chiamata.','');
+INSERT INTO easywords VALUES (660,'addestrare','Rendere idoneo a una funzione o a un comportamento.','');
+INSERT INTO easywords VALUES (661,'tirare','Far muovere qualcosa o qualcuno verso di sé esercitando una forza di trazione.','');
+INSERT INTO easywords VALUES (662,'parrucchiere',"Artigiano che provvede al taglio e all'acconciatura dei capelli.",'');
+INSERT INTO easywords VALUES (663,'paesano','Nativo, abitante di un paese.','');
+INSERT INTO easywords VALUES (664,'offerta','Proposta.','');
+INSERT INTO easywords VALUES (665,'foglio',"Pezzo di carta rettangolare, di vario formato secondo l'uso cui esso è destinato.",'');
+INSERT INTO easywords VALUES (666,'incontrare','Trovare qualcuno per caso davanti a sé.','');
+INSERT INTO easywords VALUES (667,'abbraccio','Gesto affettuoso fatto cingendo qualcuno con le braccia.','');
+INSERT INTO easywords VALUES (668,'offrire','Dare a qualcuno una cosa, materiale o no, ritenuta gradita affinché la prenda.','');
+INSERT INTO easywords VALUES (669,'bellezza','Insieme delle qualità percepite tramite i cinque sensi.','');
+INSERT INTO easywords VALUES (670,'pensione',"Somma di denaro corrisposta periodicamente  a chi, per raggiunti limiti d'età, abbia cessato l'attività lavorativa.",'');
+INSERT INTO easywords VALUES (671,'fazzoletto','Pezzo di stoffa di forma quadrata che si usa per soffiarsi il naso o per asciugarsi il sudore.','');
+INSERT INTO easywords VALUES (672,'concerto','Composizione nella quale agiscono uno o più esecutori come solisti.','');
+INSERT INTO easywords VALUES (673,'paragonare','Comparazione, raffronto fra due o più termini.','');
+INSERT INTO easywords VALUES (674,'accomodare','Disporre in modo adatto in base a criteri di funzionalità.','');
+INSERT INTO easywords VALUES (675,'nessuno','Nemmeno uno.','');
+INSERT INTO easywords VALUES (676,'freddo',"Temperatura notevolmente inferiore a quella dell'ambiente.",'');
+INSERT INTO easywords VALUES (677,'specie','Base della classificazione degli organismi viventi.','');
+INSERT INTO easywords VALUES (678,'scrivere','Tracciare su una superficie i segni convenzionali di una lingua o di un codice.','');
+INSERT INTO easywords VALUES (679,'umano',"Proprio dell'uomo, in quanto rappresentante della specie.",'');
+INSERT INTO easywords VALUES (680,'paziente','Abitualmente od occasionalmente disposto a moderazione.','');
+INSERT INTO easywords VALUES (681,'progetto','Organizzazione di azioni nel tempo per il perseguimento di uno scopo predefinito.','');
+INSERT INTO easywords VALUES (682,'ossigeno','Elemento chimico gassoso, simbolo O, inodore, incolore.','');
+INSERT INTO easywords VALUES (683,'tenda','Telo di tessuto vario che si stende sopra o davanti a qualcosa.','');
+INSERT INTO easywords VALUES (684,'popolazione','La quantità delle persone che vivono in un determinato territorio.','');
+INSERT INTO easywords VALUES (685,'ammazzare','Uccidere con mezzi violenti, assassinare.','');
+INSERT INTO easywords VALUES (686,'rispetto','Riconoscimento di una superiorità morale o sociale.','');
+INSERT INTO easywords VALUES (687,'destro','Che si trova alla destra di una persona.','');
+INSERT INTO easywords VALUES (688,'importanza','Valore fondamentale, determinante di qualcosa.','');
+INSERT INTO easywords VALUES (689,'accorciare','Rendere più corto.','');
+INSERT INTO easywords VALUES (690,'campana','Strumento sonoro di bronzo, a foggia di tazza rovesciata.','');
+INSERT INTO easywords VALUES (691,'bastare','Essere sufficiente.','');
+INSERT INTO easywords VALUES (692,'cantare','Modulare la voce in una sequenza di suoni.','');
+INSERT INTO easywords VALUES (693,'terreno','Strato superficiale della crosta terrestre.','');
+INSERT INTO easywords VALUES (694,'barattolo','Vasetto di vario materiale, per lo più cilindrico, con coperchio a chiusura ermetica.','');
+INSERT INTO easywords VALUES (695,'creare','Formare qualcosa dal nulla.','');
+INSERT INTO easywords VALUES (696,'ostrica',' Mollusco marino molto apprezzato per le sue carni.','');
+INSERT INTO easywords VALUES (697,'lettera',"Comunicazione scritta, diretta a una o più persone nell'ambito di rapporti privati o di ufficio.",'');
+INSERT INTO easywords VALUES (698,'accettare','Ricevere qualcosa con pieno consenso.','');
+INSERT INTO easywords VALUES (699,'parroco','Sacerdote cui è conferita in titolo una parrocchia.','');
+INSERT INTO easywords VALUES (700,'levare','Elevare, innalzare.','');
+INSERT INTO easywords VALUES (701,'succedere','Subentrare a qualcuno in una carica.','');
+INSERT INTO easywords VALUES (702,'pianta','Denominazione comune a ogni organismo vegetale, erbaceo.','');
+INSERT INTO easywords VALUES (703,'capitare','Giungere per caso.','');
+INSERT INTO easywords VALUES (704,'portachiave','Arnese o custodia in genere di piccole dimensioni, in cui si ripongono le chiavi.','');
+INSERT INTO easywords VALUES (705,'attore',"Interprete di un'azione drammatica.",'');
+INSERT INTO easywords VALUES (706,'leggere','Riconoscere e interpretare i segni della scrittura con i quali è composto un testo.','');
+INSERT INTO easywords VALUES (707,'spesa',"Versamento di una somma di denaro come corrispettivo dell'acquisto di un bene.",'');
+INSERT INTO easywords VALUES (708,'sforzo','Impiego di energie, fisiche o mentali, superiore al normale.','');
+INSERT INTO easywords VALUES (709,'sposare','Prendere una persona come moglie o come marito.','');
+INSERT INTO easywords VALUES (710,'comprare',' Entrare in possesso di qualcosa attraverso il pagamento del prezzo.','');
+INSERT INTO easywords VALUES (711,'bravura','Capacità, abilità.','');
+INSERT INTO easywords VALUES (712,'alzare',"Spostare verso l'alto, sollevare.",'');
+INSERT INTO easywords VALUES (713,'descrivere','Rappresentare con parole, a voce o per scritto.','');
+INSERT INTO easywords VALUES (714,'confessare','Confidare ad altra persona qualcosa di intimo o di segreto.','');
+INSERT INTO easywords VALUES (715,'seguire','Andare dietro a qualcuno.','');
+INSERT INTO easywords VALUES (716,'divano',"Elemento dell'arredamento di soggiorni e salotti.",'');
+INSERT INTO easywords VALUES (717,'procedere','Muoversi in avanti nello spazio; avanzare.','');
+INSERT INTO easywords VALUES (718,'coraggio',"Forza d'animo che permette di affrontare, dominare, subire situazioni.",'');
+INSERT INTO easywords VALUES (719,'adorabile','Eccezionalmente grazioso.','');
+INSERT INTO easywords VALUES (720,'originale','Relativo alle origini.','');
+INSERT INTO easywords VALUES (721,'esistere','Essere nella realtà, far parte delle cose reali.','');
+INSERT INTO easywords VALUES (722,'peggiorare','Rendere peggiore una situazione.','');
+INSERT INTO easywords VALUES (723,'facile','Che si può facilmente ottenere o dominare.','');
+INSERT INTO easywords VALUES (724,'penna','Strumento scrittorio a inchiostro.','');
+INSERT INTO easywords VALUES (725,'grazioso','Disposto o atteggiato a benevolenza o liberalità.','');
+INSERT INTO easywords VALUES (726,'fuggire','Allontanarsi precipitosamente o segretamente da un luogo.','');
+INSERT INTO easywords VALUES (727,'ultimo','Che occupa il posto finale in una serie o successione.','');
+INSERT INTO easywords VALUES (728,'zuppa','Minestra in brodo.','');
+INSERT INTO easywords VALUES (729,'morire','Cessare di vivere, perdere la vita.','');
+INSERT INTO easywords VALUES (730,'oroscopo','La previsione circa il destino di una persona.','');
+INSERT INTO easywords VALUES (731,'segnale','Indicazione di tipo ottico o acustico, per lo più convenzionale, per dare una comunicazione.','');
+INSERT INTO easywords VALUES (732,'salire',"Muoversi verso l'alto percorrendo un pendio, una salita, dei gradini.",'');
+INSERT INTO easywords VALUES (733,'albero','Nome generico delle piante perenni con fusto eretto legnoso.','');
+INSERT INTO easywords VALUES (734,'negozio',"Locale destinato all'esposizione e alla vendita di merci al pubblico.",'');
+INSERT INTO easywords VALUES (735,'pancetta','Addome piuttosto prominente.','');
+INSERT INTO easywords VALUES (736,'tentare','Cercare di fare qualcosa, fare un tentativo.','');
+INSERT INTO easywords VALUES (737,'cenare','Mangiare per cena.','');
+INSERT INTO easywords VALUES (738,'vecchio','Riferito a persone e animali, che ha molti anni.','');
+INSERT INTO easywords VALUES (739,'battaglia','Scontro decisivo o importante fra grosse unità nemiche.','');
+INSERT INTO easywords VALUES (740,'pecora','Intensamente allevato per la lana.','');
+INSERT INTO easywords VALUES (741,'dipendere','Trarre origine, derivare, provenire.','');
+INSERT INTO easywords VALUES (742,'accendere','Dare fuoco a qualcosa perché arda, riscaldi o illumini.','');
+INSERT INTO easywords VALUES (743,'pensionato','Colui che è andato in pensione, che percepisce una pensione.','');
+INSERT INTO easywords VALUES (744,'profondo','Che ha il fondo notevolmente lontano dalla superficie.','');
+INSERT INTO easywords VALUES (745,'svolgere','Avvenire, compiersi per lo più secondo un certo ordine.','');
+INSERT INTO easywords VALUES (746,'baciare','Accostare le proprie labbra su qualcuno.','');
+INSERT INTO easywords VALUES (747,'uscire',"Muoversi dall'interno all'esterno di un luogo circoscritto.",'');
+INSERT INTO easywords VALUES (748,'neurone','Cellula specializzata per la raccolta e la conduzione degli impulsi nervosi','');
+INSERT INTO easywords VALUES (749,'palio','Drappo prezioso assegnato come premio in gare.','');
+INSERT INTO easywords VALUES (750,'narrare','Esporre, a voce o per scritto, un fatto accaduto.','');
+INSERT INTO easywords VALUES (751,'italiano','Appartenente all’Italia.','');
+INSERT INTO easywords VALUES (752,'abbinato','Filato composto di due fili avvolti insieme sulle spole di trama.','');
+INSERT INTO easywords VALUES (753,'salvare','Sottrarre qualcuno a un pericolo.','');
+INSERT INTO easywords VALUES (754,'aderente','Che è a stretto contatto, attaccato.','');
+INSERT INTO easywords VALUES (755,'pesare','Misurare il peso di qualcosa o di qualcuno con apposito strumento.','');
+INSERT INTO easywords VALUES (756,'acquedotto','Canale attraverso cui passa per lo più un liquido.','');
+INSERT INTO easywords VALUES (757,'paralume','Accessorio per impedire la diffusione diretta della luce della lampada.','');
+INSERT INTO easywords VALUES (758,'nomade','Persona priva di abitazione o residenza fissa.','');
+INSERT INTO easywords VALUES (759,'pareggio',"L'eguaglianza dei totali delle due sezioni di un conto.",'');
+INSERT INTO easywords VALUES (760,'ragazza',"Donna non sposata, nel periodo che va dall'adolescenza all'ultima giovinezza",'');
+INSERT INTO easywords VALUES (761,'colore','Percezione visiva generata dai segnali nervosi.','');
+INSERT INTO easywords VALUES (762,'normativa','Il complesso di norme relative a una data disciplina.','');
+INSERT INTO easywords VALUES (763,'caldo','Che si trova ad una temperatura superiore a quella normale o abituale.','');
+INSERT INTO easywords VALUES (764,'affettuoso','Pieno di affetto e portato a manifestarlo.','');
+INSERT INTO easywords VALUES (765,'accessibile','Di facile accesso, facilmente raggiungibile.','');
+INSERT INTO easywords VALUES (766,'ritorno','Rientro nel luogo di provenienza.','');
+INSERT INTO easywords VALUES (767,'libro','Serie continua di fogli stampati della stessa misura.','');
+INSERT INTO easywords VALUES (768,'cattivo','Generalmente opposto a buono.','');
+INSERT INTO easywords VALUES (769,'triste',"Che riflette uno stato d'animo di dolore e malinconia.",'');
+INSERT INTO easywords VALUES (770,'periodo','Unità di durata di caratteristiche determinate.','');
+INSERT INTO easywords VALUES (771,'tagliare','Separare una parte da un intero.','');
+INSERT INTO easywords VALUES (772,'informazione','Notizia o nozione raccolta.','');
+INSERT INTO easywords VALUES (773,'liberare','Rimettere in libertà.','');
+INSERT INTO easywords VALUES (774,'risolvere','Sistemare una situazione problematica.','');
+INSERT INTO easywords VALUES (775,'mappa','Rappresentazione grafica di una zona di terreno.','');
+INSERT INTO easywords VALUES (776,'corrente','Di acqua che scorre continuamente.','');
+INSERT INTO easywords VALUES (777,'contatto','Accostamento di due corpi fino a toccarsi.','');
+INSERT INTO easywords VALUES (778,'formaggio','Si intende il prodotto ottenuto dalla coagulazione del latte.','');
+INSERT INTO easywords VALUES (779,'insegnare','Fornire nozioni teoriche o elementi pratici a qualcuno.','');
+INSERT INTO easywords VALUES (780,'parentela','Il vincolo relativo a un rapporto di discendenza.','');
+INSERT INTO easywords VALUES (781,'vedere','Percepire qualcosa con gli occhi.','');

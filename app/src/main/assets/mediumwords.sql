@@ -1,795 +1,794 @@
-﻿INSERT INTO mediumwords(ID, Word, Meaning, Category) VALUES
-(1,"atteggiamento","Modo di disporsi o di presentarsi.",''),
-(2,"paraurti","Parte della carrozzeria di un veicolo la cui funzione è quella di prevenire o limitare i danni di una collisione.",''),
-(3,"oggettivo","Aderente alla realtà dei fatti, non influenzato da pregiudizi.",''),
-(4,"nozze","Il rito, la cerimonia con cui si celebra il matrimonio.",''),
-(5,"sforzare","Sottoporre a uno sforzo intenso o eccessivo.",''),
-(6,"movimento","L'azione del muovere o del muoversi.",''),
-(7,"produrre","Comporre, ideare, creare opere dell’ingegno.",''),
-(8,"nucleare","Tutti quei fenomeni in cui si ha produzione di energia in seguito a trasformazioni nei nuclei atomici.",''),
-(9,"lasciare","Allontanarsi da una persona o da un luogo.",''),
-(10,"adattare","Rendere qualcosa adatto a uno scopo.",''),
-(11,"staccare","Separare una cosa da un'altra.",''),
-(12,"navigatore","Colui che naviga anche nel Mar Rosso.",''),
-(13,"acustica","Branca della fisica che studia il suono.",''),
-(14,"oscillare","Muoversi fra due posizioni estreme.",''),
-(15,"oggetto","Entità fisica.",''),
-(16,"avvocato","Professionista delegato ad assistere e difendere una parte in un giudizio.",''),
-(17,"pennino","Parte scrivente della penna.",''),
-(18,"militare","Appartenente alle forze armate.",''),
-(19,"ufficiale","Specifica posizione gerarchica militare.",''),
-(20,"conservare","Tenere con cura un oggetto o un bene.",''),
-(21,"attendere","Aspettare.",''),
-(22,"pastoso","Consistenza molle come pasta.",''),
-(23,"panoramico","Vedere un ampio panorama, che offre una gradevole vista.",''),
-(24,"occhiata","Pesce d'acqua salata appartenente alla famiglia degli Sparidi.",''),
-(25,"ostinare","Persistere tenacemente in un atteggiamento.",''),
-(26,"traversata","Passaggio attraverso un ambito spaziale di notevole estensione.",''),
-(27,"collaboratore","Chi partecipa attivamente a un'impresa.",''),
-(28,"successo","Esito favorevole.",''),
-(29,"abbocca","Afferrare con la bocca.",''),
-(30,"saporito","Ricco di sapore.",''),
-(31,"contare","Valutare quantitativamente un insieme attribuendo i numeri in ordine progressivo.",''),
-(32,"ozono","Molecola che consiste in tre atomi di ossigeno negativamente caricati.",''),
-(33,"naturale","Atteggiamenti spontanei.",''),
-(34,"adattato","Rendere qualcosa adatto a uno scopo.",''),
-(35,"pegno","Diritto concesso su un bene mobile dal debitore o da un terzo.",''),
-(36,"camicia","Indumento con maniche lunghe o corte e con colletto.",''),
-(37,"elettrico","Relativo all'elettricità, alla sua produzione e al suo sfruttamento.",''),
-(38,"ovatta","Semilavorato tessile simile al feltro, soffice e di scarsa consistenza.",''),
-(39,"adesivo","Determina o consente adesione.",''),
-(40,"tratto","Linea tracciata con un unico e rapido movimento.",''),
-(41,"abbondato","Esagerare in qualcosa.",''),
-(42,"motorino","Piccolo motore elettrico.",''),
-(43,"sacrificio","Privazione, rinuncia, disagio imposto da determinate condizioni.",''),
-(44,"chiesa","Edificio consacrato al culto cristiano.",''),
-(45,"polizia","Organo del potere esecutivo dello Stato.",''),
-(46,"fogne","Canali sotterranei per la raccolta e l'eliminazione delle acque putride.",''),
-(47,"martello","Utensile costituito da un massello metallico di un certo peso, con un occhio al centro, nel quale è inserito un manico che ne consente l'impugnatura.",''),
-(48,"interesse","Compenso che si versa o si riscuote per il prestito di un capitale.",''),
-(49,"trapano","Macchina utensile che lavora in modo rotatorio praticando fori cilindrici mediante una punta opportunamente sagomata.",''),
-(50,"parecchio","In numero o quantità notevole.",''),
-(51,"pasticcio","Simbolo di disordine o confusione.",''),
-(52,"smettere","Sospendere temporaneamente o definitivamente.",''),
-(53,"ordinamento","Complesso di norme che disciplinano una determinata istituzione o attività.",''),
-(54,"accertato","Rendere certo, assicurare.",''),
-(55,"sangue","Fluido biologico circolante nei Vertebrati, sotto l'impulso dell'attività cardiaca.",''),
-(56,"penultimo","Precede immediatamente l'ultimo.",''),
-(57,"parafulmine","Sistema di protezione di edifici dalle scariche atmosferiche.",''),
-(58,"padrone","Proprietario di qualcosa.",''),
-(59,"invitare","Proporre la partecipazione, offrire ospitalità.",''),
-(60,"principale","Maggior rilievo, maggior importanza.",''),
-(61,"fatica","Sforzo prolungato che porta all'indebolimento della resistenza fisica.",''),
-(62,"occhio","Organo di senso per la ricezione degli stimoli luminosi.",''),
-(63,"rivoluzione","Movimento organizzato e violento col quale si instaura un nuovo ordine sociale o politico.",''),
-(64,"onnipotenza","Potere di fare tutto, senza alcun limite.",''),
-(65,"postura","Posizione del corpo umano nello spazio.",''),
-(66,"obbligare","Imporre un comportamento, costringere.",''),
-(67,"autobus","Autoveicolo attrezzato per il trasporto collettivo di persone su percorsi urbani e suburbani.",''),
-(68,"motore","Macchina che trasforma una determinata forma di energia in energia meccanica.",''),
-(69,"orfano","Persona che ha perso uno od entrambi i genitori.",''),
-(70,"manuale","Libro che riporta, con criteri informativi e didattici, le nozioni fondamentali relative a un argomento.",''),
-(71,"repubblica","Forma di governo in cui tutti i cittadini dello Stato partecipano al potere supremo.",''),
-(72,"panino","Piccola forma di pane, per lo più tonda od ovale.",''),
-(73,"nuocere","Arrecare danno materiale o morale.",''),
-(74,"maiale","Mammifero della famiglia dei Suini.",''),
-(75,"attaccare","Assalire in forze.",''),
-(76,"gusto","Senso che permette la definizione qualitativa di una sostanza in base al sapore.",''),
-(77,"parcheggio","Spazio riservato alla sosta per i veicoli.",''),
-(78,"pallottola","Sfera di limitate dimensioni, costituita di materia compatta.",''),
-(79,"ostello","Albergo per il pernottamento temporaneo ed economico.",''),
-(80,"teiera","Recipiente di materiale vario, per lo più di forma panciuta e con beccuccio.",''),
-(81,"controllo","Esame condotto allo scopo di garantire la regolarità.",''),
-(82,"orgoglioso","Forte senso di autostima e fiducia nelle proprie capacità.",''),
-(83,"panorama","Ampia veduta generale da un punto sopraelevato.",''),
-(84,"veicolo","Mezzo meccanico di trasporto guidato.",''),
-(85,"minimo","La quantità più piccola possibile.",''),
-(86,"mattina","Parte del giorno compresa tra l'alba e mezzogiorno.",''),
-(87,"mancare","Essere assente o essere presente in quantità scarsa o insufficiente.",''),
-(88,"slancio","Proiezione impetuosa del corpo in avanti, in alto o in basso.",''),
-(89,"nozione","Dato elementare di una conoscenza specifica.",''),
-(90,"colpa","Atto o comportamento che implica conseguenze dannose.",''),
-(91,"fondo","La parte terminale inferiore di un recipiente o di una cavità.",''),
-(92,"pastorizzare","Processo di risanamento termico applicato ad alcuni alimenti allo scopo di minimizzare i rischi per la salute.",''),
-(93,"esporre","Offrire alla vista o all'attenzione altrui, mettere in mostra.",''),
-(94,"parentesi","Interrompere la continuità di un discorso,per lo più a scopo di chiarimento o di precisazione.",''),
-(95,"adocchiare","Guardare qualcosa, qualcuno con interesse.",''),
-(96,"dichiarare","Manifestare, esporre in termini espliciti.",''),
-(97,"pacare","Acquietare, calmare.",''),
-(98,"assistente","Chiamato ad aiutare tecnicamente il responsabile di varie attività.",''),
-(99,"organico","Riguardante gli organi degli esseri viventi.",''),
-(100,"sonno","Stato di riposo contrapposto alla veglia. ",''),
-(101,"riparare","Azione, opera volta a risarcire un danno materiale o morale.",''),
-(102,"necessario","Indispensabile o almeno estremamente utile per ottenere certi scopi.",''),
-(103,"pentimento","Il riconoscimento di una propria colpa, atteggiamento di autocondanna.",''),
-(104,"tegola","Materiale da costruzione usato per la copertura delle falde inclinate dei tetti.",''),
-(105,"abbasso","Espressione di ostilità.",''),
-(106,"accostare","Avvicinare per chiedere o comunicare qualcosa.",''),
-(107,"azzurro","Colore intermedio tra il celeste e il blu.",''),
-(108,"abituale","Corrispondente a un'abitudine",''),
-(109,"multa","Sanzione penale stabilita dalla legge o da un regolamento contrattuale.",''),
-(110,"guidare","Precedere qualcuno per indicargli la strada, Condurre un autoveicolo.",''),
-(111,"accentrato","Gruppo di persone radunate insieme in uno stesso luogo.",''),
-(112,"videogioco","Gioco gestito da un dispositivo elettronico che consente di interagire con le immagini di uno schermo.",''),
-(113,"ragione","Facoltà per mezzo della quale si esercita il pensiero.",''),
-(114,"preparare","Disporre, sistemare qlco. in modo che sia pronto per l'uso richiesto.",''),
-(115,"industria","Attività umana che viene svolta allo scopo di generare beni o servizi.",''),
-(116,"sport"," L'insieme delle attività, che impegnano determinate capacità psicomotorie.",''),
-(117,"segretario","Incaricato di mansioni varie e riservate per conto di altra persona.",''),
-(118,"serenata","Canto con accompagnamento musicale, eseguito di sera sotto la casa della donna amata per renderle omaggio.",''),
-(119,"alloggiare","Accogliere, ospitare qualcuno in un luogo.",''),
-(120,"addetto","Assegnato a un determinato compito o ufficio.",''),
-(121,"prezzo","Valore economico di un bene o servizio.",''),
-(122,"palpebra","Pieghe cutanee mobili che, avvicinandosi coprono la parte anteriore del globo oculare.",''),
-(123,"pascolo","Terreno coperto di erbe riservate direttamente all'alimentazione del bestiame.",''),
-(124,"palese","Che appare chiaro, indubitabile, evidente.",''),
-(125,"numeratore","Numero sopra la linea di frazione.",''),
-(126,"portorico","Territorio non incorporato degli Stati Uniti d'America, situato nel nord-est del mar dei Caraibi.",''),
-(127,"abboccata","Farsi imbrogliare da qualcuno.",''),
-(128,"felice","Sereno, appagato, completamente soddisfatto.",''),
-(129,"passaggio","Transito attraverso un luogo o spostamento da un luogo all'altro.",''),
-(130,"conseguenza","Conclusione dedotta logicamente da una premessa.",''),
-(131,"ombrello","Riparo portatile contro la pioggia, o anche contro il sole.",''),
-(132,"viaggiare","Spostarsi da un luogo a un altro compiendo un percorso.",''),
-(133,"rientrare","Entrare di nuovo in un luogo da cui si era usciti.",''),
-(134,"sviluppo","Accrescimento progressivo.",''),
-(135,"nominativo","Nel linguaggio burocratico, nome di persona.",''),
-(136,"rivelare","Rendere note cose sconosciute.",''),
-(137,"pallavolo","Gioco che si disputa tra due squadre di sei giocatori ciascuna in un campo diviso in due parti da una rete.",''),
-(138,"specchio","Lastra di vetro, metallizzata su una faccia, che riflette la luce e le immagini.",''),
-(139,"recente","Risale a poco tempo addietro, accaduto, manifestatosi da poco.",''),
-(140,"abolisco","Rendere nullo, non fare più uso.",''),
-(141,"commerciare","Esercitare il commercio di determinati prodotti.",''),
-(142,"obbligo","Vincolo giuridicamente o moralmente previsto e imposto.",''),
-(143,"osannare","Esaltata venerazione.",''),
-(144,"distruggere","Abbattere, disfare qualcosa in modo da renderlo definitivamente inutilizzabile.",''),
-(145,"comodo","Ciò che procura agio, che evita disagio.",''),
-(146,"armadio","Grande mobile ad ante, con eventuali ripiani e cassetti.",''),
-(147,"attento","Mente o sensi rivolti all'azione che si compie o a ciò che si ascolta.",''),
-(148,"naturalmente","Per naturale conseguenza, ovviamente.",''),
-(149,"arrostire","Sottoporre a cottura a fuoco vivo.",''),
-(150,"classe","L'insieme delle persone che partecipano o che esercitano la stessa professione.",''),
-(151,"speciale","Caratteristico di qualcosa.",''),
-(152,"angolo","La parte di piano compresa tra due semirette uscenti da uno stesso punto.",''),
-(153,"penalizzare","Mettere in una condizione di svantaggio, sfavorire.",''),
-(154,"numerale","Qualcosa che ha rapporto coi numeri.",''),
-(155,"stazione"," Luogo di arrivo e di partenza di viaggiatori e merci.",''),
-(156,"peggioramento","Totale o parziale aggravamento di una situazione o condizione sfavorevole.",''),
-(157,"francobollo","Cartellino di carta,recante su una faccia figure e simboli dello Stato emittente.",''),
-(158,"pavone","Uccello galliforme, con piumaggio bianco o variopinto.",''),
-(159,"negare","Dichiarare che un fatto non è vero.",''),
-(160,"costruzione","Fase di attuazione di un'opera.",''),
-(161,"ovulo","Corpicciolo di forma per lo più rotondeggiante contenente la cellula uovo.",''),
-(162,"bagaglio","Il complesso degli oggetti che chi viaggia porta con sé.",''),
-(163,"bicicletta","Veicolo azionato dalla forza muscolare delle gambe.",''),
-(164,"accigliare","Contrarre i sopraccigli, in segno di tristezza, di severità, sdegno.",''),
-(165,"medaglia","Piccolo disco di metallo, ornato da figure e scritte,per commemorare qualche avvenimento.",''),
-(166,"accetta","Arnese da lavoro atto al taglio della legna.",''),
-(167,"rallentare","Rendere lento.",''),
-(168,"pranzare","Consumare il pranzo.",''),
-(169,"stufa","Apparecchio di varia forma e materiale per riscaldare un ambiente.",''),
-(170,"accentrata","Riunirsi, stabilirsi in un unico luogo.",''),
-(171,"colazione","Il primo pasto del mattino.",''),
-(172,"cofano","Copertura di protezione di un motore.",''),
-(173,"mattino","Parte del giorno compresa tra l'alba e mezzogiorno.",''),
-(174,"oracolo","Responso profetico dato da una divinità.",''),
-(175,"avvertire","Acquistare coscienza di qualcosa.",''),
-(176,"ormeggio","L'assicuramento di un mezzo nautico a un punto di solida presa.",''),
-(177,"palude","terreno coperto d'acqua, caratterizzato dallo sviluppo di una particolare vegetazione e fauna.",''),
-(178,"pasquale","Relativo alla Pasqua.",''),
-(179,"opposizione","Atteggiamento contrario a qualcosa.",''),
-(180,"scherzare","Comportarsi o parlare senza serietà né impegno.",''),
-(181,"raccogliere","Prendere qualcosa da terra.",''),
-(182,"osservare","Guardare con attenzione, esaminare.",''),
-(183,"matita","Strumento per scrittura e disegno.",''),
-(184,"stoviglia","Contenitori usati in cucina per contenere e servire il cibo.",''),
-(185,"diffondere","Far conoscere a molte persone, divulgare.",''),
-(186,"negazione","Risposta o giudizio di radicale opposizione o di rifiuto.",''),
-(187,"patria","Concetto di nazione e paese.",''),
-(188,"stampa","Tecnica di riproduzione in più esemplari, su carta o altro materiale, di testi scritti, disegni o fotografie.",''),
-(189,"mezzo","Elemento strumentale o funzionale necessario allo svolgimento di un'azione.",''),
-(190,"omicidio","Soppressione di una vita umana a opera di un altro essere umano.",''),
-(191,"orecchiabile","Motivo musicale semplice e melodico.",''),
-(192,"accampare","Sistemare per una permanenza all'aperto sotto tende o in alloggiamenti provvisori.",''),
-(193,"colpire","Percuotere, battere, ferire con uno o più colpi.",''),
-(194,"operativo","Capacità di operare.",''),
-(195,"nervatura","Il complesso dei nervi, e la loro ordinata disposizione.",''),
-(196,"continuare","Proseguire ininterrottamente.",''),
-(197,"benzina","Miscuglio di idrocarburi liquidi utilizzato come combustibile.",''),
-(198,"paternale","Grave e severo rimprovero da parte di un superiore.",''),
-(199,"insistere","Protrarre a lungo con tenacia o caparbietà un'azione.",''),
-(200,"operaio"," lavoratore dipendente che esegue un lavoro manuale o tecnico.",''),
-(201,"tagliere","Arnese di cucina,di legno duro sul quale si taglia la carne.",''),
-(202,"ventilatore","Apparecchio elettrico costituito da pale che, ruotando, creano una corrente d'aria.",''),
-(203,"retromarcia","Movimento all'indietro di un veicolo.",''),
-(204,"zuccheriera","Recipiente in cui si tiene o si serve lo zucchero.",''),
-(205,"rompere","Spezzare un oggetto in più parti.",''),
-(206,"mensola","Piano d'appoggio in legno.",''),
-(207,"passione","Momento caratterizzato da uno stato di violenta e persistente emozione.",''),
-(208,"lenzuolo","Telo di stoffa che si pone sul materasso.",''),
-(209,"abolire","Cancellare con una disposizione dell'autorità.",''),
-(210,"paletta","Piccola pala dal manico corto.",''),
-(211,"abitante","Residente in uno spazio geografico determinato.",''),
-(212,"onnipresenza","Il trovarsi o il potersi trovare in più luoghi nello stesso momento.",''),
-(213,"disporre","Collocare secondo un certo ordine.",''),
-(214,"passamontagna","Berretto a forma di cappuccio aderente che copre interamente il viso.",''),
-(215,"annullare","Rendere vano, vanificare.",''),
-(216,"notte","L'intervallo di tempo fra il tramontare e il sorgere del sole.",''),
-(217,"posare","Mettere qualcosa in un luogo con attenzione.",''),
-(218,"noleggiatore","Gestore di un'impresa per la concessione in uso temporaneo di mezzi.",''),
-(219,"ottimistico","Che ha fiducia, speranza.",''),
-(220,"nascondere","Riporre in luogo segreto o riparato, occultare.",''),
-(221,"resto","Ciò che rimane di un insieme quando se ne tolglie una parte.",''),
-(222,"limitare","Circoscrivere uno spazio entro limiti.",''),
-(223,"carrello","Mezzo di sostegno o di trasporto.",''),
-(224,"soldato","Presta servizio armato in un esercito.",''),
-(225,"ottimo","Molto buono, buonissimo, eccellente.",''),
-(226,"cotone","Pianta erbacea o arbustiva, i cui semi sono rivestiti da una peluria bianca.",''),
-(227,"turista","Viaggiatore mosso da scopi di svago.",''),
-(228,"ministro","Membro del governo che presiede un dicastero.",''),
-(229,"addome","La parte inferiore del tronco, compresa fra torace e bacino.",''),
-(230,"direttore","a persona cui fa capo la responsabilità di un'attività.",''),
-(231,"impiccato","Gioco di carta e matita per due giocatori e non,chi indovina più parole senza far impiccare l'omino vince!.",''),
-(232,"succoso","Ricco di succo.",''),
-(233,"giustizia","Il potere pubblico di realizzare il diritto.",''),
-(234,"anteriore","Precede un qualcosa nello spazio.",''),
-(235,"dovere","Essere obbligati, tenuti a fare qualcosa.",''),
-(236,"orientale","Situato o localizzato a oriente.",''),
-(237,"paparazzo","Fotografo di attualità mondana, con una professionalità tra il furbesco e lo scandalistico.",''),
-(238,"notevole","Riferito a persona, cosa o qualità, degno d'attenzione.",''),
-(239,"biglietto","Letterina o foglietto con poche parole di avviso.",''),
-(240,"nuotatore","Capace di nuotare o pratica lo sport del nuoto.",''),
-(241,"panciata","Colpo dato con la pancia.",''),
-(242,"sbarcare","Fare scendere persone o cose da un'imbarcazione.,",''),
-(243,"penetrare","Entrare in qualcosa che oppone resistenza.",''),
-(244,"parabola","Figura piana di una particolare sezione conica.",''),
-(245,"chiamare","Interpellare qualcuno con la voce, spesso accompagnata da gesti o segnali.",''),
-(246,"tariffa","Prezzo di un servizio fissato da un'autorità, ente o imprese pubbliche.",''),
-(247,"misura","Rapporto tra una grandezza e un'altra omogenea.",''),
-(248,"oppressore","Responsabile di continue sopraffazioni.",''),
-(249,"prova","Accertamento, attraverso specifiche operazioni, delle proprietà, della qualità, di qualcosa.",''),
-(250,"cartina","Carta geografica o topografica di piccolo formato o ripiegabile.",''),
-(251,"paterno","Riferibile al padre, a lui appartenente.",''),
-(252,"moderno","Relativo e proprio del momento attuale.",''),
-(253,"notaio","Pubblico ufficiale il cui compito specifico è quello di ricevere gli atti, conservarne il deposito, rilasciarne copie.",''),
-(254,"modulo"," In genere, misura, forma, esemplare, che si assume come modello a cui attenersi.",''),
-(255,"normanno","Abitante, nativo della Normandia.",''),
-(256,"forno","Impianto per la cottura.",''),
-(257,"rumoroso","Produce o comporta eccessivo rumore.",''),
-(258,"onore","Buona reputazione, rispettabilità di chi si comporta con onestà.",''),
-(259,"dividere","Scomporre in più parti.",''),
-(260,"ossigenato","Contenente ossigeno.",''),
-(261,"obeso","Condizione medica caratterizzata da un eccessivo accumulo di grasso.",''),
-(262,"orizzontale","Parallelo al piano dell'orizzonte.",''),
-(263,"sedile","Qualsiasi mobile o struttura su cui si possa stare seduti.",''),
-(264,"nuvola","Nube che si forma negli strati alti dell'atmosfera.",''),
-(265,"civile","Riguarda la comunità organizzata e dei rapporti tra i membri che la compongono.",''),
-(266,"temperatura","Grandezza che misura gli scambi di calore tra corpi in contatto termico.",''),
-(267,"sofferenza","Condizione tormentosa provocata dall'assiduità del dolore.",''),
-(268,"accaduta","Cosa accaduta,avvenimento, evento.",''),
-(269,"orafo","Artigiano che esegue lavori in oro e in altri metalli preziosi.",''),
-(270,"orribile","Ciò che provoca orrore.",''),
-(271,"televisore","Apparecchio per la ricezione dei programmi televisivi.",''),
-(272,"istituto","Ente pubblico o privato istituito per perseguire fini di interesse generale.",''),
-(273,"pallido","Sbiancato nel colorito.",''),
-(274,"abisso","Luogo cui la profondità conferisce un aspetto misterioso o pauroso.",''),
-(275,"ferire","Colpire causando una ferita.",''),
-(276,"ombrellone","Ombrello di grandi dimensioni,in genere adoperato per ripararsi dal sole sulle spiagge.",''),
-(277,"trattore","Automezzo agricolo capace di sviluppare un elevato sforzo di trazione.",''),
-(278,"paralizzare","Rendere incapace di muoversi o di reagire.",''),
-(279,"nodoso","Caratterizzato da uno o più nodi.",''),
-(280,"lampada","Sorgente di luce artificiale.",''),
-(281,"abbozzare","Realizzare in forma preliminare o provvisoria.",''),
-(282,"isola","Limitata porzione di terraferma completamente circondata dalle acque.",''),
-(283,"pennarello","Tipo di penna con pennino in feltro o in nylon.",''),
-(284,"decidere","Scegliere tra cose o possibilità.",''),
-(285,"abbiglio","Vestire una persona con particolare cura ed eleganza.",''),
-(286,"molletta","Piccolo arnese a molla per fermare o per appuntare qualcosa.",''),
-(287,"abbigliamento","L'insieme degli oggetti di vestiario.",''),
-(288,"assistere","Aiutare, confortare con la propria presenza e partecipazione.",''),
-(289,"accusa","L'atto, le parole, con cui si attribuisce a qualcuno una colpa.",''),
-(290,"accurato","Condotto o realizzato con precisione e competenza.",''),
-(291,"giudicare","Formulare un giudizio di valore, un'opinione su qualcuno o qualcosa.",''),
-(292,"passeggero","Colui che è di passaggio.",''),
-(293,"grigio","Colore intermedio tra il bianco e il nero.",''),
-(294,"signorina","Titolo di cortesia attribuito a donne nubili.",''),
-(295,"seguito","Gruppo di persone che fanno scorta o compagnia.",''),
-(296,"ossesso","Pensiero che ritorna continuamente e in modo tormentoso.",''),
-(297,"passero","Piccolo uccello molto comune, con becco forte e conico.",''),
-(298,"accelerato","Aumento di velocità o è più frequente del normale.",''),
-(299,"forza","Qualsiasi causa capace di modificare lo stato di quiete o di moto di un corpo.",''),
-(300,"agitare","Muovere in qua e in là rapidamente e con forza.",''),
-(301,"addobbare","Ornare con paramenti, decorazioni.",''),
-(302,"credenza","Mobile in cui si tengono stoviglie, posaterie, bicchieri.",''),
-(303,"accertare","Rendere certo, assicurare.",''),
-(304,"parziale","Relativo a una frazione limitata.",''),
-(305,"cassaforte","Robusto armadio, spesso blindato.",''),
-(306,"numeroso","Costituito da un numero notevole di elementi.",''),
-(307,"peccato","Fatto o esperienza variamente condannabile.",''),
-(308,"aereo","D'aria, formato o costituito di aria.",''),
-(309,"ossessione","Motivo grave e persistente di preoccupazione o di molestia.",''),
-(310,"numerico","Relativo alla presenza o all'uso funzionale dei numeri.",''),
-(311,"perdere","Non riuscire più a ritrovare, smarrire.",''),
-(312,"animazione","Conferimento di vita, di movimento.",''),
-(313,"processo","Successione di fatti o fenomeni aventi tra loro un collegamento.",''),
-(314,"accentuato","Di notevole intensità o evidenza.",''),
-(315,"commissione","Incarico affidato a qualcuno.",''),
-(316,"parassita","Organismo che vive parzialmente o totalmente a spese di un altro individuo.",''),
-(317,"pianoforte","Strumento musicale a corde percosse da martelletti azionati per mezzo di una tastiera.",''),
-(318,"abbracci","Gesti affettuosi.",''),
-(319,"promettere","Impegnarsi a fare o dare qualcosa.",''),
-(320,"pasticcino","Piccolo dolcetto che si offre soprattutto con il tè.",''),
-(321,"parigino","Abitante, nativo di Parigi.",''),
-(322,"parametro","Una costante arbitraria.",''),
-(323,"offendere","Arrecare un danno morale a qualcuno pronunciando parole o compiendo atti che offendono la sua dignità.",''),
-(324,"accelerare","Diventare più veloce.",''),
-(325,"pinzetta","Pinze di dimensioni ridotte.",''),
-(326,"principiante","Chi è alle prime armi nell'apprendimento.",''),
-(327,"apparire","Mostrarsi alla vista.",''),
-(328,"nutrire","Fornire degli alimenti necessari al sostentamento.",''),
-(329,"scienza","Sistema di conoscenze ottenute attraverso un'attività di ricerca.",''),
-(330,"portone","Porta di dimensioni rilevanti.",''),
-(331,"ricchezza","Larga disponibilità di beni e di denaro.",''),
-(332,"primavera","Stagione dell'anno.",''),
-(333,"prato","Terreno ricoperto da erbe.",''),
-(334,"parchimetro","Apparecchio situato vicino a un parcheggio a tariffa.",''),
-(335,"capace","In grado di fare qualcosa.",''),
-(336,"villa","Tipo di abitazione ampia ed elegante.",''),
-(337,"pandoro","Dolce natalizio tipico veronese.",''),
-(338,"amatoriale","Attività svolta per puro diletto.",''),
-(339,"acquirente","La persona che acquista mediante compera.",''),
-(340,"possibile","Ciò che può essere, esistere, accadere.",''),
-(341,"confezione","Preparazione di merci e prodotti per la vendita.",''),
-(342,"ristorante","Locale pubblico nel quale si servono pasti.",''),
-(343,"riconoscere","Individuare, identificare qualcuno o qualcosa di già noto.",''),
-(344,"rotonda","Costruzione di forma più o meno circolare.",''),
-(345,"adeguare","Adattamento, aggiornamento.",''),
-(346,"palmare","Strumento elettronico che ha dimensioni ridotte da poter essere tenuto nel palmo della mano.",''),
-(347,"penetrabile","Suscettibile di penetrazione.",''),
-(348,"norvegese","Abitante, nativo della Norvegia.",''),
-(349,"adoratore","Chi adora.",''),
-(350,"lavorare","Esercitare un'attività retribuita.",''),
-(351,"spirito","Principio immateriale e immortale.",''),
-(352,"oscillazione","Movimento periodico di un corpo fra due posizioni estreme.",''),
-(353,"nascondiglio","Luogo angusto o appartato.",''),
-(354,"origine","Momento iniziale.",''),
-(355,"governo","Organo esecutivo dello stato",''),
-(356,"righello","Asticella usata per tracciare linee rette.",''),
-(357,"comunicazione","Notizia o dichiarazione diffusa per ragioni informative.",''),
-(358,"arrestare","Fermare qualcosa bloccandone il movimento.",''),
-(359,"accecato","Privare qualcuno della vista.",''),
-(360,"urticante","Provoca al contatto una sensazione di irritazione.",''),
-(361,"posizione","Luogo in cui qualcuno o qualcosa è posto.",''),
-(362,"adocchiata","Mettere gli occhi su qualcuno o qualcosa.",''),
-(363,"comporre","Mettere insieme, riunire ordinatamente.",''),
-(364,"nuotare","Spostarsi in acqua con un coordinato.",''),
-(365,"cacciavite","Arnese che serve per serrare o allentare le viti.",''),
-(366,"tenero","Che offre scarsa resistenza alla pressione.",''),
-(367,"concludere","Portare a compimento, terminare.",''),
-(368,"ufficio","Compito, dovere, obbligo.",''),
-(369,"malattia","Condizione anormale di un organismo.",''),
-(370,"chiodo","Bastoncino metallico di varia lunghezza e spessore.",''),
-(371,"compagnia","Stare insieme con altri.",''),
-(372,"abbondata","Esagerare in qualcosa.",''),
-(373,"riunire","Unire insieme elementi distinti.",''),
-(374,"occorrere","Essere necessario a qualcuno.",''),
-(375,"nautica","Scienza, arte, tecnica della navigazione.",''),
-(376,"abbondare","Essere in quantità superiore al bisogno.",''),
-(377,"accidia","Avversione all'operare, mista a noia e indifferenza.",''),
-(378,"pagamento","Versamento, corresponsione di una somma di denaro.",''),
-(379,"enorme","Di proporzioni o dimensioni molto al di là del normale.",''),
-(380,"percepire","Avvertire qualcosa.",''),
-(381,"aumentare","Rendere maggiore.",''),
-(382,"ondulare","Ondeggiare o oscillare lievemente.",''),
-(383,"corpo","Quantità di materia definita nello spazio.",''),
-(384,"bloccare","Interrompere il movimento o la funzione di qualcosa.",''),
-(385,"giovane","Persona di età giovanile.",''),
-(386,"seggiolino","Permanenza temporanea in un luogo.",''),
-(387,"ortica","Pianta erbacea perenne, con fusto e foglie ricchi di peli urticanti.",''),
-(388,"adottare","Far proprio.",''),
-(389,"guasto","Danno,rottura che compromette il regolare funzionamento di un sistema o macchinario.",''),
-(390,"piede","Parte terminale degli arti inferiori dell'uomo.",''),
-(391,"vagone","Carrozza o carro ferroviario per il trasporto di persone o merci.",''),
-(392,"minore","quantità più piccola rispetto ad un'altra.",''),
-(393,"rivedere","Vedere di nuovo.",''),
-(394,"passeggiare","Camminare a passo lento.",''),
-(395,"luogo","Parte di spazio delimitata.",''),
-(396,"autonoleggio","Noleggio di automobili.",''),
-(397,"coltello","Strumento da taglio.",''),
-(398,"adozione","Istituto giuridico che permette di formarsi una filiazione civile.",''),
-(399,"convincere","Indurre qualcuno a riconoscere la verità.",''),
-(400,"autostrada","Strada a più corsie di scorrimento e senza attraversamenti.",''),
-(401,"meccanico","Operaio specializzato che provvede alla riparazione e alla manutenzione di macchine.",''),
-(402,"accennare","Far cenno con la mano, la testa, gli occhi.",''),
-(403,"importante","Che rappresenta qualcosa di fondamentale.",''),
-(404,"eseguire","Mettere in atto, dare compimento a quanto è stato disposto o prescritto.",''),
-(405,"normografo","Strumento usato nel disegno tecnico per la scrittura con caratteri uniformi.",''),
-(406,"decisione","Impegno definitivo assunto di fronte a una situazione.",''),
-(407,"ondeggiare","Muoversi per la spinta delle onde.",''),
-(408,"ringraziare","Esprimere con parole o con gesti la propria gratitudine.",''),
-(409,"misterioso","Incomprensibile per l'intelletto umano.",''),
-(410,"sorpassare","Portarsi oltre un dato limite, oltrepassare, varcare.",''),
-(411,"ossatura","Il complesso delle ossa che costituiscono lo scheletro di un corpo.",''),
-(412,"camminare","Spostarsi, procedere andando a piedi.",''),
-(413,"portiere","Giocatore posto a difesa della porta.",''),
-(414,"presidente","Chi, per elezione o per nomina, sovrintende a un organo collegiale.",''),
-(415,"ordinanza","Atto normativo emanato da un ministro, da un prefetto o da un sindaco.",''),
-(416,"carrozza","Veicolo a quattro ruote per trasporto di persone.",''),
-(417,"sonata","Composizione eseguita da strumenti.",''),
-(418,"orgoglio","Stima eccessiva di sé e dei propri meriti.",''),
-(419,"papagallo","Uccelli esotici dalle penne multicolori e dal becco adunco.",''),
-(420,"camper","Furgone attrezzato ad abitazione.",''),
-(421,"onnisciente","Che dispone di una scienza illimitata.",''),
-(422,"ostetrica","Infermiera che assiste le donne durante la gestazione.",''),
-(423,"addentrare","Afferrare con i denti, mordere.",''),
-(424,"pasticciere","Persona che provvede alla produzione di dolci.",''),
-(425,"mocio","Strumento utilizzato per pulire il pavimento.",''),
-(426,"marcire","Diventare marcio, guastarsi, putrefarsi.",''),
-(427,"convenienza","Adeguatezza, corrispondenza, proporzione.",''),
-(428,"ciclismo","Sport della bicicletta.",''),
-(429,"bacchetta","Asticciola di legno o d'altra materia.",''),
-(430,"acquistare","Ottenere la proprietà di un bene versando il corrispettivo in danaro.",''),
-(431,"difesa","Protezione o salvaguardia diretta a respingere offese.",''),
-(432,"pasticca","Pastiglia, caramellina.",''),
-(433,"campeggiare","Soggiornare in un campeggio.",''),
-(434,"scaffale","Elemento dell'arredamento.",''),
-(435,"accaduto","Uno o più fatti, per lo più in quanto contenuto di una narrazione.",''),
-(436,"sauna","Il caratteristico bagno a vapore.",''),
-(437,"eccellenza","Qualità di sommo pregio o gradimento, unicità, perfezione.",''),
-(438,"brillante","Emana o riflette una luce particolarmente splendente, sfavillante.",''),
-(439,"vincere","Sconfiggere qualcuno.",''),
-(440,"sfera","Figura geometrica solida racchiusa da una superficie curva.",''),
-(441,"sguardo","L'atto del guardare.",''),
-(442,"parlamento","Organo collegiale e rappresentativo della volontà politica dei cittadini.",''),
-(443,"aggiungere","Unire a qualcosa che è già presente.",''),
-(444,"continuo","Non interrotto nel tempo.",''),
-(445,"nazione"," Collettività etnica di individui coscienti di essere legati da una comune tradizione.",''),
-(446,"oscurare","Rendere qualcosa oscuro.",''),
-(447,"nominale","Relativo all'uso o alla presenza del nome come categoria grammaticale.",''),
-(448,"fumare","Emettere, produrre fumo.",''),
-(449,"paladino","Cavaliere di alta nobiltà e valore.",''),
-(450,"mouse","Dispositivo di puntamento per computer.",''),
-(451,"nascita","L'inizio della partecipazione individuale all'esistenza.",''),
-(452,"distanza","Spazio che separa fra loro due luoghi.",''),
-(453,"cuccia","Giaciglio del cane.",''),
-(454,"oceano","Termine che indica le più vaste distese acquee del globo.",''),
-(455,"pendolare","Lavoratore o studente che si sposta dalla località di residenza per raggiungere la propria attività.",''),
-(456,"abolito","Annullare, sopprimere qualcosa.",''),
-(457,"pentacolo","Specie di amuleto a forma di stella a cinque punte.",''),
-(458,"sereno","Del cielo azzurro sgombro di nubi.",''),
-(459,"fratello","Persona legata ad altra o ad altre da un vincolo di parentela.",''),
-(460,"scrittore","Chi scrive opere con intento artistico.",''),
-(461,"penitenza","Sentimento di contrizione per aver commesso errori o colpe.",''),
-(462,"abbracciare","Stringere con le braccia, per lo più in segno di affetto.",''),
-(463,"soluzione","L'ottenimento di un risultato.",''),
-(464,"odorare","Percepire con l'olfatto l'odore di qualcosa.",''),
-(465,"reputazione","La considerazione altrui.",''),
-(466,"asteroide","Corpi rocciosi in orbita solare.",''),
-(467,"riprendere","Prendere, afferrare di nuovo.",''),
-(468,"memoria","Capacità del cervello di conservare informazioni.",''),
-(469,"pannolino","Piccola pezza di materiale assorbente, usata per l'igiene intima dei neonati.",''),
-(470,"olfatto","Funzione sensoriale specifica relativa alla percezione degli odori.",''),
-(471,"argomento","Tema od oggetto di una conversazione.",''),
-(472,"pastorale","Relativo alla vita e ai costumi dei pastori.",''),
-(473,"destinazione","Assegnazione decisa nell'ambito di un piano prestabilito.",''),
-(474,"visitare","Recarsi presso qualcuno per intrattenersi con lui.",''),
-(475,"palazzo","Edificio di notevole impegno e sviluppo architettonico, adibito ad abitazione.",''),
-(476,"parlamentare","Membro del parlamento.",''),
-(477,"pancreas","Ghiandola addominale annessa all'apparato digerente.",''),
-(478,"cancellazione","Revoca, estinzione, annullamento.",''),
-(479,"microfono","Apparecchio che trasforma onde sonore in segnali elettrici.",''),
-(480,"biglietteria","Spazio adibito alla vendita di biglietti.",''),
-(481,"ripetere","Effettuare di nuovo un'azione.",''),
-(482,"pedante","Ostenta con presunzione il proprio sapere, spesso inconsistente.",''),
-(483,"passaporto","Documento che dà facoltà al cittadino di uno stato di allontanarsi dal territorio nazionale.",''),
-(484,"annunciare"," Far sapere qualcosa.",''),
-(485,"navigazione","Attività del navigare sull'acqua con imbarcazioni, o anche nell'aria con aerei o nello spazio con veicoli spaziali.",''),
-(486,"affrontare","Fronteggiare qualcuno con decisione o coraggio.",''),
-(487,"organizzare","Formare, disporre, coordinare qualcosa.",''),
-(488,"maestoso","Che s'impone all'attenzione o all'ammirazione per imponenza.",''),
-(489,"oliva","Frutto dell'olivo.",''),
-(490,"vario","Che è composto di elementi diversi l'uno dall'altro, ma non contrastanti.",''),
-(491,"accanito","Rabbioso, furioso, inferocito.",''),
-(492,"sufficienza","Ciò che basta a soddisfare una necessità.",''),
-(493,"esprimere","Manifestare, esternare le proprie idee o i propri sentimenti.",''),
-(494,"ricevere","Prendere, accogliere qualcosa che viene dato.",''),
-(495,"scherzo","Atto o discorso privo di serietà o di impegno.",''),
-(496,"tavola","Asse di legno di forma rettangolare, lunga, stretta e piuttosto sottile.",''),
-(497,"pubblicare","Diffondere, rendere qualcosa di pubblica conoscenza.",''),
-(498,"percorribile","Che si può percorrere.",''),
-(499,"sostenere","Mantenere una persona in posizione eretta affinché non cada.",''),
-(500,"bagagliaio","Scomparto della carrozzeria che serve per trasportare un carico all'interno del veicolo.",''),
-(501,"straniero","Appartenente a un altro paese.",''),
-(502,"odierno","Relativo alla giornata o anche all'epoca presente.",''),
-(503,"minuto","Unità di misura dell'intervallo di tempo pari a 60 secondi.",''),
-(504,"personaggio","Persona importante, per grado gerarchico o per fama.",''),
-(505,"incidente","Accadimento inatteso che procura un danno.",''),
-(506,"prenotazione","Fissare in precedenza qualcosa, farlo riservare per sé.",''),
-(507,"montagna","Rilievo montuoso di particolare imponenza.",''),
-(508,"accordo","Conformità di opinioni o intenzioni.",''),
-(509,"risultato","Conclusione, effetto di un'azione.",''),
-(510,"cattolico","Chi professa la religione cristiana cattolica.",''),
-(511,"antenna","dispositivo elettrico atto a trasmettere o ricevere onde elettromagnetiche.",''),
-(512,"sociale","Tendente a vivere in società.",''),
-(513,"stufato","Cuocere un alimento a lungo e a fuoco lento.",''),
-(514,"indicare","Fornire un'informazione con parole o gesti.",''),
-(515,"dolciastro","i sapore piuttosto dolce, ma non gradevole.",''),
-(516,"corso","Serie metodica di lezioni o trattazione sistematica di una disciplina.",''),
-(517,"novembre","L'undicesimo mese dell'anno.",''),
-(518,"scena","Parte del palcoscenico in cui gli attori recitano.",''),
-(519,"semaforo","Impianto per la regolazione del traffico stradale.",''),
-(520,"situazione","Condizione, in cui si trova una cosa o una persona.",''),
-(521,"incrocio","Punto d'intersezione di due elementi.",''),
-(522,"orologeria","La fabbricazione o l'industria degli orologi.",''),
-(523,"omologo","Che ha le stesse caratteristiche di un altro.",''),
-(524,"taglierino","Utensile di piccole dimensioni utilizzato per tagliare.",''),
-(525,"orientare","Volgere qualcosa verso un punto cardinale.",''),
-(526,"oltraggio","Offesa grave e consapevole contro l'onore o la dignità di qualcuno.",''),
-(527,"pagliacciata","Messinscena clamorosa, offensiva del buon gusto.",''),
-(528,"riservato","Destinato esclusivamente ad alcune persone o ad alcuni usi.",''),
-(529,"accendisigari","Macchinetta a benzina o a gas liquido, per accendere sigari o sigarette.",''),
-(530,"uccidere","Privare della vita una persona o un animale.",''),
-(531,"viola","Pianta erbacea delle Violacee.",''),
-(532,"abbattono","Buttare giù, far cadere.",''),
-(533,"riscaldamento","Apporto di calore a un materiale, a un corpo, a un ambiente.",''),
-(534,"regno","Stato monarchico.",''),
-(535,"apparecchiare","Preparare ordinatamente qualcosa.",''),
-(536,"pennello","Attrezzo costituito da un ciuffo di peli naturali o sintetici.",''),
-(537,"simile","Affinità, somiglianza o analogia con un altro oggetto.",''),
-(538,"nervoso","Caratterizzato da continue variazioni, instabile.",''),
-(539,"adocchio","Guardare con particolare interesse o desiderio.",''),
-(540,"frenare","Rallentare un corpo in movimento.",''),
-(541,"stringere","Avvicinare tra loro due cose o parti della stessa cosa.",''),
-(542,"stagione","Ognuno dei quattro periodi in cui è diviso l'anno.",''),
-(543,"nervosismo","Senso diffuso e pungente di irritazione e scontento.",''),
-(544,"formato","Costituito, composto.",''),
-(545,"libero","Non soggetto a padrone o a qualsiasi forma di dominio.",''),
-(546,"disposizione","Collocazione o distribuzione funzionale.",''),
-(547,"raggiungere","Toccare un certo luogo, arrivarvi.",''),
-(548,"mestiere","Attività esercitata abitualmente.",''),
-(549,"indovinato","Previsto, pronosticato.",''),
-(550,"formare","Realizzare dando una forma, modellare.",''),
-(551,"odiare","Provare ostilità verso qualcuno.",''),
-(552,"occhiale","Ogni strumento ottico che migliora la vista.",''),
-(553,"abusato","Usato senza misura né criterio e spesso a sproposito.",''),
-(554,"accentuare","Rendere più marcato.",''),
-(555,"osare","Avere il coraggio di compiere un'azione difficilissima o rischiosa.",''),
-(556,"spilla","Oggetto, spesso prezioso, che si appunta mediante uno spillo su vestiti.",''),
-(557,"adagio","Con lentezza, piano.",''),
-(558,"settimana","Periodo di sette giorni.",''),
-(559,"generale","Di tutti gli appartenenti a un genere, a una categoria, ad essi comune.",''),
-(560,"allarme","Dispositivo d'emergenza che avverte di un pericolo.",''),
-(561,"tedesco","Appartenente, relativo alla Germania.",''),
-(562,"opprimere","Premere col proprio peso, gravare.",''),
-(563,"autunno","La terza stagione dell'anno.",''),
-(564,"grattugia","Strumento da cucina utilizzato per ridurre in briciole.",''),
-(565,"esperienza","Conoscenza acquisita attraverso il contatto diretto con la realtà.",''),
-(566,"ospedale","Istituto pubblico o privato destinato all'assistenza sanitaria.",''),
-(567,"quarto","In una successione ordinata, occupa il posto corrispondente al numero 4.",''),
-(568,"questione","Problema, caso da esaminare e risolvere.",''),
-(569,"abbronzata","Di colore bronzeo.",''),
-(570,"passato","Non più attuale, superato.",''),
-(571,"serbatoio","Qualsiasi cavità o recipiente adibito a contenere o conservare liquidi.",''),
-(572,"negoziante","Proprietario o gestore di un negozio.",''),
-(573,"relazione","Resoconto, esposizione orale o scritta di un dato argomento.",''),
-(574,"ritardo","Azione e risultato del ritardare.",''),
-(575,"patente","Documento di autorizzazione all'esercizio di una determinata attività.",''),
-(576,"accentravo","Riunire nello stesso luogo.",''),
-(577,"satellite","Qualsiasi corpo celeste che ruoti attorno a un pianeta.",''),
-(578,"metro","Unità fondamentale di misura di lunghezza.",''),
-(579,"quadro","Elemento o superficie di forma quadrata.",''),
-(580,"impressione","Qualsiasi forma di esperienza conoscitiva o emotiva.",''),
-(581,"bollitore","Recipiente domestico per far bollire liquidi vari.",''),
-(582,"nudista","Pratica naturista favorevole all'abolizione dei vestiti.",''),
-(583,"narrazione","Esposizione di un racconto.",''),
-(584,"pecorino","Prodotto o ricavato dalla pecora.",''),
-(585,"osceno","Che offende la moralità in campo sessuale.",''),
-(586,"pelato","Privo di peli.",''),
-(587,"adiacente","Che si trova vicino.",''),
-(588,"acclamare","Eleggere qualcuno a gran voce, applaudendo.",''),
-(589,"preciso","Ben determinato, stabilito con esattezza.",''),
-(590,"abusare","Fare un uso eccessivo o arbitrario di qualcosa.",''),
-(591,"intermedio","Compreso tra due punti di riferimento nello spazio o nel tempo.",''),
-(592,"pendere","Essere appeso o attaccato a un sostegno posto in alto.",''),
-(593,"gruppo","Insieme di persone o cose distinte ma riunite in un unico complesso.",''),
-(594,"comune","Un comune è un ente territoriale di base.",''),
-(595,"mantenere","Rimanere in una certa condizione.",''),
-(596,"odissea","Serie di fatti o di avvenimenti infausti e dolorosi.",''),
-(597,"notturno","Pertinente alla notte.",''),
-(598,"accademico","Pertinente o relativo a un'accademia.",''),
-(599,"dentifricio","Preparato cosmetico ad azione detersiva per la pulizia dei denti.",''),
-(600,"riserva","il mettere da parte qualcosa per utilizzarlo in futuro.",''),
-(601,"condurre","Guidare, pilotare un mezzo di trasporto.",''),
-(602,"accidente","Ciò che accade, caso, combinazione.",''),
-(603,"attraversare","Percorrere da un lato a quello opposto.",''),
-(604,"accortezza","Perspicacia, prontezza d'intuito, astuzia.",''),
-(605,"figurare","Fare bella figura, impressionare favorevolmente.",''),
-(606,"paralisi","Perdita della mobilità e della sensibilità di uno o più arti o parti del corpo.",''),
-(607,"patente","Documento di autorizzazione all'esercizio di una determinata attività.",''),
-(608,"pennellare","Colorare o verniciare qualcosa.",''),
-(609,"campagna","Terreno aperto, coltivato o incolto.",''),
-(610,"acerbo","Non ancora maturo.",''),
-(611,"accenno","Avviso, avvertimento, leggero indizio.",''),
-(612,"corridoio","Ambiente sul quale si affacciano vari locali o stanze.",''),
-(613,"giusto","Di persona che conforma i propri giudizi e comportamenti a criteri di equità.",''),
-(614,"oppressione","Sopraffazione da parte di un potere.",''),
-(615,"attuale","Presente, odierno.",''),
-(616,"casseruola","Utensile da cucina.",''),
-(617,"principe","Il più alto dei titoli nobiliari.",''),
-(618,"orsacchiotto","Cucciolo di orso.",''),
-(619,"griglia","Struttura in metallo a barre parallele e perpendicolari tra di loro.",''),
-(620,"abbaiare","Verso caratteristico del cane.",''),
-(621,"vacanza","Periodo di libertà dal lavoro o dagli obblighi scolastici.",''),
-(622,"conoscenza","Consapevolezza e la comprensione di fatti.",''),
-(623,"nudismo","Atteggiamento in favore della soppressione del vestiario.",''),
-(624,"pinze","Utensile in metallo usato per afferrare, stringere e tagliare.",''),
-(625,"fissare","Collocare o applicare stabilmente, rendere fisso.",''),
-(626,"ufficiale","Emanato dall'autorità o dall'organo competente.",''),
-(627,"nocciola","Frutto e il seme dell'albero del nocciolo.",''),
-(628,"costituire","Fondare, creare, istituire.",''),
-(629,"svegliare","Far uscire dal sonno.",''),
-(630,"difendere","Proteggere qualcuno o qualcosa.",''),
-(631,"lezione","Attività didattica svolta da un docente con uno o più allievi in un tempo determinato.",''),
-(632,"generale","Comune o applicabile a un intero ordine di fatti.",''),
-(633,"pastiera","Torta a base di pasta frolla.",''),
-(634,"targa","Placca di metallo o altro materiale su cui sono scritti nomi, numeri, indicazioni varie.",''),
-(635,"prenotare","Fissare in anticipo qualcosa.",''),
-(636,"mattone","Materiale a forma di parallelepipedo, usato nella costruzione di murature.",''),
-(637,"modifica","Parziale trasformazione, cambiamento di qualcosa.",''),
-(638,"calendario","Sistema di divisione del tempo basato su fenomeni astronomici.",''),
-(639,"paesaggio","Il paesaggio è la particolare fisionomia di un territorio.",''),
-(640,"risultare","Conclusione, effetto di un'azione.",''),
-(641,"spingere","Premere un oggetto per abbassarlo.",''),
-(642,"rifiutare","Non accettare, respingere qualcuno.",''),
-(643,"avvitare","Introdurre e serrare una vite.",''),
-(644,"passatempo","Mezzo o motivo di ricreazione o di divertimento.",''),
-(645,"abituato","Che ha ricevuto una determinata educazione.",''),
-(646,"microfono","Apparecchio che trasforma onde sonore in segnali elettrici.",''),
-(647,"posteriore","Che sta dietro, retrostante.",''),
-(648,"giugno","Il sesto mese dell'anno.",''),
-(649,"ormone","Ciascuna delle sostanze organiche, prodotte dalle ghiandole endocrine.",''),
-(650,"secchio","Recipiente piuttosto capace, di forma cilindrica.",''),
-(651,"abbaio","Il verso del cane.",''),
-(652,"abolizione","Cessazione definitiva imposta d'autorità.",''),
-(653,"coperta","Qualsiasi panno di adeguate dimensioni, che serva a coprire e riparare dal freddo.",''),
-(654,"solito","Conforme alla consuetudine.",''),
-(655,"complesso","Che presenta difficoltà per la comprensione.",''),
-(656,"visita","Atto di andare a trovare, a visitare qualcuno.",''),
-(657,"appartenere","Essere legittima proprietà di qualcuno.",''),
-(658,"elemento","Sostanza semplice di cui sono formati i corpi.",''),
-(659,"ingrediente","Ogni sostanza che, insieme con altre, compone un miscuglio.",''),
-(660,"segreto","Condizione o luogo riservato, intimo.",''),
-(661,"prossimo","Molto vicino a qualcuno o a qualcosa.",''),
-(662,"nucleo","La porzione centrale, la più interna di qualcosa.",''),
-(663,"forchetta","Posata per portare i cibi alla bocca.",''),
-(664,"principio","Momento iniziale, origine, punto di avvio o di partenza.",''),
-(665,"mercato","Il luogo in cui avvengono le contrattazioni.",''),
-(666,"trasformare","Rendere completamente diverso nell'aspetto.",''),
-(667,"ammettere","Accettare, approvare, permettere qualcosa.",''),
-(668,"pasticcio","Situazione intricata, complicata, difficilmente risolvibile.",''),
-(669,"autolavaggio","Area opportunamente attrezzata per il lavaggio di automobili.",''),
-(670,"svitare","Estrarre una vite girandola in senso inverso a quello in cui è stata avvitata.",''),
-(671,"vigile","Accorto, assiduamente attento e sollecito.",''),
-(672,"omosessuale","L'individuo eroticamente attratto da soggetti del proprio sesso.",''),
-(673,"orrore","Forte sensazione di ribrezzo, moto di repulsione",''),
-(674,"ascoltare","Udire attentamente qualcuno.",''),
-(675,"pastiglia","Preparazione farmaceutica costituita da polveri o da impasti.",''),
-(676,"operazione","L'azione che si determina come fatto tecnico o pratico.",''),
-(677,"conducente","Chi guida un veicolo a trazione animale o meccanica.",''),
-(678,"ottimizzare","Portare qualcosa alle condizioni ottimali.",''),
-(679,"preoccupare","Pensiero o motivo di apprensione.",''),
-(680,"interno","Che si trova dentro a qualcosa.",''),
-(681,"abbellisca","Rendere più bello mediante ornamenti.",''),
-(682,"ritenere","Avere una certa opinione personale su qualcuno o qualcosa.",''),
-(683,"direzione","Linea ideale lungo la quale muove una persona.",''),
-(684,"ricordo"," L'atto, il fatto di ricordare una persona o una cosa.",''),
-(685,"gomma","Sostanza naturale derivante dal latice di alcune piante.",''),
-(686,"intendere","Capire, comprendere qualcosa.",''),
-(687,"cambiare","Sostituire una cosa o una persona con un'altra dello stesso genere.",''),
-(688,"sinistro","Situato dalla parte corrispondente alla posizione del cuore.",''),
-(689,"offerente","Chi fa un'offerta.",''),
-(690,"nostalgia","Sentimento malinconico che si prova nel rimpiangere cose e tempi ormai trascorsi.",''),
-(691,"ferrovia","Percorso costituito da binari su cui circolano i treni.",''),
-(692,"occulto","Che non è visibile o non è percepibile intellettualmente.",''),
-(693,"desiderio","Sentimento di ricerca appassionata o di attesa del possesso.",''),
-(694,"affare","Cosa di una certa importanza che si fa o si è fatta o è da farsi.",''),
-(695,"pedofilo","Che manifesta pedofilia.",''),
-(696,"finestrino","Finestra di un mezzo di trasporto.",''),
-(697,"cambio","Apparecchio che serve a variare la velocità in una trasmissione fra un albero conduttore e un condotto.",''),
-(698,"decoro","Decoroso.",''),
-(699,"ostacolo","Qualsiasi cosa o persona che intralcia o costituisce una difficoltà allo svolgimento di un'azione.",''),
-(700,"capotreno","Il capo del personale in servizio su un convoglio ferroviario.",''),
-(701,"cavatappi","Strumento a vite o a leva per estrarre il tappo di sughero dalle bottiglie o dai fiaschi.",''),
-(702,"parrocchia","Ciascuna delle circoscrizioni territoriali in cui è suddivisa una diocesi ecclesiastica.",''),
-(703,"programmare","Avere intenzione di fare qualcosa, mettere in programma.",''),
-(704,"orientamento","La determinazione della posizione o della direzione.",''),
-(705,"nubile","Donna non coniugata.",''),
-(706,"automatico","Che funziona senza l'intervento dell'uomo",''),
-(707,"accellerata","Rapida accelerazione del motore.",''),
-(708,"privato","Considerato solo come persona, fuori dal ruolo sociale e dalla funzione pubblica.",''),
-(709,"ciotola","Ampia tazza emisferica.",''),
-(710,"ottica","Modo di considerare, inquadrare, classificare.",''),
-(711,"abbocco","Detto dei pesci, afferrare l'esca.",''),
-(712,"atterrare","Gettare qualcosa a terra.",''),
-(713,"architetto","Chi progetta la costruzione, il restauro o l'arredo di edifici.",''),
-(714,"ortodosso","Rigido osservante di un principio.",''),
-(715,"grigliare","Cuocere sulla griglia.",''),
-(716,"posto","Porzione di spazio in cui è abitualmente collocata una cosa.",''),
-(717,"problema","Quesito che attende una soluzione.",''),
-(718,"emergenza","Circostanza imprevista.",''),
-(719,"anatra","Nome di diverse varietà di uccelli acquatici con becco largo e piatto e piedi palmati.",''),
-(720,"monaca","Donna consacrata a Dio ",''),
-(721,"impedire","Rendere impossibile, vietare qualcosa.",''),
-(722,"cucchiaio","Pezzo della posateria, usato per portare alla bocca cibi liquidi o semiliquidi.",''),
-(723,"omaggio","Atto o professione di ossequio o di rispetto.",''),
-(724,"marciapiede","Parte della strada riservata al passaggio dei pedoni.",''),
-(725,"compiere","Portare a termine, finire, concludere.",''),
-(726,"milione","Nel sistema decimale, unità del settimo ordine corrispondente a mille migliaia.",''),
-(727,"passera","Nome comune di vari Uccelli Passeriformi.",''),
-(728,"ottico","Relativo alla vista e all'apparato visivo dell'uomo.",''),
-(729,"tessera"," Cartoncino rettangolare o libretto che riporta i dati anagrafici.",''),
-(730,"abissi","Baratri, voragini.",''),
-(731,"pitturare","Verniciare qualcosa.",''),
-(732,"storico","Relativo alla storia.",''),
-(733,"termine","Parola o locuzione propria di un ambito definito.",''),
-(734,"industriale","Dell'industria, relativo all'industria.",''),
-(735,"onorevole","Titolo attribuito ai membri del parlamento.",''),
-(736,"passeggiata","Camminata agevole fatta per svago e passatempo.",''),
-(737,"spazzatura","Materiale di rifiuto, immondizia.",''),
-(738,"spiedo","Asta appuntita di ferro in cui si infilzano carni.",''),
-(739,"bocca","Cavità corrispondente all'inizio del canale alimentare.",''),
-(740,"partigiano","combattente armato che non appartiene ad un esercito regolare.",''),
-(741,"americano","chi abita negli Stati Uniti d'America.",''),
-(742,"accampato","Sistemare qualcuno in alloggiamenti.",''),
-(743,"ottone","Lega inossidabile di rame e zinco, di colore giallo.",''),
-(744,"furgoncino","Veicolo di piccole dimensioni, completamente chiuso.",''),
-(745,"rubinetto","Dispositivo che, applicato all'estremità di una tubatura regola l'afflusso del fluido.",''),
-(746,"rivolgere","Volgere qualcosa- verso una certa direzione.",''),
-(747,"provocare","Spingere a un sentimento negativo o a un comportamento aggressivo.",''),
-(748,"salutare","Che reca giovamento alla salute.",''),
-(749,"participio","Modo verbale molto vicino all'aggettivo e al sostantivo.",''),
-(750,"persona","L'individuo umano in quanto oggetto di considerazione.",''),
-(751,"adoperare","Fare uso di qualcosa per uno scopo ben preciso.",''),
-(752,"pastina","Pasta alimentare di forme molto piccole.",''),
-(753,"zerbino","Piccolo tappeto rettangolare.",''),
-(754,"delizioso","Attraente per la delicatezza, la raffinatezza, l'eleganza.",''),
-(755,"accanire","Ostinato, tanto nel male che nel bene.",''),
-(756,"domandare","Chiedere a qualcuno per un'informazione.",''),
-(757,"sicurezza","Cautela contro eventualità spiacevoli.",''),
-(758,"vernice","Soluzione a base di resine naturali o sintetiche, che, stesa su una superficie, lascia una patina lucida.",''),
-(759,"coscienza","Capacità dell'uomo di riflettere su se stesso.",''),
-(760,"tappeto","Sorta di tessuto grosso e compatto, di lana o di fibre vegetali.",''),
-(761,"negoziare","Fare oggetto di contrattazione.",''),
-(762,"nobile","Che appartiene, per nascita o per privilegio acquisito, a una classe sociale superiore.",''),
-(763,"gettare","isfarsi di ciò che non serve più.",''),
-(764,"intermezzo","Intervallo nel corso di uno spettacolo.",''),
-(765,"orbita","Traiettoria nello spazio di un corpo naturale.",''),
-(766,"occidentale","Situato a ovest, proveniente da ovest.",''),
-(767,"forma","Aspetto esteriore di un oggetto.",''),
-(768,"destino","L'insieme imponderabile delle cause che si pensa abbiano determinato gli eventi della vita.",''),
-(769,"orizzonte","La linea apparente, circolare, che segna i confini della visibilità a partire da un luogo d'osservazione.",''),
-(770,"maggio","Quinto mese dell'anno.",''),
-(771,"macchina","Congegno meccanico ideato per compiere un lavoro.",''),
-(772,"igiene","Branca della medicina che studia le modalità più opportune per conservare la salute e prevenire malattie.",''),
-(773,"diventare","Acquistare una qualità, una condizione o un ruolo diversi dai precedenti.",''),
-(774,"occidente"," La parte di orizzonte dove tramonta il sole.",''),
-(775,"europeo","Abitante, originario o nativo dell'Europa.",''),
-(776,"pendenza","Grado di ripidità o di inclinazione di una strada o di un tratto di percorso.",''),
-(777,"abbronzato","Che ha preso il colore del bronzo per esposizione al sole.",''),
-(778,"estremo","Ultimo nello spazio.",''),
-(779,"consentire","Permettere, concedere qualcosa.",''),
-(780,"estate","La seconda stagione dell'anno.",''),
-(781,"istante","Momento brevissimo.",''),
-(782,"valore","Complesso delle doti e capacità.",''),
-(783,"opponibile","Che può essere opposto o contrapposto.",''),
-(784,"misurare","Determinare il valore di una grandezza fisica con l'impiego di uno strumento di misura.",''),
-(785,"personale","Riguardante la persona.",''),
-(786,"passare","Andare da un punto a un altro percorrendo uno spazio.",''),
-(787,"considerare","Esaminare con attenzione un problema teorico.",''),
-(788,"partecipante","Che partecipa, prende parte a qualcosa.",''),
-(789,"novella","Narrazione di solito breve, perlopiù in prosa, di fatti reali o immaginari.",''),
-(790,"fianco","La parte laterale dell'addome.",''),
-(791,"accadere","Succedere, capitare.",''),
-(792,"accecare","Rendere cieco, privare del senso o dell'uso della vista.",''),
-(793,"permettere","Dare il permesso di fare qualcosa.",''),
-(794,"programma","Insieme organizzato di istruzioni redatte organicamente secondo un determinato linguaggio.",'');
+﻿INSERT INTO mediumwords VALUES (1,"atteggiamento","Modo di disporsi o di presentarsi.",'');
+INSERT INTO mediumwords VALUES (2,"paraurti","Parte della carrozzeria di un veicolo la cui funzione è quella di prevenire o limitare i danni di una collisione.",'');
+INSERT INTO mediumwords VALUES (3,"oggettivo","Aderente alla realtà dei fatti, non influenzato da pregiudizi.",'');
+INSERT INTO mediumwords VALUES (4,"nozze","Il rito, la cerimonia con cui si celebra il matrimonio.",'');
+INSERT INTO mediumwords VALUES (5,"sforzare","Sottoporre a uno sforzo intenso o eccessivo.",'');
+INSERT INTO mediumwords VALUES (6,"movimento","L'azione del muovere o del muoversi.",'');
+INSERT INTO mediumwords VALUES (7,"produrre","Comporre, ideare, creare opere dell’ingegno.",'');
+INSERT INTO mediumwords VALUES (8,"nucleare","Tutti quei fenomeni in cui si ha produzione di energia in seguito a trasformazioni nei nuclei atomici.",'');
+INSERT INTO mediumwords VALUES (9,"lasciare","Allontanarsi da una persona o da un luogo.",'');
+INSERT INTO mediumwords VALUES (10,"adattare","Rendere qualcosa adatto a uno scopo.",'');
+INSERT INTO mediumwords VALUES (11,"staccare","Separare una cosa da un'altra.",'');
+INSERT INTO mediumwords VALUES (12,"navigatore","Colui che naviga anche nel Mar Rosso.",'');
+INSERT INTO mediumwords VALUES (13,"acustica","Branca della fisica che studia il suono.",'');
+INSERT INTO mediumwords VALUES (14,"oscillare","Muoversi fra due posizioni estreme.",'');
+INSERT INTO mediumwords VALUES (15,"oggetto","Entità fisica.",'');
+INSERT INTO mediumwords VALUES (16,"avvocato","Professionista delegato ad assistere e difendere una parte in un giudizio.",'');
+INSERT INTO mediumwords VALUES (17,"pennino","Parte scrivente della penna.",'');
+INSERT INTO mediumwords VALUES (18,"militare","Appartenente alle forze armate.",'');
+INSERT INTO mediumwords VALUES (19,"ufficiale","Specifica posizione gerarchica militare.",'');
+INSERT INTO mediumwords VALUES (20,"conservare","Tenere con cura un oggetto o un bene.",'');
+INSERT INTO mediumwords VALUES (21,"attendere","Aspettare.",'');
+INSERT INTO mediumwords VALUES (22,"pastoso","Consistenza molle come pasta.",'');
+INSERT INTO mediumwords VALUES (23,"panoramico","Vedere un ampio panorama, che offre una gradevole vista.",'');
+INSERT INTO mediumwords VALUES (24,"occhiata","Pesce d'acqua salata appartenente alla famiglia degli Sparidi.",'');
+INSERT INTO mediumwords VALUES (25,"ostinare","Persistere tenacemente in un atteggiamento.",'');
+INSERT INTO mediumwords VALUES (26,"traversata","Passaggio attraverso un ambito spaziale di notevole estensione.",'');
+INSERT INTO mediumwords VALUES (27,"collaboratore","Chi partecipa attivamente a un'impresa.",'');
+INSERT INTO mediumwords VALUES (28,"successo","Esito favorevole.",'');
+INSERT INTO mediumwords VALUES (29,"abbocca","Afferrare con la bocca.",'');
+INSERT INTO mediumwords VALUES (30,"saporito","Ricco di sapore.",'');
+INSERT INTO mediumwords VALUES (31,"contare","Valutare quantitativamente un insieme attribuendo i numeri in ordine progressivo.",'');
+INSERT INTO mediumwords VALUES (32,"ozono","Molecola che consiste in tre atomi di ossigeno negativamente caricati.",'');
+INSERT INTO mediumwords VALUES (33,"naturale","Atteggiamenti spontanei.",'');
+INSERT INTO mediumwords VALUES (34,"adattato","Rendere qualcosa adatto a uno scopo.",'');
+INSERT INTO mediumwords VALUES (35,"pegno","Diritto concesso su un bene mobile dal debitore o da un terzo.",'');
+INSERT INTO mediumwords VALUES (36,"camicia","Indumento con maniche lunghe o corte e con colletto.",'');
+INSERT INTO mediumwords VALUES (37,"elettrico","Relativo all'elettricità, alla sua produzione e al suo sfruttamento.",'');
+INSERT INTO mediumwords VALUES (38,"ovatta","Semilavorato tessile simile al feltro, soffice e di scarsa consistenza.",'');
+INSERT INTO mediumwords VALUES (39,"adesivo","Determina o consente adesione.",'');
+INSERT INTO mediumwords VALUES (40,"tratto","Linea tracciata con un unico e rapido movimento.",'');
+INSERT INTO mediumwords VALUES (41,"abbondato","Esagerare in qualcosa.",'');
+INSERT INTO mediumwords VALUES (42,"motorino","Piccolo motore elettrico.",'');
+INSERT INTO mediumwords VALUES (43,"sacrificio","Privazione, rinuncia, disagio imposto da determinate condizioni.",'');
+INSERT INTO mediumwords VALUES (44,"chiesa","Edificio consacrato al culto cristiano.",'');
+INSERT INTO mediumwords VALUES (45,"polizia","Organo del potere esecutivo dello Stato.",'');
+INSERT INTO mediumwords VALUES (46,"fogne","Canali sotterranei per la raccolta e l'eliminazione delle acque putride.",'');
+INSERT INTO mediumwords VALUES (47,"martello","Utensile costituito da un massello metallico di un certo peso, con un occhio al centro, nel quale è inserito un manico che ne consente l'impugnatura.",'');
+INSERT INTO mediumwords VALUES (48,"interesse","Compenso che si versa o si riscuote per il prestito di un capitale.",'');
+INSERT INTO mediumwords VALUES (49,"trapano","Macchina utensile che lavora in modo rotatorio praticando fori cilindrici mediante una punta opportunamente sagomata.",'');
+INSERT INTO mediumwords VALUES (50,"parecchio","In numero o quantità notevole.",'');
+INSERT INTO mediumwords VALUES (51,"pasticcio","Simbolo di disordine o confusione.",'');
+INSERT INTO mediumwords VALUES (52,"smettere","Sospendere temporaneamente o definitivamente.",'');
+INSERT INTO mediumwords VALUES (53,"ordinamento","Complesso di norme che disciplinano una determinata istituzione o attività.",'');
+INSERT INTO mediumwords VALUES (54,"accertato","Rendere certo, assicurare.",'');
+INSERT INTO mediumwords VALUES (55,"sangue","Fluido biologico circolante nei Vertebrati, sotto l'impulso dell'attività cardiaca.",'');
+INSERT INTO mediumwords VALUES (56,"penultimo","Precede immediatamente l'ultimo.",'');
+INSERT INTO mediumwords VALUES (57,"parafulmine","Sistema di protezione di edifici dalle scariche atmosferiche.",'');
+INSERT INTO mediumwords VALUES (58,"padrone","Proprietario di qualcosa.",'');
+INSERT INTO mediumwords VALUES (59,"invitare","Proporre la partecipazione, offrire ospitalità.",'');
+INSERT INTO mediumwords VALUES (60,"principale","Maggior rilievo, maggior importanza.",'');
+INSERT INTO mediumwords VALUES (61,"fatica","Sforzo prolungato che porta all'indebolimento della resistenza fisica.",'');
+INSERT INTO mediumwords VALUES (62,"occhio","Organo di senso per la ricezione degli stimoli luminosi.",'');
+INSERT INTO mediumwords VALUES (63,"rivoluzione","Movimento organizzato e violento col quale si instaura un nuovo ordine sociale o politico.",'');
+INSERT INTO mediumwords VALUES (64,"onnipotenza","Potere di fare tutto, senza alcun limite.",'');
+INSERT INTO mediumwords VALUES (65,"postura","Posizione del corpo umano nello spazio.",'');
+INSERT INTO mediumwords VALUES (66,"obbligare","Imporre un comportamento, costringere.",'');
+INSERT INTO mediumwords VALUES (67,"autobus","Autoveicolo attrezzato per il trasporto collettivo di persone su percorsi urbani e suburbani.",'');
+INSERT INTO mediumwords VALUES (68,"motore","Macchina che trasforma una determinata forma di energia in energia meccanica.",'');
+INSERT INTO mediumwords VALUES (69,"orfano","Persona che ha perso uno od entrambi i genitori.",'');
+INSERT INTO mediumwords VALUES (70,"manuale","Libro che riporta, con criteri informativi e didattici, le nozioni fondamentali relative a un argomento.",'');
+INSERT INTO mediumwords VALUES (71,"repubblica","Forma di governo in cui tutti i cittadini dello Stato partecipano al potere supremo.",'');
+INSERT INTO mediumwords VALUES (72,"panino","Piccola forma di pane, per lo più tonda od ovale.",'');
+INSERT INTO mediumwords VALUES (73,"nuocere","Arrecare danno materiale o morale.",'');
+INSERT INTO mediumwords VALUES (74,"maiale","Mammifero della famiglia dei Suini.",'');
+INSERT INTO mediumwords VALUES (75,"attaccare","Assalire in forze.",'');
+INSERT INTO mediumwords VALUES (76,"gusto","Senso che permette la definizione qualitativa di una sostanza in base al sapore.",'');
+INSERT INTO mediumwords VALUES (77,"parcheggio","Spazio riservato alla sosta per i veicoli.",'');
+INSERT INTO mediumwords VALUES (78,"pallottola","Sfera di limitate dimensioni, costituita di materia compatta.",'');
+INSERT INTO mediumwords VALUES (79,"ostello","Albergo per il pernottamento temporaneo ed economico.",'');
+INSERT INTO mediumwords VALUES (80,"teiera","Recipiente di materiale vario, per lo più di forma panciuta e con beccuccio.",'');
+INSERT INTO mediumwords VALUES (81,"controllo","Esame condotto allo scopo di garantire la regolarità.",'');
+INSERT INTO mediumwords VALUES (82,"orgoglioso","Forte senso di autostima e fiducia nelle proprie capacità.",'');
+INSERT INTO mediumwords VALUES (83,"panorama","Ampia veduta generale da un punto sopraelevato.",'');
+INSERT INTO mediumwords VALUES (84,"veicolo","Mezzo meccanico di trasporto guidato.",'');
+INSERT INTO mediumwords VALUES (85,"minimo","La quantità più piccola possibile.",'');
+INSERT INTO mediumwords VALUES (86,"mattina","Parte del giorno compresa tra l'alba e mezzogiorno.",'');
+INSERT INTO mediumwords VALUES (87,"mancare","Essere assente o essere presente in quantità scarsa o insufficiente.",'');
+INSERT INTO mediumwords VALUES (88,"slancio","Proiezione impetuosa del corpo in avanti, in alto o in basso.",'');
+INSERT INTO mediumwords VALUES (89,"nozione","Dato elementare di una conoscenza specifica.",'');
+INSERT INTO mediumwords VALUES (90,"colpa","Atto o comportamento che implica conseguenze dannose.",'');
+INSERT INTO mediumwords VALUES (91,"fondo","La parte terminale inferiore di un recipiente o di una cavità.",'');
+INSERT INTO mediumwords VALUES (92,"pastorizzare","Processo di risanamento termico applicato ad alcuni alimenti allo scopo di minimizzare i rischi per la salute.",'');
+INSERT INTO mediumwords VALUES (93,"esporre","Offrire alla vista o all'attenzione altrui, mettere in mostra.",'');
+INSERT INTO mediumwords VALUES (94,"parentesi","Interrompere la continuità di un discorso,per lo più a scopo di chiarimento o di precisazione.",'');
+INSERT INTO mediumwords VALUES (95,"adocchiare","Guardare qualcosa, qualcuno con interesse.",'');
+INSERT INTO mediumwords VALUES (96,"dichiarare","Manifestare, esporre in termini espliciti.",'');
+INSERT INTO mediumwords VALUES (97,"pacare","Acquietare, calmare.",'');
+INSERT INTO mediumwords VALUES (98,"assistente","Chiamato ad aiutare tecnicamente il responsabile di varie attività.",'');
+INSERT INTO mediumwords VALUES (99,"organico","Riguardante gli organi degli esseri viventi.",'');
+INSERT INTO mediumwords VALUES (100,"sonno","Stato di riposo contrapposto alla veglia. ",'');
+INSERT INTO mediumwords VALUES (101,"riparare","Azione, opera volta a risarcire un danno materiale o morale.",'');
+INSERT INTO mediumwords VALUES (102,"necessario","Indispensabile o almeno estremamente utile per ottenere certi scopi.",'');
+INSERT INTO mediumwords VALUES (103,"pentimento","Il riconoscimento di una propria colpa, atteggiamento di autocondanna.",'');
+INSERT INTO mediumwords VALUES (104,"tegola","Materiale da costruzione usato per la copertura delle falde inclinate dei tetti.",'');
+INSERT INTO mediumwords VALUES (105,"abbasso","Espressione di ostilità.",'');
+INSERT INTO mediumwords VALUES (106,"accostare","Avvicinare per chiedere o comunicare qualcosa.",'');
+INSERT INTO mediumwords VALUES (107,"azzurro","Colore intermedio tra il celeste e il blu.",'');
+INSERT INTO mediumwords VALUES (108,"abituale","Corrispondente a un'abitudine",'');
+INSERT INTO mediumwords VALUES (109,"multa","Sanzione penale stabilita dalla legge o da un regolamento contrattuale.",'');
+INSERT INTO mediumwords VALUES (110,"guidare","Precedere qualcuno per indicargli la strada, Condurre un autoveicolo.",'');
+INSERT INTO mediumwords VALUES (111,"accentrato","Gruppo di persone radunate insieme in uno stesso luogo.",'');
+INSERT INTO mediumwords VALUES (112,"videogioco","Gioco gestito da un dispositivo elettronico che consente di interagire con le immagini di uno schermo.",'');
+INSERT INTO mediumwords VALUES (113,"ragione","Facoltà per mezzo della quale si esercita il pensiero.",'');
+INSERT INTO mediumwords VALUES (114,"preparare","Disporre, sistemare qlco. in modo che sia pronto per l'uso richiesto.",'');
+INSERT INTO mediumwords VALUES (115,"industria","Attività umana che viene svolta allo scopo di generare beni o servizi.",'');
+INSERT INTO mediumwords VALUES (116,"sport"," L'insieme delle attività, che impegnano determinate capacità psicomotorie.",'');
+INSERT INTO mediumwords VALUES (117,"segretario","Incaricato di mansioni varie e riservate per conto di altra persona.",'');
+INSERT INTO mediumwords VALUES (118,"serenata","Canto con accompagnamento musicale, eseguito di sera sotto la casa della donna amata per renderle omaggio.",'');
+INSERT INTO mediumwords VALUES (119,"alloggiare","Accogliere, ospitare qualcuno in un luogo.",'');
+INSERT INTO mediumwords VALUES (120,"addetto","Assegnato a un determinato compito o ufficio.",'');
+INSERT INTO mediumwords VALUES (121,"prezzo","Valore economico di un bene o servizio.",'');
+INSERT INTO mediumwords VALUES (122,"palpebra","Pieghe cutanee mobili che, avvicinandosi coprono la parte anteriore del globo oculare.",'');
+INSERT INTO mediumwords VALUES (123,"pascolo","Terreno coperto di erbe riservate direttamente all'alimentazione del bestiame.",'');
+INSERT INTO mediumwords VALUES (124,"palese","Che appare chiaro, indubitabile, evidente.",'');
+INSERT INTO mediumwords VALUES (125,"numeratore","Numero sopra la linea di frazione.",'');
+INSERT INTO mediumwords VALUES (126,"portorico","Territorio non incorporato degli Stati Uniti d'America, situato nel nord-est del mar dei Caraibi.",'');
+INSERT INTO mediumwords VALUES (127,"abboccata","Farsi imbrogliare da qualcuno.",'');
+INSERT INTO mediumwords VALUES (128,"felice","Sereno, appagato, completamente soddisfatto.",'');
+INSERT INTO mediumwords VALUES (129,"passaggio","Transito attraverso un luogo o spostamento da un luogo all'altro.",'');
+INSERT INTO mediumwords VALUES (130,"conseguenza","Conclusione dedotta logicamente da una premessa.",'');
+INSERT INTO mediumwords VALUES (131,"ombrello","Riparo portatile contro la pioggia, o anche contro il sole.",'');
+INSERT INTO mediumwords VALUES (132,"viaggiare","Spostarsi da un luogo a un altro compiendo un percorso.",'');
+INSERT INTO mediumwords VALUES (133,"rientrare","Entrare di nuovo in un luogo da cui si era usciti.",'');
+INSERT INTO mediumwords VALUES (134,"sviluppo","Accrescimento progressivo.",'');
+INSERT INTO mediumwords VALUES (135,"nominativo","Nel linguaggio burocratico, nome di persona.",'');
+INSERT INTO mediumwords VALUES (136,"rivelare","Rendere note cose sconosciute.",'');
+INSERT INTO mediumwords VALUES (137,"pallavolo","Gioco che si disputa tra due squadre di sei giocatori ciascuna in un campo diviso in due parti da una rete.",'');
+INSERT INTO mediumwords VALUES (138,"specchio","Lastra di vetro, metallizzata su una faccia, che riflette la luce e le immagini.",'');
+INSERT INTO mediumwords VALUES (139,"recente","Risale a poco tempo addietro, accaduto, manifestatosi da poco.",'');
+INSERT INTO mediumwords VALUES (140,"abolisco","Rendere nullo, non fare più uso.",'');
+INSERT INTO mediumwords VALUES (141,"commerciare","Esercitare il commercio di determinati prodotti.",'');
+INSERT INTO mediumwords VALUES (142,"obbligo","Vincolo giuridicamente o moralmente previsto e imposto.",'');
+INSERT INTO mediumwords VALUES (143,"osannare","Esaltata venerazione.",'');
+INSERT INTO mediumwords VALUES (144,"distruggere","Abbattere, disfare qualcosa in modo da renderlo definitivamente inutilizzabile.",'');
+INSERT INTO mediumwords VALUES (145,"comodo","Ciò che procura agio, che evita disagio.",'');
+INSERT INTO mediumwords VALUES (146,"armadio","Grande mobile ad ante, con eventuali ripiani e cassetti.",'');
+INSERT INTO mediumwords VALUES (147,"attento","Mente o sensi rivolti all'azione che si compie o a ciò che si ascolta.",'');
+INSERT INTO mediumwords VALUES (148,"naturalmente","Per naturale conseguenza, ovviamente.",'');
+INSERT INTO mediumwords VALUES (149,"arrostire","Sottoporre a cottura a fuoco vivo.",'');
+INSERT INTO mediumwords VALUES (150,"classe","L'insieme delle persone che partecipano o che esercitano la stessa professione.",'');
+INSERT INTO mediumwords VALUES (151,"speciale","Caratteristico di qualcosa.",'');
+INSERT INTO mediumwords VALUES (152,"angolo","La parte di piano compresa tra due semirette uscenti da uno stesso punto.",'');
+INSERT INTO mediumwords VALUES (153,"penalizzare","Mettere in una condizione di svantaggio, sfavorire.",'');
+INSERT INTO mediumwords VALUES (154,"numerale","Qualcosa che ha rapporto coi numeri.",'');
+INSERT INTO mediumwords VALUES (155,"stazione"," Luogo di arrivo e di partenza di viaggiatori e merci.",'');
+INSERT INTO mediumwords VALUES (156,"peggioramento","Totale o parziale aggravamento di una situazione o condizione sfavorevole.",'');
+INSERT INTO mediumwords VALUES (157,"francobollo","Cartellino di carta,recante su una faccia figure e simboli dello Stato emittente.",'');
+INSERT INTO mediumwords VALUES (158,"pavone","Uccello galliforme, con piumaggio bianco o variopinto.",'');
+INSERT INTO mediumwords VALUES (159,"negare","Dichiarare che un fatto non è vero.",'');
+INSERT INTO mediumwords VALUES (160,"costruzione","Fase di attuazione di un'opera.",'');
+INSERT INTO mediumwords VALUES (161,"ovulo","Corpicciolo di forma per lo più rotondeggiante contenente la cellula uovo.",'');
+INSERT INTO mediumwords VALUES (162,"bagaglio","Il complesso degli oggetti che chi viaggia porta con sé.",'');
+INSERT INTO mediumwords VALUES (163,"bicicletta","Veicolo azionato dalla forza muscolare delle gambe.",'');
+INSERT INTO mediumwords VALUES (164,"accigliare","Contrarre i sopraccigli, in segno di tristezza, di severità, sdegno.",'');
+INSERT INTO mediumwords VALUES (165,"medaglia","Piccolo disco di metallo, ornato da figure e scritte,per commemorare qualche avvenimento.",'');
+INSERT INTO mediumwords VALUES (166,"accetta","Arnese da lavoro atto al taglio della legna.",'');
+INSERT INTO mediumwords VALUES (167,"rallentare","Rendere lento.",'');
+INSERT INTO mediumwords VALUES (168,"pranzare","Consumare il pranzo.",'');
+INSERT INTO mediumwords VALUES (169,"stufa","Apparecchio di varia forma e materiale per riscaldare un ambiente.",'');
+INSERT INTO mediumwords VALUES (170,"accentrata","Riunirsi, stabilirsi in un unico luogo.",'');
+INSERT INTO mediumwords VALUES (171,"colazione","Il primo pasto del mattino.",'');
+INSERT INTO mediumwords VALUES (172,"cofano","Copertura di protezione di un motore.",'');
+INSERT INTO mediumwords VALUES (173,"mattino","Parte del giorno compresa tra l'alba e mezzogiorno.",'');
+INSERT INTO mediumwords VALUES (174,"oracolo","Responso profetico dato da una divinità.",'');
+INSERT INTO mediumwords VALUES (175,"avvertire","Acquistare coscienza di qualcosa.",'');
+INSERT INTO mediumwords VALUES (176,"ormeggio","L'assicuramento di un mezzo nautico a un punto di solida presa.",'');
+INSERT INTO mediumwords VALUES (177,"palude","terreno coperto d'acqua, caratterizzato dallo sviluppo di una particolare vegetazione e fauna.",'');
+INSERT INTO mediumwords VALUES (178,"pasquale","Relativo alla Pasqua.",'');
+INSERT INTO mediumwords VALUES (179,"opposizione","Atteggiamento contrario a qualcosa.",'');
+INSERT INTO mediumwords VALUES (180,"scherzare","Comportarsi o parlare senza serietà né impegno.",'');
+INSERT INTO mediumwords VALUES (181,"raccogliere","Prendere qualcosa da terra.",'');
+INSERT INTO mediumwords VALUES (182,"osservare","Guardare con attenzione, esaminare.",'');
+INSERT INTO mediumwords VALUES (183,"matita","Strumento per scrittura e disegno.",'');
+INSERT INTO mediumwords VALUES (184,"stoviglia","Contenitori usati in cucina per contenere e servire il cibo.",'');
+INSERT INTO mediumwords VALUES (185,"diffondere","Far conoscere a molte persone, divulgare.",'');
+INSERT INTO mediumwords VALUES (186,"negazione","Risposta o giudizio di radicale opposizione o di rifiuto.",'');
+INSERT INTO mediumwords VALUES (187,"patria","Concetto di nazione e paese.",'');
+INSERT INTO mediumwords VALUES (188,"stampa","Tecnica di riproduzione in più esemplari, su carta o altro materiale, di testi scritti, disegni o fotografie.",'');
+INSERT INTO mediumwords VALUES (189,"mezzo","Elemento strumentale o funzionale necessario allo svolgimento di un'azione.",'');
+INSERT INTO mediumwords VALUES (190,"omicidio","Soppressione di una vita umana a opera di un altro essere umano.",'');
+INSERT INTO mediumwords VALUES (191,"orecchiabile","Motivo musicale semplice e melodico.",'');
+INSERT INTO mediumwords VALUES (192,"accampare","Sistemare per una permanenza all'aperto sotto tende o in alloggiamenti provvisori.",'');
+INSERT INTO mediumwords VALUES (193,"colpire","Percuotere, battere, ferire con uno o più colpi.",'');
+INSERT INTO mediumwords VALUES (194,"operativo","Capacità di operare.",'');
+INSERT INTO mediumwords VALUES (195,"nervatura","Il complesso dei nervi, e la loro ordinata disposizione.",'');
+INSERT INTO mediumwords VALUES (196,"continuare","Proseguire ininterrottamente.",'');
+INSERT INTO mediumwords VALUES (197,"benzina","Miscuglio di idrocarburi liquidi utilizzato come combustibile.",'');
+INSERT INTO mediumwords VALUES (198,"paternale","Grave e severo rimprovero da parte di un superiore.",'');
+INSERT INTO mediumwords VALUES (199,"insistere","Protrarre a lungo con tenacia o caparbietà un'azione.",'');
+INSERT INTO mediumwords VALUES (200,"operaio"," lavoratore dipendente che esegue un lavoro manuale o tecnico.",'');
+INSERT INTO mediumwords VALUES (201,"tagliere","Arnese di cucina,di legno duro sul quale si taglia la carne.",'');
+INSERT INTO mediumwords VALUES (202,"ventilatore","Apparecchio elettrico costituito da pale che, ruotando, creano una corrente d'aria.",'');
+INSERT INTO mediumwords VALUES (203,"retromarcia","Movimento all'indietro di un veicolo.",'');
+INSERT INTO mediumwords VALUES (204,"zuccheriera","Recipiente in cui si tiene o si serve lo zucchero.",'');
+INSERT INTO mediumwords VALUES (205,"rompere","Spezzare un oggetto in più parti.",'');
+INSERT INTO mediumwords VALUES (206,"mensola","Piano d'appoggio in legno.",'');
+INSERT INTO mediumwords VALUES (207,"passione","Momento caratterizzato da uno stato di violenta e persistente emozione.",'');
+INSERT INTO mediumwords VALUES (208,"lenzuolo","Telo di stoffa che si pone sul materasso.",'');
+INSERT INTO mediumwords VALUES (209,"abolire","Cancellare con una disposizione dell'autorità.",'');
+INSERT INTO mediumwords VALUES (210,"paletta","Piccola pala dal manico corto.",'');
+INSERT INTO mediumwords VALUES (211,"abitante","Residente in uno spazio geografico determinato.",'');
+INSERT INTO mediumwords VALUES (212,"onnipresenza","Il trovarsi o il potersi trovare in più luoghi nello stesso momento.",'');
+INSERT INTO mediumwords VALUES (213,"disporre","Collocare secondo un certo ordine.",'');
+INSERT INTO mediumwords VALUES (214,"passamontagna","Berretto a forma di cappuccio aderente che copre interamente il viso.",'');
+INSERT INTO mediumwords VALUES (215,"annullare","Rendere vano, vanificare.",'');
+INSERT INTO mediumwords VALUES (216,"notte","L'intervallo di tempo fra il tramontare e il sorgere del sole.",'');
+INSERT INTO mediumwords VALUES (217,"posare","Mettere qualcosa in un luogo con attenzione.",'');
+INSERT INTO mediumwords VALUES (218,"noleggiatore","Gestore di un'impresa per la concessione in uso temporaneo di mezzi.",'');
+INSERT INTO mediumwords VALUES (219,"ottimistico","Che ha fiducia, speranza.",'');
+INSERT INTO mediumwords VALUES (220,"nascondere","Riporre in luogo segreto o riparato, occultare.",'');
+INSERT INTO mediumwords VALUES (221,"resto","Ciò che rimane di un insieme quando se ne tolglie una parte.",'');
+INSERT INTO mediumwords VALUES (222,"limitare","Circoscrivere uno spazio entro limiti.",'');
+INSERT INTO mediumwords VALUES (223,"carrello","Mezzo di sostegno o di trasporto.",'');
+INSERT INTO mediumwords VALUES (224,"soldato","Presta servizio armato in un esercito.",'');
+INSERT INTO mediumwords VALUES (225,"ottimo","Molto buono, buonissimo, eccellente.",'');
+INSERT INTO mediumwords VALUES (226,"cotone","Pianta erbacea o arbustiva, i cui semi sono rivestiti da una peluria bianca.",'');
+INSERT INTO mediumwords VALUES (227,"turista","Viaggiatore mosso da scopi di svago.",'');
+INSERT INTO mediumwords VALUES (228,"ministro","Membro del governo che presiede un dicastero.",'');
+INSERT INTO mediumwords VALUES (229,"addome","La parte inferiore del tronco, compresa fra torace e bacino.",'');
+INSERT INTO mediumwords VALUES (230,"direttore","a persona cui fa capo la responsabilità di un'attività.",'');
+INSERT INTO mediumwords VALUES (231,"impiccato","Gioco di carta e matita per due giocatori e non,chi indovina più parole senza far impiccare l'omino vince!.",'');
+INSERT INTO mediumwords VALUES (232,"succoso","Ricco di succo.",'');
+INSERT INTO mediumwords VALUES (233,"giustizia","Il potere pubblico di realizzare il diritto.",'');
+INSERT INTO mediumwords VALUES (234,"anteriore","Precede un qualcosa nello spazio.",'');
+INSERT INTO mediumwords VALUES (235,"dovere","Essere obbligati, tenuti a fare qualcosa.",'');
+INSERT INTO mediumwords VALUES (236,"orientale","Situato o localizzato a oriente.",'');
+INSERT INTO mediumwords VALUES (237,"paparazzo","Fotografo di attualità mondana, con una professionalità tra il furbesco e lo scandalistico.",'');
+INSERT INTO mediumwords VALUES (238,"notevole","Riferito a persona, cosa o qualità, degno d'attenzione.",'');
+INSERT INTO mediumwords VALUES (239,"biglietto","Letterina o foglietto con poche parole di avviso.",'');
+INSERT INTO mediumwords VALUES (240,"nuotatore","Capace di nuotare o pratica lo sport del nuoto.",'');
+INSERT INTO mediumwords VALUES (241,"panciata","Colpo dato con la pancia.",'');
+INSERT INTO mediumwords VALUES (242,"sbarcare","Fare scendere persone o cose da un'imbarcazione.,",'');
+INSERT INTO mediumwords VALUES (243,"penetrare","Entrare in qualcosa che oppone resistenza.",'');
+INSERT INTO mediumwords VALUES (244,"parabola","Figura piana di una particolare sezione conica.",'');
+INSERT INTO mediumwords VALUES (245,"chiamare","Interpellare qualcuno con la voce, spesso accompagnata da gesti o segnali.",'');
+INSERT INTO mediumwords VALUES (246,"tariffa","Prezzo di un servizio fissato da un'autorità, ente o imprese pubbliche.",'');
+INSERT INTO mediumwords VALUES (247,"misura","Rapporto tra una grandezza e un'altra omogenea.",'');
+INSERT INTO mediumwords VALUES (248,"oppressore","Responsabile di continue sopraffazioni.",'');
+INSERT INTO mediumwords VALUES (249,"prova","Accertamento, attraverso specifiche operazioni, delle proprietà, della qualità, di qualcosa.",'');
+INSERT INTO mediumwords VALUES (250,"cartina","Carta geografica o topografica di piccolo formato o ripiegabile.",'');
+INSERT INTO mediumwords VALUES (251,"paterno","Riferibile al padre, a lui appartenente.",'');
+INSERT INTO mediumwords VALUES (252,"moderno","Relativo e proprio del momento attuale.",'');
+INSERT INTO mediumwords VALUES (253,"notaio","Pubblico ufficiale il cui compito specifico è quello di ricevere gli atti, conservarne il deposito, rilasciarne copie.",'');
+INSERT INTO mediumwords VALUES (254,"modulo"," In genere, misura, forma, esemplare, che si assume come modello a cui attenersi.",'');
+INSERT INTO mediumwords VALUES (255,"normanno","Abitante, nativo della Normandia.",'');
+INSERT INTO mediumwords VALUES (256,"forno","Impianto per la cottura.",'');
+INSERT INTO mediumwords VALUES (257,"rumoroso","Produce o comporta eccessivo rumore.",'');
+INSERT INTO mediumwords VALUES (258,"onore","Buona reputazione, rispettabilità di chi si comporta con onestà.",'');
+INSERT INTO mediumwords VALUES (259,"dividere","Scomporre in più parti.",'');
+INSERT INTO mediumwords VALUES (260,"ossigenato","Contenente ossigeno.",'');
+INSERT INTO mediumwords VALUES (261,"obeso","Condizione medica caratterizzata da un eccessivo accumulo di grasso.",'');
+INSERT INTO mediumwords VALUES (262,"orizzontale","Parallelo al piano dell'orizzonte.",'');
+INSERT INTO mediumwords VALUES (263,"sedile","Qualsiasi mobile o struttura su cui si possa stare seduti.",'');
+INSERT INTO mediumwords VALUES (264,"nuvola","Nube che si forma negli strati alti dell'atmosfera.",'');
+INSERT INTO mediumwords VALUES (265,"civile","Riguarda la comunità organizzata e dei rapporti tra i membri che la compongono.",'');
+INSERT INTO mediumwords VALUES (266,"temperatura","Grandezza che misura gli scambi di calore tra corpi in contatto termico.",'');
+INSERT INTO mediumwords VALUES (267,"sofferenza","Condizione tormentosa provocata dall'assiduità del dolore.",'');
+INSERT INTO mediumwords VALUES (268,"accaduta","Cosa accaduta,avvenimento, evento.",'');
+INSERT INTO mediumwords VALUES (269,"orafo","Artigiano che esegue lavori in oro e in altri metalli preziosi.",'');
+INSERT INTO mediumwords VALUES (270,"orribile","Ciò che provoca orrore.",'');
+INSERT INTO mediumwords VALUES (271,"televisore","Apparecchio per la ricezione dei programmi televisivi.",'');
+INSERT INTO mediumwords VALUES (272,"istituto","Ente pubblico o privato istituito per perseguire fini di interesse generale.",'');
+INSERT INTO mediumwords VALUES (273,"pallido","Sbiancato nel colorito.",'');
+INSERT INTO mediumwords VALUES (274,"abisso","Luogo cui la profondità conferisce un aspetto misterioso o pauroso.",'');
+INSERT INTO mediumwords VALUES (275,"ferire","Colpire causando una ferita.",'');
+INSERT INTO mediumwords VALUES (276,"ombrellone","Ombrello di grandi dimensioni,in genere adoperato per ripararsi dal sole sulle spiagge.",'');
+INSERT INTO mediumwords VALUES (277,"trattore","Automezzo agricolo capace di sviluppare un elevato sforzo di trazione.",'');
+INSERT INTO mediumwords VALUES (278,"paralizzare","Rendere incapace di muoversi o di reagire.",'');
+INSERT INTO mediumwords VALUES (279,"nodoso","Caratterizzato da uno o più nodi.",'');
+INSERT INTO mediumwords VALUES (280,"lampada","Sorgente di luce artificiale.",'');
+INSERT INTO mediumwords VALUES (281,"abbozzare","Realizzare in forma preliminare o provvisoria.",'');
+INSERT INTO mediumwords VALUES (282,"isola","Limitata porzione di terraferma completamente circondata dalle acque.",'');
+INSERT INTO mediumwords VALUES (283,"pennarello","Tipo di penna con pennino in feltro o in nylon.",'');
+INSERT INTO mediumwords VALUES (284,"decidere","Scegliere tra cose o possibilità.",'');
+INSERT INTO mediumwords VALUES (285,"abbiglio","Vestire una persona con particolare cura ed eleganza.",'');
+INSERT INTO mediumwords VALUES (286,"molletta","Piccolo arnese a molla per fermare o per appuntare qualcosa.",'');
+INSERT INTO mediumwords VALUES (287,"abbigliamento","L'insieme degli oggetti di vestiario.",'');
+INSERT INTO mediumwords VALUES (288,"assistere","Aiutare, confortare con la propria presenza e partecipazione.",'');
+INSERT INTO mediumwords VALUES (289,"accusa","L'atto, le parole, con cui si attribuisce a qualcuno una colpa.",'');
+INSERT INTO mediumwords VALUES (290,"accurato","Condotto o realizzato con precisione e competenza.",'');
+INSERT INTO mediumwords VALUES (291,"giudicare","Formulare un giudizio di valore, un'opinione su qualcuno o qualcosa.",'');
+INSERT INTO mediumwords VALUES (292,"passeggero","Colui che è di passaggio.",'');
+INSERT INTO mediumwords VALUES (293,"grigio","Colore intermedio tra il bianco e il nero.",'');
+INSERT INTO mediumwords VALUES (294,"signorina","Titolo di cortesia attribuito a donne nubili.",'');
+INSERT INTO mediumwords VALUES (295,"seguito","Gruppo di persone che fanno scorta o compagnia.",'');
+INSERT INTO mediumwords VALUES (296,"ossesso","Pensiero che ritorna continuamente e in modo tormentoso.",'');
+INSERT INTO mediumwords VALUES (297,"passero","Piccolo uccello molto comune, con becco forte e conico.",'');
+INSERT INTO mediumwords VALUES (298,"accelerato","Aumento di velocità o è più frequente del normale.",'');
+INSERT INTO mediumwords VALUES (299,"forza","Qualsiasi causa capace di modificare lo stato di quiete o di moto di un corpo.",'');
+INSERT INTO mediumwords VALUES (300,"agitare","Muovere in qua e in là rapidamente e con forza.",'');
+INSERT INTO mediumwords VALUES (301,"addobbare","Ornare con paramenti, decorazioni.",'');
+INSERT INTO mediumwords VALUES (302,"credenza","Mobile in cui si tengono stoviglie, posaterie, bicchieri.",'');
+INSERT INTO mediumwords VALUES (303,"accertare","Rendere certo, assicurare.",'');
+INSERT INTO mediumwords VALUES (304,"parziale","Relativo a una frazione limitata.",'');
+INSERT INTO mediumwords VALUES (305,"cassaforte","Robusto armadio, spesso blindato.",'');
+INSERT INTO mediumwords VALUES (306,"numeroso","Costituito da un numero notevole di elementi.",'');
+INSERT INTO mediumwords VALUES (307,"peccato","Fatto o esperienza variamente condannabile.",'');
+INSERT INTO mediumwords VALUES (308,"aereo","D'aria, formato o costituito di aria.",'');
+INSERT INTO mediumwords VALUES (309,"ossessione","Motivo grave e persistente di preoccupazione o di molestia.",'');
+INSERT INTO mediumwords VALUES (310,"numerico","Relativo alla presenza o all'uso funzionale dei numeri.",'');
+INSERT INTO mediumwords VALUES (311,"perdere","Non riuscire più a ritrovare, smarrire.",'');
+INSERT INTO mediumwords VALUES (312,"animazione","Conferimento di vita, di movimento.",'');
+INSERT INTO mediumwords VALUES (313,"processo","Successione di fatti o fenomeni aventi tra loro un collegamento.",'');
+INSERT INTO mediumwords VALUES (314,"accentuato","Di notevole intensità o evidenza.",'');
+INSERT INTO mediumwords VALUES (315,"commissione","Incarico affidato a qualcuno.",'');
+INSERT INTO mediumwords VALUES (316,"parassita","Organismo che vive parzialmente o totalmente a spese di un altro individuo.",'');
+INSERT INTO mediumwords VALUES (317,"pianoforte","Strumento musicale a corde percosse da martelletti azionati per mezzo di una tastiera.",'');
+INSERT INTO mediumwords VALUES (318,"abbracci","Gesti affettuosi.",'');
+INSERT INTO mediumwords VALUES (319,"promettere","Impegnarsi a fare o dare qualcosa.",'');
+INSERT INTO mediumwords VALUES (320,"pasticcino","Piccolo dolcetto che si offre soprattutto con il tè.",'');
+INSERT INTO mediumwords VALUES (321,"parigino","Abitante, nativo di Parigi.",'');
+INSERT INTO mediumwords VALUES (322,"parametro","Una costante arbitraria.",'');
+INSERT INTO mediumwords VALUES (323,"offendere","Arrecare un danno morale a qualcuno pronunciando parole o compiendo atti che offendono la sua dignità.",'');
+INSERT INTO mediumwords VALUES (324,"accelerare","Diventare più veloce.",'');
+INSERT INTO mediumwords VALUES (325,"pinzetta","Pinze di dimensioni ridotte.",'');
+INSERT INTO mediumwords VALUES (326,"principiante","Chi è alle prime armi nell'apprendimento.",'');
+INSERT INTO mediumwords VALUES (327,"apparire","Mostrarsi alla vista.",'');
+INSERT INTO mediumwords VALUES (328,"nutrire","Fornire degli alimenti necessari al sostentamento.",'');
+INSERT INTO mediumwords VALUES (329,"scienza","Sistema di conoscenze ottenute attraverso un'attività di ricerca.",'');
+INSERT INTO mediumwords VALUES (330,"portone","Porta di dimensioni rilevanti.",'');
+INSERT INTO mediumwords VALUES (331,"ricchezza","Larga disponibilità di beni e di denaro.",'');
+INSERT INTO mediumwords VALUES (332,"primavera","Stagione dell'anno.",'');
+INSERT INTO mediumwords VALUES (333,"prato","Terreno ricoperto da erbe.",'');
+INSERT INTO mediumwords VALUES (334,"parchimetro","Apparecchio situato vicino a un parcheggio a tariffa.",'');
+INSERT INTO mediumwords VALUES (335,"capace","In grado di fare qualcosa.",'');
+INSERT INTO mediumwords VALUES (336,"villa","Tipo di abitazione ampia ed elegante.",'');
+INSERT INTO mediumwords VALUES (337,"pandoro","Dolce natalizio tipico veronese.",'');
+INSERT INTO mediumwords VALUES (338,"amatoriale","Attività svolta per puro diletto.",'');
+INSERT INTO mediumwords VALUES (339,"acquirente","La persona che acquista mediante compera.",'');
+INSERT INTO mediumwords VALUES (340,"possibile","Ciò che può essere, esistere, accadere.",'');
+INSERT INTO mediumwords VALUES (341,"confezione","Preparazione di merci e prodotti per la vendita.",'');
+INSERT INTO mediumwords VALUES (342,"ristorante","Locale pubblico nel quale si servono pasti.",'');
+INSERT INTO mediumwords VALUES (343,"riconoscere","Individuare, identificare qualcuno o qualcosa di già noto.",'');
+INSERT INTO mediumwords VALUES (344,"rotonda","Costruzione di forma più o meno circolare.",'');
+INSERT INTO mediumwords VALUES (345,"adeguare","Adattamento, aggiornamento.",'');
+INSERT INTO mediumwords VALUES (346,"palmare","Strumento elettronico che ha dimensioni ridotte da poter essere tenuto nel palmo della mano.",'');
+INSERT INTO mediumwords VALUES (347,"penetrabile","Suscettibile di penetrazione.",'');
+INSERT INTO mediumwords VALUES (348,"norvegese","Abitante, nativo della Norvegia.",'');
+INSERT INTO mediumwords VALUES (349,"adoratore","Chi adora.",'');
+INSERT INTO mediumwords VALUES (350,"lavorare","Esercitare un'attività retribuita.",'');
+INSERT INTO mediumwords VALUES (351,"spirito","Principio immateriale e immortale.",'');
+INSERT INTO mediumwords VALUES (352,"oscillazione","Movimento periodico di un corpo fra due posizioni estreme.",'');
+INSERT INTO mediumwords VALUES (353,"nascondiglio","Luogo angusto o appartato.",'');
+INSERT INTO mediumwords VALUES (354,"origine","Momento iniziale.",'');
+INSERT INTO mediumwords VALUES (355,"governo","Organo esecutivo dello stato",'');
+INSERT INTO mediumwords VALUES (356,"righello","Asticella usata per tracciare linee rette.",'');
+INSERT INTO mediumwords VALUES (357,"comunicazione","Notizia o dichiarazione diffusa per ragioni informative.",'');
+INSERT INTO mediumwords VALUES (358,"arrestare","Fermare qualcosa bloccandone il movimento.",'');
+INSERT INTO mediumwords VALUES (359,"accecato","Privare qualcuno della vista.",'');
+INSERT INTO mediumwords VALUES (360,"urticante","Provoca al contatto una sensazione di irritazione.",'');
+INSERT INTO mediumwords VALUES (361,"posizione","Luogo in cui qualcuno o qualcosa è posto.",'');
+INSERT INTO mediumwords VALUES (362,"adocchiata","Mettere gli occhi su qualcuno o qualcosa.",'');
+INSERT INTO mediumwords VALUES (363,"comporre","Mettere insieme, riunire ordinatamente.",'');
+INSERT INTO mediumwords VALUES (364,"nuotare","Spostarsi in acqua con un coordinato.",'');
+INSERT INTO mediumwords VALUES (365,"cacciavite","Arnese che serve per serrare o allentare le viti.",'');
+INSERT INTO mediumwords VALUES (366,"tenero","Che offre scarsa resistenza alla pressione.",'');
+INSERT INTO mediumwords VALUES (367,"concludere","Portare a compimento, terminare.",'');
+INSERT INTO mediumwords VALUES (368,"ufficio","Compito, dovere, obbligo.",'');
+INSERT INTO mediumwords VALUES (369,"malattia","Condizione anormale di un organismo.",'');
+INSERT INTO mediumwords VALUES (370,"chiodo","Bastoncino metallico di varia lunghezza e spessore.",'');
+INSERT INTO mediumwords VALUES (371,"compagnia","Stare insieme con altri.",'');
+INSERT INTO mediumwords VALUES (372,"abbondata","Esagerare in qualcosa.",'');
+INSERT INTO mediumwords VALUES (373,"riunire","Unire insieme elementi distinti.",'');
+INSERT INTO mediumwords VALUES (374,"occorrere","Essere necessario a qualcuno.",'');
+INSERT INTO mediumwords VALUES (375,"nautica","Scienza, arte, tecnica della navigazione.",'');
+INSERT INTO mediumwords VALUES (376,"abbondare","Essere in quantità superiore al bisogno.",'');
+INSERT INTO mediumwords VALUES (377,"accidia","Avversione all'operare, mista a noia e indifferenza.",'');
+INSERT INTO mediumwords VALUES (378,"pagamento","Versamento, corresponsione di una somma di denaro.",'');
+INSERT INTO mediumwords VALUES (379,"enorme","Di proporzioni o dimensioni molto al di là del normale.",'');
+INSERT INTO mediumwords VALUES (380,"percepire","Avvertire qualcosa.",'');
+INSERT INTO mediumwords VALUES (381,"aumentare","Rendere maggiore.",'');
+INSERT INTO mediumwords VALUES (382,"ondulare","Ondeggiare o oscillare lievemente.",'');
+INSERT INTO mediumwords VALUES (383,"corpo","Quantità di materia definita nello spazio.",'');
+INSERT INTO mediumwords VALUES (384,"bloccare","Interrompere il movimento o la funzione di qualcosa.",'');
+INSERT INTO mediumwords VALUES (385,"giovane","Persona di età giovanile.",'');
+INSERT INTO mediumwords VALUES (386,"seggiolino","Permanenza temporanea in un luogo.",'');
+INSERT INTO mediumwords VALUES (387,"ortica","Pianta erbacea perenne, con fusto e foglie ricchi di peli urticanti.",'');
+INSERT INTO mediumwords VALUES (388,"adottare","Far proprio.",'');
+INSERT INTO mediumwords VALUES (389,"guasto","Danno,rottura che compromette il regolare funzionamento di un sistema o macchinario.",'');
+INSERT INTO mediumwords VALUES (390,"piede","Parte terminale degli arti inferiori dell'uomo.",'');
+INSERT INTO mediumwords VALUES (391,"vagone","Carrozza o carro ferroviario per il trasporto di persone o merci.",'');
+INSERT INTO mediumwords VALUES (392,"minore","quantità più piccola rispetto ad un'altra.",'');
+INSERT INTO mediumwords VALUES (393,"rivedere","Vedere di nuovo.",'');
+INSERT INTO mediumwords VALUES (394,"passeggiare","Camminare a passo lento.",'');
+INSERT INTO mediumwords VALUES (395,"luogo","Parte di spazio delimitata.",'');
+INSERT INTO mediumwords VALUES (396,"autonoleggio","Noleggio di automobili.",'');
+INSERT INTO mediumwords VALUES (397,"coltello","Strumento da taglio.",'');
+INSERT INTO mediumwords VALUES (398,"adozione","Istituto giuridico che permette di formarsi una filiazione civile.",'');
+INSERT INTO mediumwords VALUES (399,"convincere","Indurre qualcuno a riconoscere la verità.",'');
+INSERT INTO mediumwords VALUES (400,"autostrada","Strada a più corsie di scorrimento e senza attraversamenti.",'');
+INSERT INTO mediumwords VALUES (401,"meccanico","Operaio specializzato che provvede alla riparazione e alla manutenzione di macchine.",'');
+INSERT INTO mediumwords VALUES (402,"accennare","Far cenno con la mano, la testa, gli occhi.",'');
+INSERT INTO mediumwords VALUES (403,"importante","Che rappresenta qualcosa di fondamentale.",'');
+INSERT INTO mediumwords VALUES (404,"eseguire","Mettere in atto, dare compimento a quanto è stato disposto o prescritto.",'');
+INSERT INTO mediumwords VALUES (405,"normografo","Strumento usato nel disegno tecnico per la scrittura con caratteri uniformi.",'');
+INSERT INTO mediumwords VALUES (406,"decisione","Impegno definitivo assunto di fronte a una situazione.",'');
+INSERT INTO mediumwords VALUES (407,"ondeggiare","Muoversi per la spinta delle onde.",'');
+INSERT INTO mediumwords VALUES (408,"ringraziare","Esprimere con parole o con gesti la propria gratitudine.",'');
+INSERT INTO mediumwords VALUES (409,"misterioso","Incomprensibile per l'intelletto umano.",'');
+INSERT INTO mediumwords VALUES (410,"sorpassare","Portarsi oltre un dato limite, oltrepassare, varcare.",'');
+INSERT INTO mediumwords VALUES (411,"ossatura","Il complesso delle ossa che costituiscono lo scheletro di un corpo.",'');
+INSERT INTO mediumwords VALUES (412,"camminare","Spostarsi, procedere andando a piedi.",'');
+INSERT INTO mediumwords VALUES (413,"portiere","Giocatore posto a difesa della porta.",'');
+INSERT INTO mediumwords VALUES (414,"presidente","Chi, per elezione o per nomina, sovrintende a un organo collegiale.",'');
+INSERT INTO mediumwords VALUES (415,"ordinanza","Atto normativo emanato da un ministro, da un prefetto o da un sindaco.",'');
+INSERT INTO mediumwords VALUES (416,"carrozza","Veicolo a quattro ruote per trasporto di persone.",'');
+INSERT INTO mediumwords VALUES (417,"sonata","Composizione eseguita da strumenti.",'');
+INSERT INTO mediumwords VALUES (418,"orgoglio","Stima eccessiva di sé e dei propri meriti.",'');
+INSERT INTO mediumwords VALUES (419,"papagallo","Uccelli esotici dalle penne multicolori e dal becco adunco.",'');
+INSERT INTO mediumwords VALUES (420,"camper","Furgone attrezzato ad abitazione.",'');
+INSERT INTO mediumwords VALUES (421,"onnisciente","Che dispone di una scienza illimitata.",'');
+INSERT INTO mediumwords VALUES (422,"ostetrica","Infermiera che assiste le donne durante la gestazione.",'');
+INSERT INTO mediumwords VALUES (423,"addentrare","Afferrare con i denti, mordere.",'');
+INSERT INTO mediumwords VALUES (424,"pasticciere","Persona che provvede alla produzione di dolci.",'');
+INSERT INTO mediumwords VALUES (425,"mocio","Strumento utilizzato per pulire il pavimento.",'');
+INSERT INTO mediumwords VALUES (426,"marcire","Diventare marcio, guastarsi, putrefarsi.",'');
+INSERT INTO mediumwords VALUES (427,"convenienza","Adeguatezza, corrispondenza, proporzione.",'');
+INSERT INTO mediumwords VALUES (428,"ciclismo","Sport della bicicletta.",'');
+INSERT INTO mediumwords VALUES (429,"bacchetta","Asticciola di legno o d'altra materia.",'');
+INSERT INTO mediumwords VALUES (430,"acquistare","Ottenere la proprietà di un bene versando il corrispettivo in danaro.",'');
+INSERT INTO mediumwords VALUES (431,"difesa","Protezione o salvaguardia diretta a respingere offese.",'');
+INSERT INTO mediumwords VALUES (432,"pasticca","Pastiglia, caramellina.",'');
+INSERT INTO mediumwords VALUES (433,"campeggiare","Soggiornare in un campeggio.",'');
+INSERT INTO mediumwords VALUES (434,"scaffale","Elemento dell'arredamento.",'');
+INSERT INTO mediumwords VALUES (435,"accaduto","Uno o più fatti, per lo più in quanto contenuto di una narrazione.",'');
+INSERT INTO mediumwords VALUES (436,"sauna","Il caratteristico bagno a vapore.",'');
+INSERT INTO mediumwords VALUES (437,"eccellenza","Qualità di sommo pregio o gradimento, unicità, perfezione.",'');
+INSERT INTO mediumwords VALUES (438,"brillante","Emana o riflette una luce particolarmente splendente, sfavillante.",'');
+INSERT INTO mediumwords VALUES (439,"vincere","Sconfiggere qualcuno.",'');
+INSERT INTO mediumwords VALUES (440,"sfera","Figura geometrica solida racchiusa da una superficie curva.",'');
+INSERT INTO mediumwords VALUES (441,"sguardo","L'atto del guardare.",'');
+INSERT INTO mediumwords VALUES (442,"parlamento","Organo collegiale e rappresentativo della volontà politica dei cittadini.",'');
+INSERT INTO mediumwords VALUES (443,"aggiungere","Unire a qualcosa che è già presente.",'');
+INSERT INTO mediumwords VALUES (444,"continuo","Non interrotto nel tempo.",'');
+INSERT INTO mediumwords VALUES (445,"nazione"," Collettività etnica di individui coscienti di essere legati da una comune tradizione.",'');
+INSERT INTO mediumwords VALUES (446,"oscurare","Rendere qualcosa oscuro.",'');
+INSERT INTO mediumwords VALUES (447,"nominale","Relativo all'uso o alla presenza del nome come categoria grammaticale.",'');
+INSERT INTO mediumwords VALUES (448,"fumare","Emettere, produrre fumo.",'');
+INSERT INTO mediumwords VALUES (449,"paladino","Cavaliere di alta nobiltà e valore.",'');
+INSERT INTO mediumwords VALUES (450,"mouse","Dispositivo di puntamento per computer.",'');
+INSERT INTO mediumwords VALUES (451,"nascita","L'inizio della partecipazione individuale all'esistenza.",'');
+INSERT INTO mediumwords VALUES (452,"distanza","Spazio che separa fra loro due luoghi.",'');
+INSERT INTO mediumwords VALUES (453,"cuccia","Giaciglio del cane.",'');
+INSERT INTO mediumwords VALUES (454,"oceano","Termine che indica le più vaste distese acquee del globo.",'');
+INSERT INTO mediumwords VALUES (455,"pendolare","Lavoratore o studente che si sposta dalla località di residenza per raggiungere la propria attività.",'');
+INSERT INTO mediumwords VALUES (456,"abolito","Annullare, sopprimere qualcosa.",'');
+INSERT INTO mediumwords VALUES (457,"pentacolo","Specie di amuleto a forma di stella a cinque punte.",'');
+INSERT INTO mediumwords VALUES (458,"sereno","Del cielo azzurro sgombro di nubi.",'');
+INSERT INTO mediumwords VALUES (459,"fratello","Persona legata ad altra o ad altre da un vincolo di parentela.",'');
+INSERT INTO mediumwords VALUES (460,"scrittore","Chi scrive opere con intento artistico.",'');
+INSERT INTO mediumwords VALUES (461,"penitenza","Sentimento di contrizione per aver commesso errori o colpe.",'');
+INSERT INTO mediumwords VALUES (462,"abbracciare","Stringere con le braccia, per lo più in segno di affetto.",'');
+INSERT INTO mediumwords VALUES (463,"soluzione","L'ottenimento di un risultato.",'');
+INSERT INTO mediumwords VALUES (464,"odorare","Percepire con l'olfatto l'odore di qualcosa.",'');
+INSERT INTO mediumwords VALUES (465,"reputazione","La considerazione altrui.",'');
+INSERT INTO mediumwords VALUES (466,"asteroide","Corpi rocciosi in orbita solare.",'');
+INSERT INTO mediumwords VALUES (467,"riprendere","Prendere, afferrare di nuovo.",'');
+INSERT INTO mediumwords VALUES (468,"memoria","Capacità del cervello di conservare informazioni.",'');
+INSERT INTO mediumwords VALUES (469,"pannolino","Piccola pezza di materiale assorbente, usata per l'igiene intima dei neonati.",'');
+INSERT INTO mediumwords VALUES (470,"olfatto","Funzione sensoriale specifica relativa alla percezione degli odori.",'');
+INSERT INTO mediumwords VALUES (471,"argomento","Tema od oggetto di una conversazione.",'');
+INSERT INTO mediumwords VALUES (472,"pastorale","Relativo alla vita e ai costumi dei pastori.",'');
+INSERT INTO mediumwords VALUES (473,"destinazione","Assegnazione decisa nell'ambito di un piano prestabilito.",'');
+INSERT INTO mediumwords VALUES (474,"visitare","Recarsi presso qualcuno per intrattenersi con lui.",'');
+INSERT INTO mediumwords VALUES (475,"palazzo","Edificio di notevole impegno e sviluppo architettonico, adibito ad abitazione.",'');
+INSERT INTO mediumwords VALUES (476,"parlamentare","Membro del parlamento.",'');
+INSERT INTO mediumwords VALUES (477,"pancreas","Ghiandola addominale annessa all'apparato digerente.",'');
+INSERT INTO mediumwords VALUES (478,"cancellazione","Revoca, estinzione, annullamento.",'');
+INSERT INTO mediumwords VALUES (479,"microfono","Apparecchio che trasforma onde sonore in segnali elettrici.",'');
+INSERT INTO mediumwords VALUES (480,"biglietteria","Spazio adibito alla vendita di biglietti.",'');
+INSERT INTO mediumwords VALUES (481,"ripetere","Effettuare di nuovo un'azione.",'');
+INSERT INTO mediumwords VALUES (482,"pedante","Ostenta con presunzione il proprio sapere, spesso inconsistente.",'');
+INSERT INTO mediumwords VALUES (483,"passaporto","Documento che dà facoltà al cittadino di uno stato di allontanarsi dal territorio nazionale.",'');
+INSERT INTO mediumwords VALUES (484,"annunciare"," Far sapere qualcosa.",'');
+INSERT INTO mediumwords VALUES (485,"navigazione","Attività del navigare sull'acqua con imbarcazioni, o anche nell'aria con aerei o nello spazio con veicoli spaziali.",'');
+INSERT INTO mediumwords VALUES (486,"affrontare","Fronteggiare qualcuno con decisione o coraggio.",'');
+INSERT INTO mediumwords VALUES (487,"organizzare","Formare, disporre, coordinare qualcosa.",'');
+INSERT INTO mediumwords VALUES (488,"maestoso","Che s'impone all'attenzione o all'ammirazione per imponenza.",'');
+INSERT INTO mediumwords VALUES (489,"oliva","Frutto dell'olivo.",'');
+INSERT INTO mediumwords VALUES (490,"vario","Che è composto di elementi diversi l'uno dall'altro, ma non contrastanti.",'');
+INSERT INTO mediumwords VALUES (491,"accanito","Rabbioso, furioso, inferocito.",'');
+INSERT INTO mediumwords VALUES (492,"sufficienza","Ciò che basta a soddisfare una necessità.",'');
+INSERT INTO mediumwords VALUES (493,"esprimere","Manifestare, esternare le proprie idee o i propri sentimenti.",'');
+INSERT INTO mediumwords VALUES (494,"ricevere","Prendere, accogliere qualcosa che viene dato.",'');
+INSERT INTO mediumwords VALUES (495,"scherzo","Atto o discorso privo di serietà o di impegno.",'');
+INSERT INTO mediumwords VALUES (496,"tavola","Asse di legno di forma rettangolare, lunga, stretta e piuttosto sottile.",'');
+INSERT INTO mediumwords VALUES (497,"pubblicare","Diffondere, rendere qualcosa di pubblica conoscenza.",'');
+INSERT INTO mediumwords VALUES (498,"percorribile","Che si può percorrere.",'');
+INSERT INTO mediumwords VALUES (499,"sostenere","Mantenere una persona in posizione eretta affinché non cada.",'');
+INSERT INTO mediumwords VALUES (500,"bagagliaio","Scomparto della carrozzeria che serve per trasportare un carico all'interno del veicolo.",'');
+INSERT INTO mediumwords VALUES (501,"straniero","Appartenente a un altro paese.",'');
+INSERT INTO mediumwords VALUES (502,"odierno","Relativo alla giornata o anche all'epoca presente.",'');
+INSERT INTO mediumwords VALUES (503,"minuto","Unità di misura dell'intervallo di tempo pari a 60 secondi.",'');
+INSERT INTO mediumwords VALUES (504,"personaggio","Persona importante, per grado gerarchico o per fama.",'');
+INSERT INTO mediumwords VALUES (505,"incidente","Accadimento inatteso che procura un danno.",'');
+INSERT INTO mediumwords VALUES (506,"prenotazione","Fissare in precedenza qualcosa, farlo riservare per sé.",'');
+INSERT INTO mediumwords VALUES (507,"montagna","Rilievo montuoso di particolare imponenza.",'');
+INSERT INTO mediumwords VALUES (508,"accordo","Conformità di opinioni o intenzioni.",'');
+INSERT INTO mediumwords VALUES (509,"risultato","Conclusione, effetto di un'azione.",'');
+INSERT INTO mediumwords VALUES (510,"cattolico","Chi professa la religione cristiana cattolica.",'');
+INSERT INTO mediumwords VALUES (511,"antenna","dispositivo elettrico atto a trasmettere o ricevere onde elettromagnetiche.",'');
+INSERT INTO mediumwords VALUES (512,"sociale","Tendente a vivere in società.",'');
+INSERT INTO mediumwords VALUES (513,"stufato","Cuocere un alimento a lungo e a fuoco lento.",'');
+INSERT INTO mediumwords VALUES (514,"indicare","Fornire un'informazione con parole o gesti.",'');
+INSERT INTO mediumwords VALUES (515,"dolciastro","i sapore piuttosto dolce, ma non gradevole.",'');
+INSERT INTO mediumwords VALUES (516,"corso","Serie metodica di lezioni o trattazione sistematica di una disciplina.",'');
+INSERT INTO mediumwords VALUES (517,"novembre","L'undicesimo mese dell'anno.",'');
+INSERT INTO mediumwords VALUES (518,"scena","Parte del palcoscenico in cui gli attori recitano.",'');
+INSERT INTO mediumwords VALUES (519,"semaforo","Impianto per la regolazione del traffico stradale.",'');
+INSERT INTO mediumwords VALUES (520,"situazione","Condizione, in cui si trova una cosa o una persona.",'');
+INSERT INTO mediumwords VALUES (521,"incrocio","Punto d'intersezione di due elementi.",'');
+INSERT INTO mediumwords VALUES (522,"orologeria","La fabbricazione o l'industria degli orologi.",'');
+INSERT INTO mediumwords VALUES (523,"omologo","Che ha le stesse caratteristiche di un altro.",'');
+INSERT INTO mediumwords VALUES (524,"taglierino","Utensile di piccole dimensioni utilizzato per tagliare.",'');
+INSERT INTO mediumwords VALUES (525,"orientare","Volgere qualcosa verso un punto cardinale.",'');
+INSERT INTO mediumwords VALUES (526,"oltraggio","Offesa grave e consapevole contro l'onore o la dignità di qualcuno.",'');
+INSERT INTO mediumwords VALUES (527,"pagliacciata","Messinscena clamorosa, offensiva del buon gusto.",'');
+INSERT INTO mediumwords VALUES (528,"riservato","Destinato esclusivamente ad alcune persone o ad alcuni usi.",'');
+INSERT INTO mediumwords VALUES (529,"accendisigari","Macchinetta a benzina o a gas liquido, per accendere sigari o sigarette.",'');
+INSERT INTO mediumwords VALUES (530,"uccidere","Privare della vita una persona o un animale.",'');
+INSERT INTO mediumwords VALUES (531,"viola","Pianta erbacea delle Violacee.",'');
+INSERT INTO mediumwords VALUES (532,"abbattono","Buttare giù, far cadere.",'');
+INSERT INTO mediumwords VALUES (533,"riscaldamento","Apporto di calore a un materiale, a un corpo, a un ambiente.",'');
+INSERT INTO mediumwords VALUES (534,"regno","Stato monarchico.",'');
+INSERT INTO mediumwords VALUES (535,"apparecchiare","Preparare ordinatamente qualcosa.",'');
+INSERT INTO mediumwords VALUES (536,"pennello","Attrezzo costituito da un ciuffo di peli naturali o sintetici.",'');
+INSERT INTO mediumwords VALUES (537,"simile","Affinità, somiglianza o analogia con un altro oggetto.",'');
+INSERT INTO mediumwords VALUES (538,"nervoso","Caratterizzato da continue variazioni, instabile.",'');
+INSERT INTO mediumwords VALUES (539,"adocchio","Guardare con particolare interesse o desiderio.",'');
+INSERT INTO mediumwords VALUES (540,"frenare","Rallentare un corpo in movimento.",'');
+INSERT INTO mediumwords VALUES (541,"stringere","Avvicinare tra loro due cose o parti della stessa cosa.",'');
+INSERT INTO mediumwords VALUES (542,"stagione","Ognuno dei quattro periodi in cui è diviso l'anno.",'');
+INSERT INTO mediumwords VALUES (543,"nervosismo","Senso diffuso e pungente di irritazione e scontento.",'');
+INSERT INTO mediumwords VALUES (544,"formato","Costituito, composto.",'');
+INSERT INTO mediumwords VALUES (545,"libero","Non soggetto a padrone o a qualsiasi forma di dominio.",'');
+INSERT INTO mediumwords VALUES (546,"disposizione","Collocazione o distribuzione funzionale.",'');
+INSERT INTO mediumwords VALUES (547,"raggiungere","Toccare un certo luogo, arrivarvi.",'');
+INSERT INTO mediumwords VALUES (548,"mestiere","Attività esercitata abitualmente.",'');
+INSERT INTO mediumwords VALUES (549,"indovinato","Previsto, pronosticato.",'');
+INSERT INTO mediumwords VALUES (550,"formare","Realizzare dando una forma, modellare.",'');
+INSERT INTO mediumwords VALUES (551,"odiare","Provare ostilità verso qualcuno.",'');
+INSERT INTO mediumwords VALUES (552,"occhiale","Ogni strumento ottico che migliora la vista.",'');
+INSERT INTO mediumwords VALUES (553,"abusato","Usato senza misura né criterio e spesso a sproposito.",'');
+INSERT INTO mediumwords VALUES (554,"accentuare","Rendere più marcato.",'');
+INSERT INTO mediumwords VALUES (555,"osare","Avere il coraggio di compiere un'azione difficilissima o rischiosa.",'');
+INSERT INTO mediumwords VALUES (556,"spilla","Oggetto, spesso prezioso, che si appunta mediante uno spillo su vestiti.",'');
+INSERT INTO mediumwords VALUES (557,"adagio","Con lentezza, piano.",'');
+INSERT INTO mediumwords VALUES (558,"settimana","Periodo di sette giorni.",'');
+INSERT INTO mediumwords VALUES (559,"generale","Di tutti gli appartenenti a un genere, a una categoria, ad essi comune.",'');
+INSERT INTO mediumwords VALUES (560,"allarme","Dispositivo d'emergenza che avverte di un pericolo.",'');
+INSERT INTO mediumwords VALUES (561,"tedesco","Appartenente, relativo alla Germania.",'');
+INSERT INTO mediumwords VALUES (562,"opprimere","Premere col proprio peso, gravare.",'');
+INSERT INTO mediumwords VALUES (563,"autunno","La terza stagione dell'anno.",'');
+INSERT INTO mediumwords VALUES (564,"grattugia","Strumento da cucina utilizzato per ridurre in briciole.",'');
+INSERT INTO mediumwords VALUES (565,"esperienza","Conoscenza acquisita attraverso il contatto diretto con la realtà.",'');
+INSERT INTO mediumwords VALUES (566,"ospedale","Istituto pubblico o privato destinato all'assistenza sanitaria.",'');
+INSERT INTO mediumwords VALUES (567,"quarto","In una successione ordinata, occupa il posto corrispondente al numero 4.",'');
+INSERT INTO mediumwords VALUES (568,"questione","Problema, caso da esaminare e risolvere.",'');
+INSERT INTO mediumwords VALUES (569,"abbronzata","Di colore bronzeo.",'');
+INSERT INTO mediumwords VALUES (570,"passato","Non più attuale, superato.",'');
+INSERT INTO mediumwords VALUES (571,"serbatoio","Qualsiasi cavità o recipiente adibito a contenere o conservare liquidi.",'');
+INSERT INTO mediumwords VALUES (572,"negoziante","Proprietario o gestore di un negozio.",'');
+INSERT INTO mediumwords VALUES (573,"relazione","Resoconto, esposizione orale o scritta di un dato argomento.",'');
+INSERT INTO mediumwords VALUES (574,"ritardo","Azione e risultato del ritardare.",'');
+INSERT INTO mediumwords VALUES (575,"patente","Documento di autorizzazione all'esercizio di una determinata attività.",'');
+INSERT INTO mediumwords VALUES (576,"accentravo","Riunire nello stesso luogo.",'');
+INSERT INTO mediumwords VALUES (577,"satellite","Qualsiasi corpo celeste che ruoti attorno a un pianeta.",'');
+INSERT INTO mediumwords VALUES (578,"metro","Unità fondamentale di misura di lunghezza.",'');
+INSERT INTO mediumwords VALUES (579,"quadro","Elemento o superficie di forma quadrata.",'');
+INSERT INTO mediumwords VALUES (580,"impressione","Qualsiasi forma di esperienza conoscitiva o emotiva.",'');
+INSERT INTO mediumwords VALUES (581,"bollitore","Recipiente domestico per far bollire liquidi vari.",'');
+INSERT INTO mediumwords VALUES (582,"nudista","Pratica naturista favorevole all'abolizione dei vestiti.",'');
+INSERT INTO mediumwords VALUES (583,"narrazione","Esposizione di un racconto.",'');
+INSERT INTO mediumwords VALUES (584,"pecorino","Prodotto o ricavato dalla pecora.",'');
+INSERT INTO mediumwords VALUES (585,"osceno","Che offende la moralità in campo sessuale.",'');
+INSERT INTO mediumwords VALUES (586,"pelato","Privo di peli.",'');
+INSERT INTO mediumwords VALUES (587,"adiacente","Che si trova vicino.",'');
+INSERT INTO mediumwords VALUES (588,"acclamare","Eleggere qualcuno a gran voce, applaudendo.",'');
+INSERT INTO mediumwords VALUES (589,"preciso","Ben determinato, stabilito con esattezza.",'');
+INSERT INTO mediumwords VALUES (590,"abusare","Fare un uso eccessivo o arbitrario di qualcosa.",'');
+INSERT INTO mediumwords VALUES (591,"intermedio","Compreso tra due punti di riferimento nello spazio o nel tempo.",'');
+INSERT INTO mediumwords VALUES (592,"pendere","Essere appeso o attaccato a un sostegno posto in alto.",'');
+INSERT INTO mediumwords VALUES (593,"gruppo","Insieme di persone o cose distinte ma riunite in un unico complesso.",'');
+INSERT INTO mediumwords VALUES (594,"comune","Un comune è un ente territoriale di base.",'');
+INSERT INTO mediumwords VALUES (595,"mantenere","Rimanere in una certa condizione.",'');
+INSERT INTO mediumwords VALUES (596,"odissea","Serie di fatti o di avvenimenti infausti e dolorosi.",'');
+INSERT INTO mediumwords VALUES (597,"notturno","Pertinente alla notte.",'');
+INSERT INTO mediumwords VALUES (598,"accademico","Pertinente o relativo a un'accademia.",'');
+INSERT INTO mediumwords VALUES (599,"dentifricio","Preparato cosmetico ad azione detersiva per la pulizia dei denti.",'');
+INSERT INTO mediumwords VALUES (600,"riserva","il mettere da parte qualcosa per utilizzarlo in futuro.",'');
+INSERT INTO mediumwords VALUES (601,"condurre","Guidare, pilotare un mezzo di trasporto.",'');
+INSERT INTO mediumwords VALUES (602,"accidente","Ciò che accade, caso, combinazione.",'');
+INSERT INTO mediumwords VALUES (603,"attraversare","Percorrere da un lato a quello opposto.",'');
+INSERT INTO mediumwords VALUES (604,"accortezza","Perspicacia, prontezza d'intuito, astuzia.",'');
+INSERT INTO mediumwords VALUES (605,"figurare","Fare bella figura, impressionare favorevolmente.",'');
+INSERT INTO mediumwords VALUES (606,"paralisi","Perdita della mobilità e della sensibilità di uno o più arti o parti del corpo.",'');
+INSERT INTO mediumwords VALUES (607,"patente","Documento di autorizzazione all'esercizio di una determinata attività.",'');
+INSERT INTO mediumwords VALUES (608,"pennellare","Colorare o verniciare qualcosa.",'');
+INSERT INTO mediumwords VALUES (609,"campagna","Terreno aperto, coltivato o incolto.",'');
+INSERT INTO mediumwords VALUES (610,"acerbo","Non ancora maturo.",'');
+INSERT INTO mediumwords VALUES (611,"accenno","Avviso, avvertimento, leggero indizio.",'');
+INSERT INTO mediumwords VALUES (612,"corridoio","Ambiente sul quale si affacciano vari locali o stanze.",'');
+INSERT INTO mediumwords VALUES (613,"giusto","Di persona che conforma i propri giudizi e comportamenti a criteri di equità.",'');
+INSERT INTO mediumwords VALUES (614,"oppressione","Sopraffazione da parte di un potere.",'');
+INSERT INTO mediumwords VALUES (615,"attuale","Presente, odierno.",'');
+INSERT INTO mediumwords VALUES (616,"casseruola","Utensile da cucina.",'');
+INSERT INTO mediumwords VALUES (617,"principe","Il più alto dei titoli nobiliari.",'');
+INSERT INTO mediumwords VALUES (618,"orsacchiotto","Cucciolo di orso.",'');
+INSERT INTO mediumwords VALUES (619,"griglia","Struttura in metallo a barre parallele e perpendicolari tra di loro.",'');
+INSERT INTO mediumwords VALUES (620,"abbaiare","Verso caratteristico del cane.",'');
+INSERT INTO mediumwords VALUES (621,"vacanza","Periodo di libertà dal lavoro o dagli obblighi scolastici.",'');
+INSERT INTO mediumwords VALUES (622,"conoscenza","Consapevolezza e la comprensione di fatti.",'');
+INSERT INTO mediumwords VALUES (623,"nudismo","Atteggiamento in favore della soppressione del vestiario.",'');
+INSERT INTO mediumwords VALUES (624,"pinze","Utensile in metallo usato per afferrare, stringere e tagliare.",'');
+INSERT INTO mediumwords VALUES (625,"fissare","Collocare o applicare stabilmente, rendere fisso.",'');
+INSERT INTO mediumwords VALUES (626,"ufficiale","Emanato dall'autorità o dall'organo competente.",'');
+INSERT INTO mediumwords VALUES (627,"nocciola","Frutto e il seme dell'albero del nocciolo.",'');
+INSERT INTO mediumwords VALUES (628,"costituire","Fondare, creare, istituire.",'');
+INSERT INTO mediumwords VALUES (629,"svegliare","Far uscire dal sonno.",'');
+INSERT INTO mediumwords VALUES (630,"difendere","Proteggere qualcuno o qualcosa.",'');
+INSERT INTO mediumwords VALUES (631,"lezione","Attività didattica svolta da un docente con uno o più allievi in un tempo determinato.",'');
+INSERT INTO mediumwords VALUES (632,"generale","Comune o applicabile a un intero ordine di fatti.",'');
+INSERT INTO mediumwords VALUES (633,"pastiera","Torta a base di pasta frolla.",'');
+INSERT INTO mediumwords VALUES (634,"targa","Placca di metallo o altro materiale su cui sono scritti nomi, numeri, indicazioni varie.",'');
+INSERT INTO mediumwords VALUES (635,"prenotare","Fissare in anticipo qualcosa.",'');
+INSERT INTO mediumwords VALUES (636,"mattone","Materiale a forma di parallelepipedo, usato nella costruzione di murature.",'');
+INSERT INTO mediumwords VALUES (637,"modifica","Parziale trasformazione, cambiamento di qualcosa.",'');
+INSERT INTO mediumwords VALUES (638,"calendario","Sistema di divisione del tempo basato su fenomeni astronomici.",'');
+INSERT INTO mediumwords VALUES (639,"paesaggio","Il paesaggio è la particolare fisionomia di un territorio.",'');
+INSERT INTO mediumwords VALUES (640,"risultare","Conclusione, effetto di un'azione.",'');
+INSERT INTO mediumwords VALUES (641,"spingere","Premere un oggetto per abbassarlo.",'');
+INSERT INTO mediumwords VALUES (642,"rifiutare","Non accettare, respingere qualcuno.",'');
+INSERT INTO mediumwords VALUES (643,"avvitare","Introdurre e serrare una vite.",'');
+INSERT INTO mediumwords VALUES (644,"passatempo","Mezzo o motivo di ricreazione o di divertimento.",'');
+INSERT INTO mediumwords VALUES (645,"abituato","Che ha ricevuto una determinata educazione.",'');
+INSERT INTO mediumwords VALUES (646,"microfono","Apparecchio che trasforma onde sonore in segnali elettrici.",'');
+INSERT INTO mediumwords VALUES (647,"posteriore","Che sta dietro, retrostante.",'');
+INSERT INTO mediumwords VALUES (648,"giugno","Il sesto mese dell'anno.",'');
+INSERT INTO mediumwords VALUES (649,"ormone","Ciascuna delle sostanze organiche, prodotte dalle ghiandole endocrine.",'');
+INSERT INTO mediumwords VALUES (650,"secchio","Recipiente piuttosto capace, di forma cilindrica.",'');
+INSERT INTO mediumwords VALUES (651,"abbaio","Il verso del cane.",'');
+INSERT INTO mediumwords VALUES (652,"abolizione","Cessazione definitiva imposta d'autorità.",'');
+INSERT INTO mediumwords VALUES (653,"coperta","Qualsiasi panno di adeguate dimensioni, che serva a coprire e riparare dal freddo.",'');
+INSERT INTO mediumwords VALUES (654,"solito","Conforme alla consuetudine.",'');
+INSERT INTO mediumwords VALUES (655,"complesso","Che presenta difficoltà per la comprensione.",'');
+INSERT INTO mediumwords VALUES (656,"visita","Atto di andare a trovare, a visitare qualcuno.",'');
+INSERT INTO mediumwords VALUES (657,"appartenere","Essere legittima proprietà di qualcuno.",'');
+INSERT INTO mediumwords VALUES (658,"elemento","Sostanza semplice di cui sono formati i corpi.",'');
+INSERT INTO mediumwords VALUES (659,"ingrediente","Ogni sostanza che, insieme con altre, compone un miscuglio.",'');
+INSERT INTO mediumwords VALUES (660,"segreto","Condizione o luogo riservato, intimo.",'');
+INSERT INTO mediumwords VALUES (661,"prossimo","Molto vicino a qualcuno o a qualcosa.",'');
+INSERT INTO mediumwords VALUES (662,"nucleo","La porzione centrale, la più interna di qualcosa.",'');
+INSERT INTO mediumwords VALUES (663,"forchetta","Posata per portare i cibi alla bocca.",'');
+INSERT INTO mediumwords VALUES (664,"principio","Momento iniziale, origine, punto di avvio o di partenza.",'');
+INSERT INTO mediumwords VALUES (665,"mercato","Il luogo in cui avvengono le contrattazioni.",'');
+INSERT INTO mediumwords VALUES (666,"trasformare","Rendere completamente diverso nell'aspetto.",'');
+INSERT INTO mediumwords VALUES (667,"ammettere","Accettare, approvare, permettere qualcosa.",'');
+INSERT INTO mediumwords VALUES (668,"pasticcio","Situazione intricata, complicata, difficilmente risolvibile.",'');
+INSERT INTO mediumwords VALUES (669,"autolavaggio","Area opportunamente attrezzata per il lavaggio di automobili.",'');
+INSERT INTO mediumwords VALUES (670,"svitare","Estrarre una vite girandola in senso inverso a quello in cui è stata avvitata.",'');
+INSERT INTO mediumwords VALUES (671,"vigile","Accorto, assiduamente attento e sollecito.",'');
+INSERT INTO mediumwords VALUES (672,"omosessuale","L'individuo eroticamente attratto da soggetti del proprio sesso.",'');
+INSERT INTO mediumwords VALUES (673,"orrore","Forte sensazione di ribrezzo, moto di repulsione",'');
+INSERT INTO mediumwords VALUES (674,"ascoltare","Udire attentamente qualcuno.",'');
+INSERT INTO mediumwords VALUES (675,"pastiglia","Preparazione farmaceutica costituita da polveri o da impasti.",'');
+INSERT INTO mediumwords VALUES (676,"operazione","L'azione che si determina come fatto tecnico o pratico.",'');
+INSERT INTO mediumwords VALUES (677,"conducente","Chi guida un veicolo a trazione animale o meccanica.",'');
+INSERT INTO mediumwords VALUES (678,"ottimizzare","Portare qualcosa alle condizioni ottimali.",'');
+INSERT INTO mediumwords VALUES (679,"preoccupare","Pensiero o motivo di apprensione.",'');
+INSERT INTO mediumwords VALUES (680,"interno","Che si trova dentro a qualcosa.",'');
+INSERT INTO mediumwords VALUES (681,"abbellisca","Rendere più bello mediante ornamenti.",'');
+INSERT INTO mediumwords VALUES (682,"ritenere","Avere una certa opinione personale su qualcuno o qualcosa.",'');
+INSERT INTO mediumwords VALUES (683,"direzione","Linea ideale lungo la quale muove una persona.",'');
+INSERT INTO mediumwords VALUES (684,"ricordo"," L'atto, il fatto di ricordare una persona o una cosa.",'');
+INSERT INTO mediumwords VALUES (685,"gomma","Sostanza naturale derivante dal latice di alcune piante.",'');
+INSERT INTO mediumwords VALUES (686,"intendere","Capire, comprendere qualcosa.",'');
+INSERT INTO mediumwords VALUES (687,"cambiare","Sostituire una cosa o una persona con un'altra dello stesso genere.",'');
+INSERT INTO mediumwords VALUES (688,"sinistro","Situato dalla parte corrispondente alla posizione del cuore.",'');
+INSERT INTO mediumwords VALUES (689,"offerente","Chi fa un'offerta.",'');
+INSERT INTO mediumwords VALUES (690,"nostalgia","Sentimento malinconico che si prova nel rimpiangere cose e tempi ormai trascorsi.",'');
+INSERT INTO mediumwords VALUES (691,"ferrovia","Percorso costituito da binari su cui circolano i treni.",'');
+INSERT INTO mediumwords VALUES (692,"occulto","Che non è visibile o non è percepibile intellettualmente.",'');
+INSERT INTO mediumwords VALUES (693,"desiderio","Sentimento di ricerca appassionata o di attesa del possesso.",'');
+INSERT INTO mediumwords VALUES (694,"affare","Cosa di una certa importanza che si fa o si è fatta o è da farsi.",'');
+INSERT INTO mediumwords VALUES (695,"pedofilo","Che manifesta pedofilia.",'');
+INSERT INTO mediumwords VALUES (696,"finestrino","Finestra di un mezzo di trasporto.",'');
+INSERT INTO mediumwords VALUES (697,"cambio","Apparecchio che serve a variare la velocità in una trasmissione fra un albero conduttore e un condotto.",'');
+INSERT INTO mediumwords VALUES (698,"decoro","Decoroso.",'');
+INSERT INTO mediumwords VALUES (699,"ostacolo","Qualsiasi cosa o persona che intralcia o costituisce una difficoltà allo svolgimento di un'azione.",'');
+INSERT INTO mediumwords VALUES (700,"capotreno","Il capo del personale in servizio su un convoglio ferroviario.",'');
+INSERT INTO mediumwords VALUES (701,"cavatappi","Strumento a vite o a leva per estrarre il tappo di sughero dalle bottiglie o dai fiaschi.",'');
+INSERT INTO mediumwords VALUES (702,"parrocchia","Ciascuna delle circoscrizioni territoriali in cui è suddivisa una diocesi ecclesiastica.",'');
+INSERT INTO mediumwords VALUES (703,"programmare","Avere intenzione di fare qualcosa, mettere in programma.",'');
+INSERT INTO mediumwords VALUES (704,"orientamento","La determinazione della posizione o della direzione.",'');
+INSERT INTO mediumwords VALUES (705,"nubile","Donna non coniugata.",'');
+INSERT INTO mediumwords VALUES (706,"automatico","Che funziona senza l'intervento dell'uomo",'');
+INSERT INTO mediumwords VALUES (707,"accellerata","Rapida accelerazione del motore.",'');
+INSERT INTO mediumwords VALUES (708,"privato","Considerato solo come persona, fuori dal ruolo sociale e dalla funzione pubblica.",'');
+INSERT INTO mediumwords VALUES (709,"ciotola","Ampia tazza emisferica.",'');
+INSERT INTO mediumwords VALUES (710,"ottica","Modo di considerare, inquadrare, classificare.",'');
+INSERT INTO mediumwords VALUES (711,"abbocco","Detto dei pesci, afferrare l'esca.",'');
+INSERT INTO mediumwords VALUES (712,"atterrare","Gettare qualcosa a terra.",'');
+INSERT INTO mediumwords VALUES (713,"architetto","Chi progetta la costruzione, il restauro o l'arredo di edifici.",'');
+INSERT INTO mediumwords VALUES (714,"ortodosso","Rigido osservante di un principio.",'');
+INSERT INTO mediumwords VALUES (715,"grigliare","Cuocere sulla griglia.",'');
+INSERT INTO mediumwords VALUES (716,"posto","Porzione di spazio in cui è abitualmente collocata una cosa.",'');
+INSERT INTO mediumwords VALUES (717,"problema","Quesito che attende una soluzione.",'');
+INSERT INTO mediumwords VALUES (718,"emergenza","Circostanza imprevista.",'');
+INSERT INTO mediumwords VALUES (719,"anatra","Nome di diverse varietà di uccelli acquatici con becco largo e piatto e piedi palmati.",'');
+INSERT INTO mediumwords VALUES (720,"monaca","Donna consacrata a Dio ",'');
+INSERT INTO mediumwords VALUES (721,"impedire","Rendere impossibile, vietare qualcosa.",'');
+INSERT INTO mediumwords VALUES (722,"cucchiaio","Pezzo della posateria, usato per portare alla bocca cibi liquidi o semiliquidi.",'');
+INSERT INTO mediumwords VALUES (723,"omaggio","Atto o professione di ossequio o di rispetto.",'');
+INSERT INTO mediumwords VALUES (724,"marciapiede","Parte della strada riservata al passaggio dei pedoni.",'');
+INSERT INTO mediumwords VALUES (725,"compiere","Portare a termine, finire, concludere.",'');
+INSERT INTO mediumwords VALUES (726,"milione","Nel sistema decimale, unità del settimo ordine corrispondente a mille migliaia.",'');
+INSERT INTO mediumwords VALUES (727,"passera","Nome comune di vari Uccelli Passeriformi.",'');
+INSERT INTO mediumwords VALUES (728,"ottico","Relativo alla vista e all'apparato visivo dell'uomo.",'');
+INSERT INTO mediumwords VALUES (729,"tessera"," Cartoncino rettangolare o libretto che riporta i dati anagrafici.",'');
+INSERT INTO mediumwords VALUES (730,"abissi","Baratri, voragini.",'');
+INSERT INTO mediumwords VALUES (731,"pitturare","Verniciare qualcosa.",'');
+INSERT INTO mediumwords VALUES (732,"storico","Relativo alla storia.",'');
+INSERT INTO mediumwords VALUES (733,"termine","Parola o locuzione propria di un ambito definito.",'');
+INSERT INTO mediumwords VALUES (734,"industriale","Dell'industria, relativo all'industria.",'');
+INSERT INTO mediumwords VALUES (735,"onorevole","Titolo attribuito ai membri del parlamento.",'');
+INSERT INTO mediumwords VALUES (736,"passeggiata","Camminata agevole fatta per svago e passatempo.",'');
+INSERT INTO mediumwords VALUES (737,"spazzatura","Materiale di rifiuto, immondizia.",'');
+INSERT INTO mediumwords VALUES (738,"spiedo","Asta appuntita di ferro in cui si infilzano carni.",'');
+INSERT INTO mediumwords VALUES (739,"bocca","Cavità corrispondente all'inizio del canale alimentare.",'');
+INSERT INTO mediumwords VALUES (740,"partigiano","combattente armato che non appartiene ad un esercito regolare.",'');
+INSERT INTO mediumwords VALUES (741,"americano","chi abita negli Stati Uniti d'America.",'');
+INSERT INTO mediumwords VALUES (742,"accampato","Sistemare qualcuno in alloggiamenti.",'');
+INSERT INTO mediumwords VALUES (743,"ottone","Lega inossidabile di rame e zinco, di colore giallo.",'');
+INSERT INTO mediumwords VALUES (744,"furgoncino","Veicolo di piccole dimensioni, completamente chiuso.",'');
+INSERT INTO mediumwords VALUES (745,"rubinetto","Dispositivo che, applicato all'estremità di una tubatura regola l'afflusso del fluido.",'');
+INSERT INTO mediumwords VALUES (746,"rivolgere","Volgere qualcosa- verso una certa direzione.",'');
+INSERT INTO mediumwords VALUES (747,"provocare","Spingere a un sentimento negativo o a un comportamento aggressivo.",'');
+INSERT INTO mediumwords VALUES (748,"salutare","Che reca giovamento alla salute.",'');
+INSERT INTO mediumwords VALUES (749,"participio","Modo verbale molto vicino all'aggettivo e al sostantivo.",'');
+INSERT INTO mediumwords VALUES (750,"persona","L'individuo umano in quanto oggetto di considerazione.",'');
+INSERT INTO mediumwords VALUES (751,"adoperare","Fare uso di qualcosa per uno scopo ben preciso.",'');
+INSERT INTO mediumwords VALUES (752,"pastina","Pasta alimentare di forme molto piccole.",'');
+INSERT INTO mediumwords VALUES (753,"zerbino","Piccolo tappeto rettangolare.",'');
+INSERT INTO mediumwords VALUES (754,"delizioso","Attraente per la delicatezza, la raffinatezza, l'eleganza.",'');
+INSERT INTO mediumwords VALUES (755,"accanire","Ostinato, tanto nel male che nel bene.",'');
+INSERT INTO mediumwords VALUES (756,"domandare","Chiedere a qualcuno per un'informazione.",'');
+INSERT INTO mediumwords VALUES (757,"sicurezza","Cautela contro eventualità spiacevoli.",'');
+INSERT INTO mediumwords VALUES (758,"vernice","Soluzione a base di resine naturali o sintetiche, che, stesa su una superficie, lascia una patina lucida.",'');
+INSERT INTO mediumwords VALUES (759,"coscienza","Capacità dell'uomo di riflettere su se stesso.",'');
+INSERT INTO mediumwords VALUES (760,"tappeto","Sorta di tessuto grosso e compatto, di lana o di fibre vegetali.",'');
+INSERT INTO mediumwords VALUES (761,"negoziare","Fare oggetto di contrattazione.",'');
+INSERT INTO mediumwords VALUES (762,"nobile","Che appartiene, per nascita o per privilegio acquisito, a una classe sociale superiore.",'');
+INSERT INTO mediumwords VALUES (763,"gettare","isfarsi di ciò che non serve più.",'');
+INSERT INTO mediumwords VALUES (764,"intermezzo","Intervallo nel corso di uno spettacolo.",'');
+INSERT INTO mediumwords VALUES (765,"orbita","Traiettoria nello spazio di un corpo naturale.",'');
+INSERT INTO mediumwords VALUES (766,"occidentale","Situato a ovest, proveniente da ovest.",'');
+INSERT INTO mediumwords VALUES (767,"forma","Aspetto esteriore di un oggetto.",'');
+INSERT INTO mediumwords VALUES (768,"destino","L'insieme imponderabile delle cause che si pensa abbiano determinato gli eventi della vita.",'');
+INSERT INTO mediumwords VALUES (769,"orizzonte","La linea apparente, circolare, che segna i confini della visibilità a partire da un luogo d'osservazione.",'');
+INSERT INTO mediumwords VALUES (770,"maggio","Quinto mese dell'anno.",'');
+INSERT INTO mediumwords VALUES (771,"macchina","Congegno meccanico ideato per compiere un lavoro.",'');
+INSERT INTO mediumwords VALUES (772,"igiene","Branca della medicina che studia le modalità più opportune per conservare la salute e prevenire malattie.",'');
+INSERT INTO mediumwords VALUES (773,"diventare","Acquistare una qualità, una condizione o un ruolo diversi dai precedenti.",'');
+INSERT INTO mediumwords VALUES (774,"occidente"," La parte di orizzonte dove tramonta il sole.",'');
+INSERT INTO mediumwords VALUES (775,"europeo","Abitante, originario o nativo dell'Europa.",'');
+INSERT INTO mediumwords VALUES (776,"pendenza","Grado di ripidità o di inclinazione di una strada o di un tratto di percorso.",'');
+INSERT INTO mediumwords VALUES (777,"abbronzato","Che ha preso il colore del bronzo per esposizione al sole.",'');
+INSERT INTO mediumwords VALUES (778,"estremo","Ultimo nello spazio.",'');
+INSERT INTO mediumwords VALUES (779,"consentire","Permettere, concedere qualcosa.",'');
+INSERT INTO mediumwords VALUES (780,"estate","La seconda stagione dell'anno.",'');
+INSERT INTO mediumwords VALUES (781,"istante","Momento brevissimo.",'');
+INSERT INTO mediumwords VALUES (782,"valore","Complesso delle doti e capacità.",'');
+INSERT INTO mediumwords VALUES (783,"opponibile","Che può essere opposto o contrapposto.",'');
+INSERT INTO mediumwords VALUES (784,"misurare","Determinare il valore di una grandezza fisica con l'impiego di uno strumento di misura.",'');
+INSERT INTO mediumwords VALUES (785,"personale","Riguardante la persona.",'');
+INSERT INTO mediumwords VALUES (786,"passare","Andare da un punto a un altro percorrendo uno spazio.",'');
+INSERT INTO mediumwords VALUES (787,"considerare","Esaminare con attenzione un problema teorico.",'');
+INSERT INTO mediumwords VALUES (788,"partecipante","Che partecipa, prende parte a qualcosa.",'');
+INSERT INTO mediumwords VALUES (789,"novella","Narrazione di solito breve, perlopiù in prosa, di fatti reali o immaginari.",'');
+INSERT INTO mediumwords VALUES (790,"fianco","La parte laterale dell'addome.",'');
+INSERT INTO mediumwords VALUES (791,"accadere","Succedere, capitare.",'');
+INSERT INTO mediumwords VALUES (792,"accecare","Rendere cieco, privare del senso o dell'uso della vista.",'');
+INSERT INTO mediumwords VALUES (793,"permettere","Dare il permesso di fare qualcosa.",'');
+INSERT INTO mediumwords VALUES (794,"programma","Insieme organizzato di istruzioni redatte organicamente secondo un determinato linguaggio.",'');

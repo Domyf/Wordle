@@ -105,6 +105,22 @@ public class WordList extends SQLiteOpenHelper {
         try{
             BufferedReader reader = new BufferedReader(new InputStreamReader(context.getAssets().open(tableName + ".sql")));
             String row = reader.readLine();
+            while(row != null){
+                Log.i("WordListHelper", "Eseguo query: " + row);
+                database.execSQL(row);
+                row = reader.readLine();
+            }
+            reader.close();
+        }catch(IOException ex){
+            Log.e("WordListHelper", "Errore lettura file durante creazione tabella: " + ex.getLocalizedMessage());
+        }catch(SQLiteException ex){
+            Log.e("WordListHelper", "Errore esecuzione query: " + ex.getLocalizedMessage());
+        }
+
+
+        /*try{
+            BufferedReader reader = new BufferedReader(new InputStreamReader(context.getAssets().open(tableName + ".sql")));
+            String row = reader.readLine();
             StringBuilder query = new StringBuilder();
             while(row != null){
                 query.append(row);
@@ -116,7 +132,7 @@ public class WordList extends SQLiteOpenHelper {
         }
         catch(SQLiteException e){
             Log.e("WordlistHelper", "Errore esecuzione query: " + e.getLocalizedMessage());
-        }
+        }*/
     }
     /**
      * Restituisce la parola identificata dall'id
