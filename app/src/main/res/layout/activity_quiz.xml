@@ -61,7 +61,7 @@
     <com.domenico.wordle.UI.HDTMButton
         android:text="B"
         android:id="@+id/HDTMButton"
-        android:background="@drawable/button2"
+        android:background="@drawable/button3"
         android:textSize="28sp"
         android:textColor="@android:color/white"
         android:layout_height="50dp"
@@ -73,7 +73,7 @@
     <com.domenico.wordle.UI.HDTMButton
         android:text="\?"
         android:id="@+id/btnHelp"
-        android:background="@drawable/button2"
+        android:background="@drawable/button3"
         android:textSize="28sp"
         android:textColor="@android:color/white"
         android:layout_height="50dp"
